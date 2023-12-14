@@ -1,3 +1,29 @@
+<?php
+    //initialiser la session
+    session_start(); 
+        include("config.php");
+   
+    // vérifier si l'utilisateur est connecté, sinon redirigez le vers la page de donnection
+    if(! isset($_SESSION['id'])) {
+        header('location: login.php');
+        exit();
+    }
+
+
+    // require('auth.php');
+
+    // if(isAuthenticated()){
+    //     // Rediriger vers la page de connexion si non authentifié
+    //     header('Location: login.php');
+    //     exit();
+    // }
+
+//     if (isset($_GET['logout'])) {
+//         logout();
+//         header('Location: login.php');
+//         exit();
+//     }
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,60 +32,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../pages/assets/style.css">
+    <link rel="stylesheet" href="../pages/assets/theme.css">
 </head>
-<body>
-
+<body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
     <!--L'en-tête de la page-->
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top  shadow p-2 mb-2" style="background-color: chocolate;">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" 
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">
-              <img class="circular-square" src="./images/bdd.png" id="logo" style="width: 40px; 
-              height: 40px; border-radius: 50%;
-              border-top-left-radius: 50% 50%; 
-              border-top-right-radius: 50% 50%; 
-              border-bottom-right-radius: 50% 50%; 
-              border-bottom-left-radius: 50% 50%;
-              margin:2px;">
-              Driving Solution
-            </a>
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 modelmenu">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door"></i>&nbsp;&nbsp;Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#apropos"><i class="bi bi-info-square"></i>&nbsp;&nbsp;Á propos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#coder-route"><i class="bi bi-ev-front"></i>&nbsp;&nbsp;Code de la route</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#serie-globale"><i class="bi bi-card-checklist">&nbsp;&nbsp;</i>Série globale</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#contact"><i class="bi bi-envelope"></i>&nbsp;&nbsp;Contact</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="login.php">connetion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="inscription.php">inscription</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>      
-    </header>
+    <?php
+        include("header.php")
+     ?>
+    <br><br><br>
     <section>
-      <br><br><br>
       <!-- Carousel -->
       <div class="container-fluid">
         <div class="row">
@@ -108,13 +89,19 @@
           <div class="row text-center">
             <div class="col-md-12">
               <div class="cardd" style="width: 50%; border-radius: 20px; background-color: grey;">
-                <div class="card-header">
+                <div class="card-header" style=" border-radius: 20px;">
                   <h3 id="apropos">Á Propos de nous.</h3>
                 </div>
                 <div class="card-body text-center">
                   <div class="col-md-12">
                     <div class="card p-2 mt-2">
-                      <p class="card-text">The following example shows how to create a basic carousel with indicators and controls. 
+                      <p class="card-text">Face à la recrudescence des accidents dont la plupart sont dûs 
+                        au méconnaissance aux règles élémentaires du code de la route.</p>
+                      <p>Driversolution est une solution innovante pour permettre à tout chacun à maîtriser les règles
+                        du code de la route gage de la sécurité routière. La personne organise sa formation en
+                        fonction de ses disponibilités et de ses connaissances. La formation au code est accessible
+                        24h/24 et 7j/7 via un ordinateur, une tablette ou un smartphone. Aussi, sa formation surmesure 
+                        au code lui permet de maîtriser les rouages du code</p>
                       <a class="decoration" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">Mieux nous connaître !</a>
                       </p>
                     </div>
@@ -148,7 +135,7 @@
                         Cette dernière possibilité requière imperativement une authentification. 
                       Ce la signifie que vous ne vous êtes pas connecté vous aurais ni aux cours ni aux séries.
                     </p>
-                    <a href="inscription.php" class="btn" style="background-color: chocolate; color: white;">Commencer mes révisisons</a>
+                    <a href="theme-des-leçons.php" class="btn" style="background-color: chocolate; color: white;">Commencer mes révisisons</a>
                     </div>
                   </div>
               </div>
@@ -174,7 +161,7 @@
                   <p class="card-text">Vous pouvez passer par ce lien en cliquant sur le bouton sous-jaçent pour effectuer les séries. 
                   Tous comme vous avez la possibilité de faire les séries au niveau de la rubrique qui concerne les thèmes. <b>NB : </b> 
                   Il est formellement recommandé de d'apprendre les leçons avant d'attaquer les séries.</p>
-                  <a href="inscription.php" class="btn" style="background-color: chocolate; color: white;">Faire mes testes</a>
+                  <a href="serie-globale.php" class="btn" style="background-color: chocolate; color: white;">Faire mes testes</a>
                 </div>
                 </div>
               </div>
@@ -187,7 +174,7 @@
         <!-- Content here -->
         <div class="row">
           <div class="col-md-12">
-            <div class="cardd mb-3">
+            <div class="cardd mb-3" style="width: 50%; border-radius: 20px; border: 1px solid grey; background-color: white;">
               <div class="card-body text-center">
                 <p class="card-text">
                   <a href="contact.php" class="btn" style="background-color: chocolate; color: white;">Veuillez nous contacter pour plus d'information. </a>
@@ -201,7 +188,7 @@
         </div>
       </div>
       <!--Modal-->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" 
+      <div class="modal fade" id="staticBackdrop" 
       tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog text-center">
           <div class="modal-content">
@@ -209,63 +196,37 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <h5 class="modal-title">
-                <img src="../images/bdd.png">
-              </h5>
-              <h3>L'Exam Score™, c'est quoi ?</h3>
-              <br>
-              <p>L'Exam Score™ calcule vos chances de réussite à l'examen du code en 
-                fonction de vos résultats et de votre assiduité aux entraînements.</p>
-            
-              <p>Comment l'utiliser ? Dès que votre score atteindra le dernier niveau, 
-                ce sera le moment de réserver votre place d'examen !</p>
+              <div class="card text-start p-2">
+                <p>Prix réduit sans pour autant renier sur la qualité par rapport aux auto-écoles traditionnels.
+                  Notre formation en ligne propose un prix jusqu’à 50% moins chères que dans une auto-école
+                  traditionnelle. Le candidat peut accéder à des cours de code en illimité en</p>
+              
+                <p>Dans son espace, la personne accède à une panoplie de services pour gérer en toute
+                  autonomie sa formation.</p>
+                <p><b>Une plateforme dédiée pour votre réussite.</b></p>
+                <p>Apprendre le code n’a jamais été aussi facile avec notre plateforme ouvrez vos comptes en
+                  ligne et choisissez les leçons de code en toute indépendance chez vous .</p>
+                <p>Nous vous offrons :</p>
+                <ol style="list-style-type: disc; margin-left: 10px;">
+                  <li>Créez un compte en quelques secondes</li>
+                  <li>Testez vous au code</li>
+                  <li>Entrainez-vous facilement</li>
+                  <li>Suivez votre progression</li>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      
-
-      <!-- debut Code de texte pour voix ou lecteur vocal -->
-
-      <!-- <div class="t2s_section">
-        <h2>Songoku<span class="icon"></span></h2>
-        <p>Kakarotto est un Saiyan né sur la planète Vegeta en l'an 737 de la chronologie de Dragon Ball. Il est le fils du guerrier Saiyan Baddack. Ce peuple guerrier travaillant pour Freezer était alors en première ligne dans la conquête des planètes habitables afin de bâtir l'empire du tyran qu'ils servaient.</p>
-     </div>
-     <div class="t2s_section">
-        <h2>Vegeta<span class="icon"></span></h2>
-        <p>Alors qu’il est enfant, tout le monde le suspecte d’être le guerrier légendaire, grâce à son potentiel de combat inné, et du fait qu’il est membre de la famille royale de la planète Vegeta. C’est pourquoi Freezer l’épargne lorsqu’il détruit la planète Vegeta. En effet, il voit en lui un parfait outil pour accomplir des missions de conquête. Il l’envoie régulièrement sur d’autres planètes avec Nappa, son compagnon d’arme et garde du corps. En grandissant, Vegeta n’a qu’un seul objectif : tuer Freezer, se libérer de son emprise et prendre sa place pour diriger l’univers. Mais il n’est pas encore assez fort pour rivaliser avec lui. Il subit d’ailleurs constamment les moqueries des lieutenants de Freezer, Kiwi, Zabon et Dodoria qui sont plus puissants que lui.</p>
-     </div> -->
-
-     <!-- fin Code de texte pour voix ou lecteur vocal -->
 
     </section>
     <!--Le pied de la page-->
-    <footer>
-      <div class="container-fluid text-center">
-          <div class="row footer">
-            <div class="col-md-4">
-              <p>DRIVING SOLUTION</p>
-            </div>
-            <div class="col-md-4">  
-              <p>&copy; 2023 Mon Site. Tous droits réservés.</p>
-            </div>
-            <div class="col-md-4">
-              <p>Réseau Sociaux</p>
-            </div>
-          </div>
-      </div>
-    </footer>
+    <?php
+    // <!--Le pied de la page-->
+        include("footer.php");
 
-    <script src="../pages/assets/script.js"></script>
-
-    <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" 
-    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    </script>
+        // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
+        include("script_link.php");
+    ?>
 </body>
 </html>

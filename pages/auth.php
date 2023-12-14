@@ -3,7 +3,7 @@
     function login($username, $password){
         require('config.php');
 
-        if ($username === DB_USERNAME && $password === DB_PASSWORD) {
+        if ($username === $user && $password === $pass) {
             $_SESSION['authenticated'] = true;
             return true;
         }else{

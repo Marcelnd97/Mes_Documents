@@ -1,24 +1,13 @@
 <?php
     //initialiser la session
-    // include("config.php");
-    // // session_start();
-    // // // vérifier si l'utilisateur est connecté, sinon redirigez le vers la page de donnection
-    // if(! isset($_SESSION['user_id'])) {
-    //     header('location: login.php');
-    //     exit();
-    // }
-
-//     try {
-//         // Récupérez les informations du profil de l'utilisateur à partir de la base de données
-//         $user_id = $_SESSION['user_id'];
-//         $stmt = $pdo->prepare("SELECT * FROM carusers WHERE id = :user_id");
-//         $stmt->bindParam(':user_id', $user_id, PDO::PARAM_INT);
-//         $stmt->execute();
-//         $user = $stmt->fetch(PDO::FETCH_ASSOC);
-//     // Ajoutez d'autres champs du profil selon votre structure de base de données
-//     } catch (PDOException $e) {
-//         die("Erreur : " . $e->getMessage());
-//    }
+    session_start(); 
+        include("config.php");
+   
+    // vérifier si l'utilisateur est connecté, sinon redirigez le vers la page de donnection
+    if(! isset($_SESSION['id'])) {
+        header('location: login.php');
+        exit();
+    }
 
 
     // require('auth.php');
@@ -34,47 +23,6 @@
 //         header('Location: login.php');
 //         exit();
 //     }
-
-//     session_start(); // Assurez-vous que la session est démarrée si vous utilisez la gestion de sessions
-
-// // Vérifiez si l'utilisateur est connecté
-// if (!isset($_SESSION['user_id'])) {
-//     // Redirigez l'utilisateur vers la page de connexion s'il n'est pas connecté
-//     header("Location: login.php");
-//     exit();
-// }
-
-// Récupérez l'ID de l'utilisateur à partir de l'URL
-
-// Vérifiez si l'utilisateur a accès à ce profil (peut dépendre de votre application)
-// Vous pouvez ajouter ici des vérifications pour voir si l'utilisateur a le droit d'accéder à ce profil
-    
-    // $profil_user_id = $_GET['id'];
-    // $user_id = $_SESSION['user_id']; 
-    // // Vérifiez si l'utilisateur a le droit d'accéder à ce profil
-    // if ($profil_user_id != $user_id) {
-    //     // Vous pouvez personnaliser ce message d'erreur ou rediriger vers une page d'erreur
-    //     echo "Accès non autorisé";
-    //     exit();
-    // }
-
-    // if (isset($_GET['user_id'])) {   
-
-    //     try {
-    //         $stmt = $pdo->prepare("SELECT * FROM carusers WHERE id = :user_id");
-    //         $stmt->bindParam(':user_id', $user_id);
-    //         $stmt->execute();
-    //         $user = $stmt->fetch(PDO::FETCH_ASSOC);
-            
-    //         // Vérifiez si l'utilisateur existe
-    //         if (!$user) {
-    //             echo "Utilisateur non trouvé";
-    //             exit();
-    //         }
-    //     } catch (PDOException $e) {
-    //         echo "Erreur lors de la récupération du profil : " . $e->getMessage();
-    //     }
-    // }
 ?>
 
 
@@ -963,12 +911,8 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="./images/theme2.svg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
-                                border-top-left-radius: 50% 50%; 
-                                border-top-right-radius: 50% 50%; 
-                                border-bottom-right-radius: 50% 50%; 
-                                border-bottom-left-radius: 50% 50%;
                                 margin:2px;">&nbsp;
                                 <span>Thème n° 2</span>    
                             <h3 class="mt-1">
@@ -989,7 +933,7 @@
                             <div class="card-footer">
                             <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
                                 <div class="progress-bar overflow-visible text-dark" style="width: 10%"></div>
-                                </div>&nbsp;<span>0/8</span>
+                                </div>&nbsp;<span>8</span>
                             </div>
                         </div>
                     </a>
@@ -1021,15 +965,11 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="./images/theme2.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Conduire</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
                         <span>2</span>
@@ -1038,7 +978,7 @@
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
+                                <h4><b>Stratégie de conduite</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1046,7 +986,7 @@
                             <div class="col-md-6">
                             <a href="#"  style="color: chocolate; text-decoration: none;">
                                 <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Adopter un conduite sécurisée</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1054,35 +994,35 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>7</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="cond_lecon1.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Qu'est-ce que conduire</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="exploration-visuel.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Exploration visuelle</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="strategie-de-conduite.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Stratégie de conduite</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="situation-a-risque.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
                             <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
                             </div>
@@ -1090,17 +1030,25 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="communiquer-avec-autruit.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Communiquer avec les autres</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="intervale-de-securite.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les Intervales de sécurité</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                            <a href="arreter-a-temp.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; S'arrêter à temps</a>
                             </div>
                         </div>
                         
@@ -1118,15 +1066,11 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="./images/theme2.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Être en état de conduire</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
                         <span>2</span>
@@ -1135,7 +1079,7 @@
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
+                                <h4><b>Etat physique</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1143,7 +1087,7 @@
                             <div class="col-md-6">
                             <a href="#"  style="color: chocolate; text-decoration: none;">
                                 <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Etat psychologique</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1151,53 +1095,77 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>9</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="evaluer-etat-physique.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Evaluer son état physique</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="vue-du-conducteur.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; La vue du conducteur</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="louïe.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; L'ouïe</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="prise-medicament.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; La prise de médicaments</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="prise-de-drogue.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; La prise de drogue</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="alcool.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; L'alcool</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                            <a href="vigilance.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; La vigilance</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                            <a href="somnoler.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; La somnolence</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                            <a href="etat-psychologique.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Evaluer son état psychologique</a>
                             </div>
                         </div>
                         
@@ -1211,12 +1179,8 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="./images/theme_trois/route_logo.svg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
-                                border-top-left-radius: 50% 50%; 
-                                border-top-right-radius: 50% 50%; 
-                                border-bottom-right-radius: 50% 50%; 
-                                border-bottom-left-radius: 50% 50%;
                                 margin:2px;">&nbsp;
                                 <span>Thème n° 3</span>    
                             <h3 class="mt-1">
@@ -1284,15 +1248,11 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="./images/theme_trois/route_logo.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Conduire dans des conditions difficiles</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
                         <span>2</span>
@@ -1301,7 +1261,7 @@
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
+                                <h4><b>Situations à risque</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1309,7 +1269,7 @@
                             <div class="col-md-6">
                             <a href="#"  style="color: chocolate; text-decoration: none;">
                                 <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Conditions exceptionnelle</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1317,53 +1277,61 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>7</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="theme_trois/nuit.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Nuit</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="ptheme_trois/luie.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Pluie</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="brouiltheme_trois/lard.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Brouillard</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="ntheme_trois/eige.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Neige</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="vertheme_trois/glas.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Verglas</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="theme_trois/vent.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Vent</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                            <a href="sotheme_trois/leil.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Soleil</a>
                             </div>
                         </div>
                         

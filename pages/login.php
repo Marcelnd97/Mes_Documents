@@ -1,174 +1,80 @@
 <?php
-    //session_start();
-
-    //include('auth.php');
-    //include("config.php");
-
-    // if (login($username, $password)) {
-    //     header('location: theme-des-leçons.php');
-    // }else{
-    //     $errorMessage = "Le nom d'utilisateur ou le mot de passe est incorrect.";
-    // }
-    //////////////////////////////////////////////////////////////////////////////////////
-
-    //$message = '';
-    
-    // if (isset($_POST['username']) && isset($_POST['password'])) {
-    //     $username = $_POST['username'];
-    //     $password = $_POST['password'];
-    
-    //     $sql = "SELECT * FROM carusers WHERE username = :username";
-    //     $stmt = $pdo->prepare($sql);
-    //     $stmt->execute(['username' => $username]);
-    //     $user = $stmt->fetch();
-    
-    //     if ($user && password_verify($password, $user['password'])) {
-    //         session_start();
-    //         if($_SESSION['user_id'] = $user['id'] && $user['type'] == 'admin'){
-    //             header('Location: home.php');
-    //         }else{
-    //             header('Location: theme-des-leçons.php');
-    //         }
-
-    //     } else {
-    //         $message = 'Mauvais identifiants';
-    //     }
-    // }
-
-
-    // session_start();
-    // include('config.php'); // Fichier PHP contenant la connexion à votre BDD
-    // // S'il y a une session alors on ne retourne plus sur cette page
-    // if (isset($_SESSION['id'])){
-    //     header('Location: home.php');
-    //     exit;
-    // }
-    //  // Si la variable "$_Post" contient des informations alors on les traitres
-    // if(!empty($_POST)){
-    //     extract($_POST);
-    //     $valid = true;
-    //     if (isset($_POST['connexion'])){
-    //         $mail = htmlentities(strtolower(trim($mail)));
-    //         $mdp = trim($mdp);
-    //         if(empty($mail)){ // Vérification qu'il y est bien un mail de renseigné
-    //             $valid = false;
-    //             $er_mail = "Il faut mettre un mail";
-    //         }
-    //         if(empty($mdp)){ // Vérification qu'il y est bien un mot de passe de renseigné
-    //             $valid = false;
-    //             $er_mdp = "Il faut mettre un mot de passe";
-    //         }
-    //         // On fait une requête pour savoir si le couple mail / mot de passe existe bien car le mail est unique !
-    //         $sql = "SELECT * FROM carusers WHERE mail = ? AND mdp = ?";
-    //         $req = $DB->query($sql, [$mail, $mdp]);
-    //         // $req = $DB->query("SELECT * FROM carusers WHERE mail = ? AND mdp = ?", 
-    //         //     array($mail, crypt($mdp, PASSWORD_DEFAULT)));
-    //         // $data = [""=> $mail,""=> $mdp]) or die("");
-    //         if ($req !== false) {
-    //             $req_user = $req->fetch();
-    //         }else{
-    //             error_log("Erreur d'exécution de la requête.");
-    //             echo "Erreur d'exécution de la requête.";
-    //         }
-            
-    //         // Si on a pas de résultat alors c'est qu'il n'y a pas d'utilisateur correspondant au couple mail / mot de passe
-    //         if(is_array($req) && isset($req)){
-    //             if ($req['id'] == ""){
-    //                 $er_mail = "Le mail ou le mot de passe est incorrecte";
-    //                 error_log($er_mail);
-    //             }
-    //             // Si le token n'est pas vide alors on ne l'autorise pas à accéder au site
-                
-    //             if($req['token'] !== NULL){
-    //                 $valid = false;
-    //                 $er_mail = "Le compte n'a pas été validé";	
-    //             }
-    //             // S'il y a un résultat alors on va charger la SESSION de l'utilisateur en utilisateur les variables $_SESSION
-    //             if ($valid){
-    //                 if (password_verify($mdp, $req['mdp'])) {
-    //                     $_SESSION['id'] = $req['id']; // id de l'utilisateur unique pour les requêtes futures
-    //                     $_SESSION['username'] = $req['username'];
-    //                     $_SESSION['prenom'] = $req['prenom'];
-    //                     $_SESSION['nom'] = $req['nom'];
-    //                     $_SESSION['telephone'] = $req['telephone'];
-    //                     $_SESSION['adresse'] = $req['adresse'];
-    //                     $_SESSION['mail'] = $req['mail'];
-    //                     $_SESSION['mdp'] = $req['mdp'];
-    //                     $_SESSION['type'] = $req['type'];
-
-    //                     if ($req["type"] === "admin") {
-    //                         header("Location: home.php");
-    //                         exit;
-    //                     } else if($req["type"] === "user"){
-    //                         header("Location: theme-des-leçons.php");
-    //                         exit;
-    //                     }else{
-    //                         header("Location: index.html");
-    //                         exit;
-    //                     }
-                        
-    //                 }else{
-    //                     $er_mail = "Le mail ou le mot de passe est incorrecte";
-    //                     error_log($er_mail);
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-
     session_start();
     include('config.php');
 
     if (isset($_SESSION['id'])) {
-        header('Location: home.php');
+        header('Location: index.php');
         exit;
     }
 
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['connexion'])) {
-        $mail = htmlentities(strtolower(trim($_POST['mail'])));
-        $mdp = trim($_POST['mdp']);
+    // var_dump($_POST);
 
-        if (empty($mail) || empty($mdp)) {
-            $er_message = "Veuillez remplir tous les champs.";
-        } else {
-            $sql = "SELECT * FROM carusers WHERE mail = ?";
-            $req = $DB->query($sql, [$mail]);
+    if(!empty($_POST)){
+        extract($_POST);
+        $valid = true;
+        if (isset($_POST['connexion'])){
+            $mail = htmlentities(strtolower(trim($mail)));
+            $mdp = trim($mdp);
 
-            if ($req !== false) {
-                $user = $req->fetch();
 
-                if ($user && password_verify($mdp, $user['mdp'])) {
-                    if ($user['token'] !== NULL) {
-                        $er_message = "Le compte n'a pas été validé.";
+            if(empty($mail)){ // Vérification qu'il y est bien un mail de renseigné
+                $valid = false;
+                $er_mail = "Il faut mettre un mail";
+            }  
+
+            if(empty($mdp)){ // Vérification qu'il y est bien un mot de passe de renseigné
+                $valid = false;
+                $er_mdp = "Il faut mettre un mot de passe";
+            }
+
+            // On fait une requête pour savoir si le couple mail / mot de passe existe bien car le mail est unique !
+            $req = $DB->query("SELECT * FROM carusers WHERE mail = ? AND mdp = ?",
+                 array($mail, crypt($mdp, 
+                 '$6$rounds=5000$kjhg0fqs12dfgh54jkljABCDEFGHIJKLMh68g012fdssdiqsNOPQRSTUVWXYZdfgh354jklmùnbvcxwm6789lkjhgfds$')));
+            
+                $req = $req->fetch();
+
+            // Si on a pas de résultat alors c'est qu'il n'y a pas d'utilisateur correspondant au couple mail / mot de passe
+            // if (is_array($req) && isset($req['id']) == ""){
+            //     $valid = false;
+            //     $er_mail = "Le mail ou le mot de passe est incorrecte";
+                
+            // }
+
+            if (!isset($req['id'])){
+                $valid = false;
+                $er_mail = "Le mail ou le mot de passe est incorrecte";
+                 
+            }elseif($req['n_mdp'] == 1){ // On remet à zéro la demande de nouveau mot de passe s'il y a bien un couple mail / mot de passe
+                $DB->insert("UPDATE utilisateur SET n_mdp = 0 WHERE id = ?",
+                array($req['id']));
+            }
+
+            // S'il y a un résultat alos on va charger la SESSION de l'utilisateur en utilisateur les variables $_SESSION
+            if(is_array($req)){
+                if ($valid){
+                    // id de l'utilisateur unique pour les requêtes futures
+
+                    $_SESSION['id'] = $req['id'];
+                    $_SESSION['username'] = $req['username'];
+                    $_SESSION['prenom'] = $req['prenom'];
+                    $_SESSION['nom'] = $req['nom'];
+                    $_SESSION['telephone'] = $req['telephone'];
+                    $_SESSION['adresse'] = $req['adresse'];
+                    $_SESSION['mail'] = $req['mail'];
+                    $_SESSION['type'] = $req['type'];
+
+                    if ($req['type'] === "admin") {
+                        header("Location: home.php");
+                        exit;
+                    } else if ($req['type'] === "user") {
+                        header("Location: theme-des-leçons.php");
+                        exit;
                     } else {
-                        $_SESSION['id'] = $user['id'];
-                        $_SESSION['username'] = $user['username'];
-                        $_SESSION['prenom'] = $user['prenom'];
-                        $_SESSION['nom'] = $user['nom'];
-                        $_SESSION['telephone'] = $user['telephone'];
-                        $_SESSION['adresse'] = $user['adresse'];
-                        $_SESSION['mail'] = $user['mail'];
-                        $_SESSION['mdp'] = $user['mdp'];
-                        $_SESSION['token'] = $user['token'];
-                        $_SESSION['type'] = $user['type'];
-
-                        if ($user['type'] === "admin") {
-                            header("Location: home.php");
-                            exit;
-                        } else if ($user['type'] === "user") {
-                            header("Location: theme-des-leçons.php");
-                            exit;
-                        } else {
-                            header("Location: index.html");
-                            exit;
-                        }
+                        header("Location: index.html");
+                        exit;
                     }
-                } else {
-                    $er_message = "Le mail ou le mot de passe est incorrect.";
                 }
-            } else {
-                error_log("Erreur d'exécution de la requête.");
-                echo "Erreur d'exécution de la requête.";
             }
         }
     }
@@ -237,7 +143,7 @@
                         }
                         ?>
                         <div class="mb-3">
-                        <input type="text" class="form-control" name="mail" 
+                        <input type="email" class="form-control" name="mail" 
                             value="<?php if(isset($mail)){ echo $mail; }?>" placeholder="Votre mail" required>
                         </div>
 

@@ -1,23 +1,18 @@
 <?php
-    //include("config.php");
     //initialiser la session
-    session_start();    
+    session_start(); 
+        include("config.php");
+   
     // vérifier si l'utilisateur est connecté, sinon redirigez le vers la page de donnection
     if(! isset($_SESSION['id'])) {
-        header('location: login.php');
+        header('location: index.php');
         exit();
     }
-    try {
-        // Récupérez les informations du profil de l'utilisateur à partir de la base de données
-        $user_id = $_SESSION['id'];
-        $stmt = $pdo->prepare("SELECT * FROM carusers WHERE id = :user_id");
-        $stmt->bindParam(':user_id', $user_id, PDO::PARAM_INT);
-        $stmt->execute();
-        $user = $stmt->fetch(PDO::FETCH_ASSOC);
-    // Ajoutez d'autres champs du profil selon votre structure de base de données
-    } catch (PDOException $e) {
-        die("Erreur : " . $e->getMessage());
-    }
+
+     
+     $req_profil = $DB->query("SELECT * FROM carusers",
+     array());
+     $req_profil = $req_profil->fetchAll();
 
 ?>
 <!DOCTYPE html>
@@ -28,12 +23,76 @@
     <title>home admin</title>
 </head>
 <body>
-    <h2>Voici le profil de <?= $user['username'] ."&nbsp;&nbsp;". $user['mail']; ?></h2>
-    <div>Quelques informations sur vous : </div>
-        <ul>
-            <li>Votre id est : <?php echo $user['prenom'] ?></li>
-            <li>Votre mail est : <?= $user['mail'] ?></li>
-            <li>Votre compte a été crée le : <?= $user['date_creation'] ?></li>
-        </ul>
+
+    <?php
+        if (isset($_SESSION['id'])) {?>
+
+            <a class="btn btn-primary" href="deconnexion.php">Se déconnecter</a>
+            <h2>Voici le profil de <?= $_SESSION['username'] ."&nbsp;&nbsp;". $_SESSION['mail']; ?></h2>
+            <div>Quelques informations sur vous : </div>
+            <ul>
+                <li>Votre id est : <?php echo $_SESSION['id'] ?></li>
+                <li>Votre id est : <?php echo $_SESSION['prenom'] ?></li>
+                <li>Votre id est : <?php echo $_SESSION['nom'] ?></li>
+                <li>Votre mail est : <?= $_SESSION['mail'] ?></li>
+                <li>Votre rôle est : <?= $_SESSION['type'] ?></li>
+            <!-- <li>Votre compte a été crée le : <?= $_SESSION['date_creation'] ?></li> -->
+            </ul>
+        <?php }
+    ?>
+    
+
+
+    <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
+        <div class='row m-3'>
+                <div class='col-md-12 p-0'>
+                    <h1>Le profil de l'utilisateur</h1>
+                </div>
+                <?php
+
+                    if (isset($_SESSION["id"])) {
+                        ?>
+                        <div class='card col-md-12 m-2'>
+                            
+                            <table class='table'>
+                                <thead>
+                                    <tr>
+                                        <th scope='row'>Prénom</th>
+                                        <th scope='row'>Nom</th>
+                                        <th scope='row'>adresse</th>
+                                        <th scope='row'>Téléphone</th>
+                                        <th scope='row'>Adresse</th>
+                                        <th scope='row'>mail</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                            
+                                <tr>
+                                    <td><?=$_SESSION['prenom']?></td>
+                                </tr>
+                                <tr>
+                                    <td><?= $_SESSION['nom'] ?></td>
+                                </tr>
+                                <tr>
+                                    <td><?= $_SESSION['adresse'] ?></td>
+                                </tr>
+                                <tr>
+                                    <td><?= $_SESSION['mail'] ?></td>
+                                </tr>
+                                </tbody>
+                               
+                            </table>
+                        </div>
+                        <?php
+                    } ?>
+                
+            </div>
+
+            <?php
+
+                // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
+                include("script_link.php");
+            ?>
+    </body>
 </body>
 </html>

@@ -2,12 +2,10 @@
 
     session_start();
     include('config.php'); // Fichier PHP contenant la connexion à votre BDD
-    // S'il y a une session alors on ne retourne plus sur cette page
-
     $message = '';
 
     if (isset($_SESSION['id'])){
-        header('Location: home.php');
+        header('Location: index.php');
         exit;
     }
     
@@ -75,14 +73,20 @@
                 // On vérifit que le mail est disponible
                 $req_mail = $DB->query("SELECT mail FROM carusers WHERE mail = ?",
                     array($mail));
-                //$data = array($mail));
+
                 $req_mail = $req_mail->fetch();
                 
-                if(is_array($req_mail) && isset($req_mail["mail"])){
-                    if ($req_mail['mail'] !== ""){
-                        $valid = false;
-                        $er_mail = "Ce mail existe déjà";
-                    }
+                // if(is_array($req_mail) && isset($req_mail["mail"])){
+                //     if ($req_mail['mail'] !== ""){
+                //         $valid = false;
+                //         $er_mail = "Ce mail existe déjà";
+                //     }
+                // }
+
+
+                if (! empty($req_mail['mail'])){
+                    $valid = false;
+                    $er_mail = "Ce mail existe déjà";
                 }
             }
             // Vérification du mot de passe
@@ -97,48 +101,18 @@
     
             // Si toutes les conditions sont remplies alors on fait le traitement
             if($valid){
-    
-                //$mdp = crypt($mdp, "$6rounds=5000UQk`F25a:ZK?QuL:8`4*1/^pd3+/8svol&{orC0}y3*~@~ -ZQWgBP;-DT*sd+uH$");
-                $mdp = password_hash($_POST['mdp'], PASSWORD_DEFAULT);
+
+                $mdp = crypt($mdp, 
+                '$6$rounds=5000$kjhg0fqs12dfgh54jkljABCDEFGHIJKLMh68g012fdssdiqsNOPQRSTUVWXYZdfgh354jklmùnbvcxwm6789lkjhgfds$');
                 $date_creation = date('Y-m-d H:i:s');
                 $date_connexion = date('Y-m-d H:i:s');
                 
-
-                // Exemples:
-                // 39e9289a5b8328ecc4286da11076748716c41ec7fb94839a689f7dac5cdf5ba8bdc9a9acdc95b95245f80a00
-
-                $req = $DB->query("SELECT *FROM carusers
-                WHERE mail = ?",
-                array($mail));
-                
-                $req = $req->fetch();
-                if (is_array($req) && isset($req["mail"])) {
-                    $mail_to = $req['mail']; 
-                }
-                
-                
-                //=====Création du header de l'e-mail.
-                $header = "From: nmarcelndiana32@gmail.com\n";
-                $header .= "MIME-version: 1.0\n";
-                $header .= "Content-type: text/html; charset=utf-8\n";
-                $header .= "Content-Transfer-ncoding: 8bit";
-                //=======
-                
-                //=====Ajout du message au format HTML 
-                if (is_array($req) && isset($req["prenom"], $req["id"])) {
-                    $contenu = '<p>Bonjour ' . $req['prenom'] . ',</p><br
-                    <p>Veuillez confirmer votre compte <a href="http://www.domaine.com/conf.php?id=' . $req['id'] . '&token=' . $token . '">Valider</a><p>';
-                    mail($mail_to, 'Confirmation de votre compte', $contenu, $header);
-                }
-
                 // On insert nos données dans la table utilisateur
                 $DB->insert("INSERT INTO  carusers (username, prenom, nom, telephone, adresse, mail, mdp, date_creation, date_connexion, type, token)
                      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                     array($username, $prenom, $nom, $telephone, $adresse, $mail, $mdp, $date_creation, $date_creation, 'user', $token));
     
-                // header('Location: paiement.php');
-
-                echo "Inscription réussi, veuillez votre inscription dans votre boite mail.";
+                header('Location: paiement.php');
                 exit;
             }
         }
@@ -295,11 +269,17 @@
                 </form>
             </div>
             <div class="card-footer">
-            <p class="box-register">Déjà inscrit ? &nbsp; 
-                        <a class="connect" href="login.php">Connectez-vous ici</a>
-                    </p>
+                <div class="row">
+                    <div class="col-md-6">
+                    <a class="connect" href="login.php">Connectez-vous ici</a>
+                    </div>
+                    <!-- <div class="col-md-6">
+                    <a class="btn btn-primary  connect" href="mot-de-passe-oublier.php">Mot de pass oublié</a>
+                    </div> -->
+                </div>
             </div>
         </div>
     </div>
+    <br>
 </body>
 </html>

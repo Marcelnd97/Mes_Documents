@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -31,7 +31,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/passageaniveau1.jpg" width="300px" height="150">
+                        <img src="../images/passageaniveau1.jpg" width="300px" height="150">
                     </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                 <h3 style="font-weight: bold;"><b>Passages à niveau</b></h2>
                 
                 <div class="card senscirc">
-                    <img src="./images/passageaniveau2.jpg" height="200px" class="senscirc">
+                    <img src="../images/passageaniveau2.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux : passage à niveau</small></p>
                 <br>
@@ -52,7 +52,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/passageaniveau3.jpg" width="300px" height="150">
+                        <img src="../images/passageaniveau3.jpg" width="300px" height="150">
                     </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/passageaniveau4.jpg" width="300px" height="150">
+                        <img src="../images/passageaniveau4.jpg" width="300px" height="150">
                     </div>
                     </div>
                 </div>
@@ -81,10 +81,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -39,7 +39,7 @@
               <br>
               
               <div class="card senscirc">
-                <img src="./images/priorivoiturmontant.jpg" height="300px" class="senscirc">
+                <img src="../images/priorivoiturmontant.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Priorité au véhicule qui monte</small></p>
               
@@ -56,21 +56,21 @@
                 <li>Les règles de priorité à respecter :</li>
               </ol>
               <div class="card senscirc">
-                    <img src="./images/reculerseul.jpg" height="300px" class="senscirc">
+                    <img src="../images/reculerseul.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Vous reculez seuls face à plusieurs véhicules</small></p>
               <ol style="margin-left: 10px; list-style-type: disc;">
                 <li>un véhicule léger doit reculer face à un véhicule lourd :</li>
               </ol>
               <div class="card senscirc">
-                    <img src="./images/voiturlegerfacelourd.jpg" height="300px" class="senscirc">
+                    <img src="../images/voiturlegerfacelourd.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Le plus lourd a la priorité</small></p>
               <ol style="margin-left: 10px; list-style-type: disc;">
                 <li>le véhicule qui descend recule si les deux véhicules sont de même catégorie </li>
               </ol>
               <div class="card senscirc">
-                    <img src="./images/reculmemegabari.jpg" height="300px" class="senscirc">
+                    <img src="../images/reculmemegabari.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Recule celui qui descend en cas de même gabarit</small></p>
               <ol style="margin-left: 10px; list-style-type: disc;">
@@ -78,7 +78,7 @@
                     c'est au véhicule qui se trouve près de cette place de l'utiliser même s'il doit reculer.</li>
               </ol>
               <div class="card senscirc">
-                    <img src="./images/placevitement.jpg" height="300px" class="senscirc">
+                    <img src="../images/placevitement.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Place d'évitement</small></p>
 
@@ -102,10 +102,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

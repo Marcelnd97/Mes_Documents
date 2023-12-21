@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -52,7 +52,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/tourndroite.jpg" height="300px" class="senscirc">
+                <img src="../images/tourndroite.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Tourner à droite</small></p>
               <ol>
@@ -81,7 +81,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/positionchausse.jpg" height="300px" class="senscirc">
+                    <img src="../images/positionchausse.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Positionnement sur la chaussée</small></p>
                 
@@ -102,7 +102,7 @@
               </div>
               <br>
                 <div class="card senscirc">
-                    <img src="./images/bufurcposivoie.jpg" height="300px" class="senscirc">
+                    <img src="../images/bufurcposivoie.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Bifurcations: Positionnement sur les voies</small></p>
               <p><b>Réponse : </b>Pour tourner à droite vous n'êtes pas bien placé car vous êtes clairement sur la voie de gauche. 
@@ -140,10 +140,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

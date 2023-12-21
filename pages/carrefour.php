@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -54,13 +54,13 @@
               <br>
               
               <div class="card senscirc">
-                <img src="./images/signalano.jpg" height="200px" class="senscirc">
+                <img src="../images/signalano.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Signal d'annonce d'un carrefour à sens giratoire</small></p>
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/rondpan.jpg" width="300px;">
+                  <img src="../images/rondpan.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -73,7 +73,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/vitesslimite.jpg" width="300px;">
+                  <img src="../images/vitesslimite.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -90,7 +90,7 @@
               <p>Le carrefour à sens giratoire comprend la chaussée à sens unique qui tourne, 
                 et la trajectoire à adopter c'est celle de la direction que vous souhaitez prendre. </p>
               <div class="card senscirc">
-                <img src="./images/carefourgir.jpg" height="400px" class="senscirc">
+                <img src="../images/carefourgir.jpg" height="400px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Carrefours à sens giratoire</small></p>
               <br>
@@ -115,7 +115,7 @@
               <br>
               <p>Les cyclistes peuvent bénéficier des pistes cyclables dans un carrefour à sens giratoire.</p>
               <div class="card senscirc">
-                <img src="./images/cycliste.jpg" height="500px" class="senscirc">
+                <img src="../images/cycliste.jpg" height="500px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Cyclistes dans un carrefour à sens giratoire</small></p>
               <br>
@@ -130,7 +130,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/rencontrecarrefour.jpg" width="200px;">
+                  <img src="../images/rencontrecarrefour.jpg" width="200px;">
                   </div>
                 </div>
               </div>
@@ -148,10 +148,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

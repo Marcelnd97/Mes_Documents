@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -32,7 +32,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/panmoyentransport1.jpg" width="300px">
+                        <img src="../images/panmoyentransport1.jpg" width="300px">
                     </div>
                 </div>
                 </div>
@@ -45,7 +45,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/panmoyentransport2.jpg" width="300px">
+                        <img src="../images/panmoyentransport2.jpg" width="300px">
                     </div>
                 </div>
                 </div>
@@ -69,7 +69,7 @@
                 <br>
                 <h3 style="font-weight: bold;"><b>Point logement</b></h1>
                 <div class="card senscirc">
-                    <img src="./images/panmoyentransport3.jpg" height="250px" class="senscirc">
+                    <img src="../images/panmoyentransport3.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux : point logement</small></p>
                 <br>
@@ -85,7 +85,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/panmoyentransport4.jpg" width="300px">
+                        <img src="../images/panmoyentransport4.jpg" width="300px">
                     </div>
                 </div>
                 </div>
@@ -100,7 +100,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/panmoyentransport5.jpg" width="300px">
+                        <img src="../images/panmoyentransport5.jpg" width="300px">
                     </div>
                 </div>
                 </div>
@@ -114,7 +114,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/panmoyentransport6.jpg" width="300px">
+                        <img src="../images/panmoyentransport6.jpg" width="300px">
                     </div>
                 </div>
                 </div>
@@ -137,7 +137,7 @@
                     Mais parfois vous allez tomber sur des indications
                      routières qui ne sont pas données par des guides, et c'est utile de les connaître.</p>
                 <div class="card senscirc">
-                    <img src="./images/panmoyentransport7.jpg" height="250px" class="senscirc">
+                    <img src="../images/panmoyentransport7.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux relatifs aux activités dans les alentours</small></p>
                 <br>
@@ -156,7 +156,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/panmoyentransport8.jpg" width="300px">
+                        <img src="../images/panmoyentransport8.jpg" width="300px">
                     </div>
                 </div>
                 </div>
@@ -184,7 +184,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/panmoyentransport9.jpg" width="100px">
+                            <img src="../images/panmoyentransport9.jpg" width="100px">
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                 <p>Comme le sens de ces panneaux n'est pas aussi évident que celui des activités qu'ils annoncent, 
                     je vais vous aider :</p>
                 <div class="card senscirc">
-                    <img src="./images/panmoyentransport10.jpg" height="250px" class="senscirc">
+                    <img src="../images/panmoyentransport10.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'indication culturelle</small></p>
                 <br>
@@ -216,7 +216,7 @@
                 <p>J'ai déjà évoqué la maison de pays et le village étape. 
                     On pourra également vous indiquer les commerces du coin ou l'endroit où vous pouvez retirer de l'argent :</p>
                 <div class="card senscirc">
-                    <img src="./images/panmoyentransport11.jpg" height="250px" class="senscirc">
+                    <img src="../images/panmoyentransport11.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'indication des commerces dans les alentours</small></p>
                 <br>
@@ -233,7 +233,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/panmoyentransport12.jpg" width="300px">
+                            <img src="../images/panmoyentransport12.jpg" width="300px">
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/panmoyentransport13.jpg" width="300px">
+                            <img src="../images/panmoyentransport13.jpg" width="300px">
                         </div>
                     </div>
                 </div>
@@ -271,7 +271,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/panmoyentransport14.jpg" width="300px">
+                            <img src="../images/panmoyentransport14.jpg" width="300px">
                         </div>
                     </div>
                 </div>
@@ -289,10 +289,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

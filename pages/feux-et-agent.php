@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -38,7 +38,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/tricolor.jpg" width="300px;">
+                  <img src="../images/tricolor.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -69,7 +69,7 @@
               <br>
               
               <div class="card senscirc">
-                <img src="./images/carefencombrer.jpg" height="200px" class="senscirc">
+                <img src="../images/carefencombrer.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Carrefour encombré : ne pas s'engager malgré le feu vert </small></p>
               <p>2. Le feu jaune est lié au feu rouge. Il faut vraiment faire attention à vérifier 
@@ -89,7 +89,7 @@
                 Ce feu demande de faire aussi attention au marquage au sol.
                  Le schéma ci-dessous illustre bien la situation :</p>
               <div class="card senscirc">
-                <img src="./images/feuxmarque.jpg" height="400px" class="senscirc">
+                <img src="../images/feuxmarque.jpg" height="400px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Feux et marquage au sol</small></p>
               <br>
@@ -110,7 +110,7 @@
               
               <p>Remarquez le panneau de Cédez le passage en dessous du feu :</p>
               <div class="card senscirc">
-                <img src="./images/comptepan.jpg" height="300px" class="senscirc">
+                <img src="../images/comptepan.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Panneau à prendre en compte lorsque les feux ne fonctionnent pas</small></p>
               <br>
@@ -127,7 +127,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/positionnement.jpg" height="200px" class="senscirc">
+                <img src="../images/positionnement.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Feux et positionnement sur la chaussée</small></p>
               
@@ -148,7 +148,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/feuxtricolore.jpg" width="100px; height: 100px;">
+                  <img src="../images/feuxtricolore.jpg" width="100px; height: 100px;">
                   </div>
                 </div>
               </div>
@@ -160,7 +160,7 @@
                 ralentir ou passer sans problème face à un policier :</p>
                 <br>
               <div class="card senscirc">
-                <img src="./images/gestepolice.jpg" height="300px" class="senscirc">
+                <img src="../images/gestepolice.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Gestes du policier</small></p>
               <p>Comme vous pouvez le constater, il peut vous autoriser à circuler, 
@@ -194,10 +194,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

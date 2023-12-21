@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -37,7 +37,7 @@
                     en forme de rectangle). Remarquez également les triangles placés juste avant. 
                     Leur objectif est de faire ralentir les automobilistes :</p>
                 <div class="card senscirc">
-                    <img src="./images/marcpaspied.jpg" height="200px" class="senscirc">
+                    <img src="../images/marcpaspied.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Marquage passage piéton</small></p>
                 
@@ -50,7 +50,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/marcsolpourvoituretbus.jpg" height="200px" class="senscirc">
+                    <img src="../images/marcsolpourvoituretbus.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Marquage au sol pour les voitures et les bus </small></p>
                 
@@ -72,7 +72,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/marquagesole.jpg" height="150px" class="senscirc">
+                    <img src="../images/marquagesole.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Marquage au sol</small></p>
                 
@@ -97,12 +97,12 @@
                     <li><b>Il est interdit de franchir</b> une ligne continue pour dépasser ou changer de direction :</li>
                 </ol>
                 <div class="card senscirc">
-                    <img src="./images/franchirligneinterdit.jpg" height="150px" class="senscirc">
+                    <img src="../images/franchirligneinterdit.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Franchissement de la ligne continue est interdit</small></p>
                 <li><b>Il est autorisé</b> de franchir une ligne discontinue pour dépasser ou changer de direction :</li>
                 <div class="card senscirc">
-                    <img src="./images/franchirligneautoriser.jpg" height="150px" class="senscirc">
+                    <img src="../images/franchirligneautoriser.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Franchissement de la ligne discontinue est autorisé</small></p>
                 
@@ -112,7 +112,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                        <img src="./images/lignecombiner.jpg" width="300px;">
+                        <img src="../images/lignecombiner.jpg" width="300px;">
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                     <li>La ligne discontinue sur route peut être franchie pour dépasser ou changer de direction. 
                         Voici ses dimensions :</li>
                         <div class="card senscirc">
-                            <img src="./images/lignemedianesuroute.jpg" height="150px" class="senscirc">
+                            <img src="../images/lignemedianesuroute.jpg" height="150px" class="senscirc">
                         </div>
                         <p class="text-muted text-center"><small>La ligne médiane discontinue sur route </small></p>
                         
@@ -134,7 +134,7 @@
                     <li> La ligne discontinue à plus petites dimensions, appelée la ligne d'annonce, 
                         précède une ligne continue et comporte des flèches de rabattement :</li>
                         <div class="card senscirc">
-                            <img src="./images/ligneannoce.jpg" height="150px" class="senscirc">
+                            <img src="../images/ligneannoce.jpg" height="150px" class="senscirc">
                         </div>
                         <p class="text-muted text-center"><small>Ligne d'annonce </small></p>
                         
@@ -142,7 +142,7 @@
                         <div class="col">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                <img src="./images/flecheanoncelignecontinu.jpg" width="300px" height="200px">
+                                <img src="../images/flecheanoncelignecontinu.jpg" width="300px" height="200px">
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                         <li>. La <b>ligne de dissuasion</b> cherche à dissuader le conducteur de la franchir. 
                             Ses dimensions sont identiques (1,33 m et 3 m) à la ligne d'annonce :</li>
                         <div class="card senscirc">
-                            <img src="./images/lignediscusion.jpg" height="150px" class="senscirc">
+                            <img src="../images/lignediscusion.jpg" height="150px" class="senscirc">
                         </div>
                         <p class="text-muted text-center"><small>Ligne de dissuasion</small></p>
                 </ol>
@@ -172,7 +172,7 @@
                         elle peut être remplacée par une ligne de 20 m espacée de 6 m. 
                         Vous pouvez la franchir. Si non, voici les dimensions générales :</li>
                     <div class="card senscirc">
-                        <img src="./images/lignederivesurroute.jpg" height="150px" class="senscirc">
+                        <img src="../images/lignederivesurroute.jpg" height="150px" class="senscirc">
                     </div>
                     <p class="text-muted text-center"><small>Ligne de rive sur route</small></p>
                     
@@ -181,7 +181,7 @@
                          Nous verrons cela en détail dans le chapitre sur les autoroutes. 
                         Sur le schéma ci-dessous la ligne est discontinue, mais parfois elle peut être continue :</li>
                         <div class="card senscirc">
-                            <img src="./images/lignerivsurautoroute.jpg" height="150px" class="senscirc">
+                            <img src="../images/lignerivsurautoroute.jpg" height="150px" class="senscirc">
                         </div>
                         <p class="text-muted text-center"><small>Ligne de rive sur autoroute</small></p>
                         
@@ -190,7 +190,7 @@
                 <p>Si vous voyez que la ligne est discontinue et donc vous autorise à la franchir, mais que le panneau vous l'interdit, 
                     il faut toujours appliquer le message du panneau. Franchissement de la ligne interdit en cas de dépassement :</p>
                 <div class="card senscirc">
-                    <img src="./images/pannauremportregle.jpg" height="200px" class="senscirc">
+                    <img src="../images/pannauremportregle.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Le panneau remporte la règle</small></p>
                 <br>
@@ -213,7 +213,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/affectvoie.jpg" height="200px" class="senscirc">
+                    <img src="../images/affectvoie.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Affectation des voies</small></p>
                 <p>Vous allez me dire "oui"car la ligne est discontinue et je vous dis bravo ! Mais comme il faut toujours un mais, 
@@ -226,7 +226,7 @@
                 <p>Notez que les lignes qui délimitent les voies entre les voitures sont plus fines que 
                     celles qui marquent la voie de bus ou même des vélos (voir la photo ci-dessous) :</p>
                 <div class="card senscirc">
-                    <img src="./images/voiepourcyclistes.jpg" height="200px" class="senscirc">
+                    <img src="../images/voiepourcyclistes.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Voie pour les cyclistes </small></p>
                 <br>
@@ -247,12 +247,12 @@
                     Je vous en parlerai plus en détail dans le chapitre relatif aux autoroutes.</p>
                 <p>Voici une illustration pour comprendre le marquage au sol :</p>
                 <div class="card senscirc">
-                    <img src="./images/marquagesolvoieaccelerer.jpg" height="300px" class="senscirc">
+                    <img src="../images/marquagesolvoieaccelerer.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Marquage au sol d'une voie d'accélération </small></p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/voientrecroisement.jpg" height="300px" class="senscirc">
+                    <img src="../images/voientrecroisement.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>La voie d'entrecroisement</small></p>
                 
@@ -260,7 +260,7 @@
                 <p><b>Voie de stockage</b></p>
                 <p>Elle est délimitée par des traits très larges et comporte des flèches. Vous pouvez ralentir et changer de direction sans gêner :</p>
                 <div class="card senscirc">
-                    <img src="./images/voiedestockagegauchdroite.jpg" height="300px" class="senscirc">
+                    <img src="../images/voiedestockagegauchdroite.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Voie de stockage pour tourner à gauche </small></p>
                 
@@ -271,7 +271,7 @@
                     graviers pour s'arrêter en sécurité. Il ne faut surtout pas s'arrêter 
                     sur une voie de détresse pour ne pas être percuté par un usager souhaitant accéder au bac à graviers.</p>
                 <div class="card senscirc">
-                    <img src="./images/lachefrein.jpg" height="300px" class="senscirc">
+                    <img src="../images/lachefrein.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Si vos freins vous lâchent</small></p>
                 
@@ -281,7 +281,7 @@
                      continues ou discontinues. Vous pourrez les franchir, mais à condition de respecter la signalisation verticale. 
                     Une preuve de plus que le marquage au sol et la signalisation verticale doivent être observés ensemble :</p>
                 <div class="card senscirc">
-                    <img src="./images/stopetcedepassage.jpg" height="300px" class="senscirc">
+                    <img src="../images/stopetcedepassage.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Stop et Cédez le passage</small></p>
                 
@@ -294,7 +294,7 @@
                 <p>Ces lignes sont de couleur jaune, peintes en zigzag sur la chaussée, devant un arrêt de bus.
                      Les automobilistes n'ont le droit ni de s'y arrêter ni d'y stationner, mais peuvent les franchir :</p>
                 <div class="card senscirc">
-                    <img src="./images/autopasarret.jpg" height="300px" class="senscirc">
+                    <img src="../images/autopasarret.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Franchissement du zigzag autorisé mais pas l'arrêt </small></p>
                 
@@ -313,7 +313,7 @@
                     Autrement, vous pouvez le franchir s'il n'y a pas d'autres contre-indications. 
                     Il faut veiller à ne pas encombrer les voies marquées par des damiers :</p>
                 <div class="card senscirc">
-                    <img src="./images/damierblancbus.jpg" height="300px" class="senscirc">
+                    <img src="../images/damierblancbus.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Damier blanc des bus</small></p>
                 
@@ -321,7 +321,7 @@
                 <p>Lorsqu’une partie de la chaussée comporte des hachures ou des chevrons, 
                     la circulation, l'arrêt et le stationnement y sont interdits :</p>
                 <div class="card senscirc">
-                    <img src="./images/zebra.jpg" height="300px" class="senscirc">
+                    <img src="../images/zebra.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Zébras</small></p>
                 
@@ -339,7 +339,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/changedirectionsuivrefleche.jpg" height="300px" class="senscirc">
+                    <img src="../images/changedirectionsuivrefleche.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Changer de direction en suivant les flèches</small></p>
                 
@@ -348,7 +348,7 @@
                     Il existe aussi en bleu et concerne les stationnements. 
                     Je vous en parlerai dans le chapitre relatif à ce sujet.</p>
                 <div class="card senscirc">
-                    <img src="./images/marqencouleur.jpg" height="300px" class="senscirc">
+                    <img src="../images/marqencouleur.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Marquage en couleur</small></p>
                 <br>
@@ -375,10 +375,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

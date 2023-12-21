@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -28,7 +28,7 @@
                 <h1 style="font-weight: bold;"><b>Interdiction</b></h1>
                 <hr>
                 <div class="card senscirc">
-                    <img src="./images/paninterdiction1.jpg" height="100px" class="senscirc">
+                    <img src="../images/paninterdiction1.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'interdiction 1 </small></p>
                 <br>
@@ -42,7 +42,7 @@
                 <p>8. Arrêt obligatoire au poste de douane</p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/paninterdiction2.jpg" height="100px" class="senscirc">
+                    <img src="../images/paninterdiction2.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'interdiction 2</small></p>
                 <br>
@@ -55,7 +55,7 @@
                 <p>15. Accès interdit aux piétons</p>
                 <p>16. Accès interdit aux cycles</p>
                 <div class="card senscirc">
-                    <img src="./images/paninterdiction3.jpg" height="300px" class="senscirc">
+                    <img src="../images/paninterdiction3.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceau 3</small></p>
                 <br>
@@ -69,7 +69,7 @@
                 <p>24. Accès interdit aux véhicules tractant une caravane ou une remorque de plus de 250 kg</p>
                 <p>25. Accès interdit aux véhicules de transport de marchandises de plus de ... m de long</p>
                 <div class="card senscirc">
-                    <img src="./images/paninterdiction4.jpg" height="300px" class="senscirc">
+                    <img src="../images/paninterdiction4.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'interdiction 4</small></p>
                 <br>
@@ -85,7 +85,7 @@
                 <p>35. Accès interdit aux véhicules transportant des marchandises dangereuses</p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/paninteretfininterdic.jpg" height="150px" class="senscirc">
+                    <img src="../images/paninteretfininterdic.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'interdiction et fin d'interdiction</small></p>
                 <br>
@@ -99,7 +99,7 @@
                 <h3 style="font-weight: bold;">Panneaux relatifs à l'interdiction de stationner</h3>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/paninterdictions1.jpg" height="200px" class="senscirc">
+                    <img src="../images/paninterdictions1.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'interdiction et fin d'interdiction</small></p>
                 <br>
@@ -109,7 +109,7 @@
                 <p>4. Stationnement interdit du côté du panneau du 16 à la fin du mois</p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/paninterdic2.jpg" height="200px" class="senscirc">
+                    <img src="../images/paninterdic2.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Pannonceaux de direction vers laquelle s'applique l'interdiction</small></p>
                 <br>
@@ -119,7 +119,7 @@
                 <p>8. Stationnement interdit jusqu'au panneau</p>
                 <p>9. Stationnement interdit avant et après le panneau</p>
                 <div class="card senscirc">
-                    <img src="./images/paninterdic3.jpg" height="300px" class="senscirc">
+                    <img src="../images/paninterdic3.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceaux relatifs à la catégorie d'usagers 
                     ou à certaines conditions</small></p>
@@ -129,7 +129,7 @@
                 <p>12. Stationnement interdit aux véhicules affectés au transport de marchandises</p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/paninterdic4.jpg" height="200px" class="senscirc">
+                    <img src="../images/paninterdic4.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceaux précisant les interdictions de se garer</small></p>
                 <br>
@@ -143,7 +143,7 @@
                 <p><b class="text-mutedd">Entrée de zone</b></p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/interdictstation1.jpg" height="200px" class="senscirc">
+                    <img src="../images/interdictstation1.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Interdiction de stationner 1</small></p>
                 <br>
@@ -170,7 +170,7 @@
             <p>7. Entrée de zone de circulation restreinte</p>
             <br>
             <div class="card senscirc">
-                <img src="./images/sortiezone.jpg" height="200px" class="senscirc">
+                <img src="../images/sortiezone.jpg" height="200px" class="senscirc">
             </div>
             <p class="text-muted text-center"><small>Sorties de zones</small></p>
             <p>8. Sortie de zone</p>
@@ -202,10 +202,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

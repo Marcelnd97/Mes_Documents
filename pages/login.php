@@ -125,7 +125,7 @@
             <div class="card justify-content-md-center">
                 <div class="card-header text-center">
                     <div class="col-md-12">
-                        <img src="./images/client.png" width="100px;" height="100px;">
+                        <img src="../images/client.png" width="100px;" height="100px;">
                     </div>
                 </div>
                 <div class="card-body">

@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -34,7 +34,7 @@
                     <li>Lorsque la voiture qui est sur votre gauche tourne à gauche (exemple 2).</li>
                 </ol>
               <div class="card senscirc">
-                <img src="./images/depasserpardroite.jpg" height="200px" class="senscirc">
+                <img src="../images/depasserpardroite.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Dépassement par la droite</small></p>
               <h3><b>Être dépassé</b></h3>
@@ -64,10 +64,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -37,7 +37,7 @@
                 office de la limite de la chaussée. Le panneau et la ligne fonctionnent ensemble.
               </p>
               <div class="card senscirc">
-                <img src="./images/pannaustop.jpg" height="200px" class="senscirc">
+                <img src="../images/pannaustop.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>S'arrêter au Stop au niveau de la ligne blanche</small></p>
               
@@ -64,7 +64,7 @@
                Voici le cas d'un carrefour à sens giratoire dont je vous parlerai dans l'un des prochains chapitres :
               </p>
               <div class="card senscirc">
-                <img src="./images/cederpassage.jpg" height="200px" class="senscirc">
+                <img src="../images/cederpassage.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Panneau Cédez le passage et son marquage au sol</small></p>
               <br>
@@ -89,7 +89,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/ceder.jpg">
+                  <img src="../images/ceder.jpg">
                   </div>
                 </div>
               </div>
@@ -107,7 +107,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/anoncepan.jpg">
+                  <img src="../images/anoncepan.jpg">
                   </div>
                 </div>
               </div>
@@ -132,7 +132,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/prioritepan.jpg" width="300px;">
+                  <img src="../images/prioritepan.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -197,7 +197,7 @@
                     Sur la seconde photo, la flèche rouge concerne la personne venant d'en face donc vous avez la priorité.
                 </p>
                 <div class="card sensuniq">
-                    <img src="./images/vousceder.jpg" height="200px" class="sensuniq">
+                    <img src="../images/vousceder.jpg" height="200px" class="sensuniq">
                 </div>
                 <br>
                 <div class="card question">
@@ -212,7 +212,7 @@
                 
                 
                 <div class="card sensuniq">
-                    <img src="./images/fonctionprio.jpg" height="200px" class="sensuniq">
+                    <img src="../images/fonctionprio.jpg" height="200px" class="sensuniq">
                 </div>  
                 <p class="text-muted text-center"><small>Priorités en fonction de la signalisation</small></p><br>
                 <p><b>Réponse :</b> Qu'ils se trouvent en agglomération ou sur les routes, 
@@ -235,7 +235,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/routepan.jpg">
+                  <img src="../images/routepan.jpg">
                   </div>
                 </div>
               </div>
@@ -246,7 +246,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/priodroitpan.jpg">
+                  <img src="../images/priodroitpan.jpg">
                   </div>
                 </div>
               </div>
@@ -271,7 +271,7 @@
                     </div>
                 </div>
                 <div class="card sensuniq">
-                    <img src="./images/priofoncpan.jpg" height="200px" class="sensuniq">
+                    <img src="../images/priofoncpan.jpg" height="200px" class="sensuniq">
                 </div>  
                 <p class="text-muted text-center"><small>Priorités en fonction du panneau</small></p>
 
@@ -287,7 +287,7 @@
                 <br>
                 <h3><b>En résumé</b></h3>
                 <div class="card sensuniq">
-                    <img src="./images/recappan.jpg" height="200px" class="sensuniq">
+                    <img src="../images/recappan.jpg" height="200px" class="sensuniq">
                 </div> 
               <p class="text-muted text-center"><small>Récapitulatif des panneaux indiquant la priorité</small></p>
               <ol style="margin-left: 10px; list-style-type: disc;"> 
@@ -307,10 +307,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

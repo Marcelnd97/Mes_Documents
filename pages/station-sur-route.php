@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -44,7 +44,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/indiceinterdiarretoustation.jpg" height="300px" class="senscirc">
+                    <img src="../images/indiceinterdiarretoustation.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Indices : interdiction de s'arrêter ou de stationner</small></p>
                 
@@ -65,13 +65,13 @@
                 <p><b>Stationnements possibles</b></p>
                 <p>Si vous n'avez pas la possibilité de stationner sur un parking comme sur la photo ci-dessous :</p>
                 <div class="card senscirc">
-                    <img src="./images/stationet parkinsurrouthoraglom.jpg" height="300px" class="senscirc">
+                    <img src="../images/stationet parkinsurrouthoraglom.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Stationnement et parking sur une route hors agglomération</small></p>
                 
                 <p>alors vous pouvez stationner sur l'accotement droit car la ligne de rive vous le permet :</p>
                 <div class="card senscirc">
-                    <img src="./images/stationsurlacoutement.jpg" height="300px" class="senscirc">
+                    <img src="../images/stationsurlacoutement.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Stationnement sur l'accotement</small></p>
                 <p>Si vous êtes en camping-car et que vous voyez ce panneau, 
@@ -79,7 +79,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/autorispourcampngcar.jpg" width="100px;">
+                    <img src="../images/autorispourcampngcar.jpg" width="100px;">
                     </div>
                     </div>
                 </div>
@@ -103,10 +103,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

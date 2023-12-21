@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -42,7 +42,7 @@
                 
                 
                 <div class="card senscirc">
-                    <img src="./images/couleurpanetsens.jpg" height="200px" class="senscirc">
+                    <img src="../images/couleurpanetsens.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Couleur des panneaux et leur sens </small></p>
                 
@@ -65,7 +65,7 @@
                     Pour aller à Aurillac et à Massiac il faut tourner à droite à la prochaine intersection :</p>
                     
                 <div class="card senscirc">
-                    <img src="./images/pandirectsurroute.jpg" height="200px" class="senscirc">
+                    <img src="../images/pandirectsurroute.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux de directions sur les routes</small></p>
                 
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="card senscirc">
-                    <img src="./images/carefoursensgiratoir.jpg" height="200px" class="senscirc">
+                    <img src="../images/carefoursensgiratoir.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Carrefour à sens giratoire</small></p>
                 <p><b>Réponse :</b> Comme c'est marqué 150 m en bas à droite, cela veut 
@@ -92,7 +92,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/panposition.jpg" width="300px;">
+                            <img src="../images/panposition.jpg" width="300px;">
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                     Briançon de la photo ci-dessous. Il vous reste à parcourir 53 km par la route départementale
                      et il faut tourner à gauche pour y aller :</p>
                 <div class="card senscirc">
-                    <img src="./images/directasuivre.jpg" height="200px" class="senscirc">
+                    <img src="../images/directasuivre.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Directions à suivre</small></p>
                 
@@ -123,7 +123,7 @@
                 
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/panoconfirmation.jpg" height="200px" class="senscirc">
+                    <img src="../images/panoconfirmation.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux de confirmation </small></p>
                 
@@ -143,7 +143,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/directionsiteculturel.jpg" height="200px" class="senscirc">
+                    <img src="../images/directionsiteculturel.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Directions et sites culturels</small></p>
                 <p><b>Réponse:</b>Les panneaux 1 et 2 localisent le début et la fin d'un itinéraire 
@@ -160,7 +160,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/signalchangdirection.jpg" width="200px;">
+                            <img src="../images/signalchangdirection.jpg" width="200px;">
                         </div>
                     </div>
                 </div>
@@ -200,10 +200,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

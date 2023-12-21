@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -67,15 +67,15 @@
                 or, vous devez ralentir :</p>
               <br>
               <div class="card senscirc">
-                <img src="./images/ralentircausegazoile.jpg" height="200px" class="senscirc">
+                <img src="../images/ralentircausegazoile.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Ralentir à cause du gazoil déversé sur la chaussée</small></p>
               <div class="card senscirc">
-                <img src="./images/ralentircausevirage.jpg" height="200px" class="senscirc">
+                <img src="../images/ralentircausevirage.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Ralentir à cause des virages à venir pendant 6 km</small></p>
               <div class="card senscirc">
-                <img src="./images/ralentircausepieton.jpg" height="200px" class="senscirc">
+                <img src="../images/ralentircausepieton.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Même sur route hors agglomération, ralentir à cause des piétons </small></p>
               <br>
@@ -95,10 +95,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

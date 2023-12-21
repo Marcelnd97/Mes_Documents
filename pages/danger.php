@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -29,7 +29,7 @@
                 <hr>
                 <h2 style="font-weight: bold;"><b>Dangers permanents</b></h2>
                 <div class="card senscirc">
-                    <img src="./images/dangerpermanent1.jpg" height="100px" class="senscirc">
+                    <img src="../images/dangerpermanent1.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Dangers permanents 1</small></p>
                 <p>1. Virage à droite</p>
@@ -41,7 +41,7 @@
                 <p>7. Chaussée rétrécie</p>
                 <p>8. Chaussée rétrécie par la droite</p>
                 <div class="card senscirc">
-                    <img src="./images/dangerpermanent2.jpg" height="100px" class="senscirc">
+                    <img src="../images/dangerpermanent2.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Dangers permanents 2</small></p>
                 
@@ -56,7 +56,7 @@
                 <p>16. Endroit fréquenté par les enfants</p>
                 <p>17. Passage pour piéton - signal d'annonce</p>
                 <div class="card senscirc">
-                    <img src="./images/dangerpermanent3.jpg" height="100px" class="senscirc">
+                    <img src="../images/dangerpermanent3.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Dangers permanents 3</small></p>
                 
@@ -68,7 +68,7 @@
                 <p>24. Annonce de feux tricolores</p>
                 <p>25. Circulation dans les 2 sens à partir du panneau</p>
                 <div class="card senscirc">
-                    <img src="./images/dangerpermanent4.jpg" height="100px" class="senscirc">
+                    <img src="../images/dangerpermanent4.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Dangers permanents 4</small></p>
                 
@@ -84,7 +84,7 @@
                 <p>34. Annonce de nappes de brouillard ou de fumée épaisse</p>
                 <h2 style="font-weight: bold;"><b>Dangers temporaires</b></h2>
                 <div class="card senscirc">
-                    <img src="./images/dangertemporaires.jpg" height="200px" class="senscirc">
+                    <img src="../images/dangertemporaires.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Dangers temporaires</small></p>
                 <p>1. Rétrécissement de chaussée par la droite et par la gauche</p>
@@ -106,10 +106,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

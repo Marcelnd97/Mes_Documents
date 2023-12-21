@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -29,19 +29,19 @@
                 <hr>
                 <h2 style="font-weight: bold;"><b>Panneaux de localisation</b></h2>
                 <div class="card senscirc">
-                    <img src="./images/sortieaglomunetdeux.jpg" height="200px" class="senscirc">
+                    <img src="../images/sortieaglomunetdeux.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Sortie d'agglomération (1) et entrée en agglomération (2) </small></p>
                 <div class="card senscirc">
-                    <img src="./images/appartenancecumonunparc.jpg" height="200px" class="senscirc">
+                    <img src="../images/appartenancecumonunparc.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Appartenance d'une commune à un parc national ou parc naturel régional ou réserve naturelle </small></p>
                 <div class="card senscirc">
-                    <img src="./images/parcnationetnatureletreserve.jpg" height="200px" class="senscirc">
+                    <img src="../images/parcnationetnatureletreserve.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Parc national ou parc naturel ou réserve naturelle</small></p>
                 <div class="card senscirc">
-                    <img src="./images/confusionaeviter.jpg" height="200px" class="senscirc">
+                    <img src="../images/confusionaeviter.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Confusion à éviter</small></p>
                 
@@ -50,14 +50,14 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/frontièreunioneuropfrance.jpg" width="150px">
+                  <img src="../images/frontièreunioneuropfrance.jpg" width="150px">
                   </div>
                 </div>
                 </div>
                 <p class="text-muted text-center"><small>Localisation de la frontière d'un état de l'Union Européenne</small></p>
                 <h2 style="font-weight: bold;"><b>Panneaux d'information</b></h2>
                 <div class="card senscirc">
-                      <img src="./images/panitineraire.jpg" height="200px" class="senscirc">
+                      <img src="../images/panitineraire.jpg" height="200px" class="senscirc">
                   </div>
                 <p class="text-muted text-center"><small>Panneaux informant sur les localisations 
                       ou itinéraires touristiques</small></p>
@@ -70,7 +70,7 @@
                 <p>5. Indication par message littéral et graphique</p>
                 <h2 style="font-weight: bold;"><b>Bornes de localisation</b></h2>
                 <div class="card senscirc">
-                      <img src="./images/localisation.jpg" height="200px" class="senscirc">
+                      <img src="../images/localisation.jpg" height="200px" class="senscirc">
                   </div>
                 <p class="text-muted text-center"><small>Localisation</small></p>
                 <p>1. Borne de route départementale</p>
@@ -84,13 +84,13 @@
                 <p>9. Rocade ou boulevard périphérique</p>
                 <h2 style="font-weight: bold;"><b>Cartouches et encarts</b></h2>
                 <div class="card senscirc">
-                      <img src="./images/encart.jpg" height="200px" class="senscirc">
+                      <img src="../images/encart.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Encarts</small></p>
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/cartouche.jpg" width="300px" style="border-radius: 10px;">
+                  <img src="../images/cartouche.jpg" width="300px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -106,10 +106,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

@@ -16,7 +16,7 @@
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
      <!--L'en-tête de la page-->
      <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -74,7 +74,7 @@
                 <p>Dès 0,50 g/l de sang (prise de sang) vous êtes en infraction, ce qui correspond à 0,25 mg/l 
                     d'air expiré (éthylomètre).</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/alcool1.jpg" height="250px" class="senscirc">
+                    <img src="../images/theme_conduite/alcool1.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Effet d'alcool sur la vision</small></p>   
                 <div class="card" style="background-color: #a1ee90;">
@@ -93,7 +93,7 @@
                 <p>Les verres servis dans les cafés et restaurants contiennent environ 10 g d'alcool 
                     pur quelle que soit la boisson.</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/alcool2.jpg" height="350px" class="senscirc">
+                    <img src="../images/theme_conduite/alcool2.jpg" height="350px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>10 g d'alcool quel que soit le verre</small></p>   
                    
@@ -119,7 +119,7 @@
                     <li>en milligrammes d'alcool par litre d'air expiré.</li>
                 </ol>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/alcool3.jpg" height="400px" class="senscirc">
+                    <img src="../images/theme_conduite/alcool3.jpg" height="400px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Nombres de verres autorisés et interdits </small></p> 
                 <p><b><em>Pour les conducteurs en période probatoire (3 ans normalement, ou 2 ans pour les personnes issues 
@@ -138,7 +138,7 @@
                      à manger sur le pouce en voulant susciter l'effet éponge. 
                     Les bonbons à la menthe ou le café salé ne vous aideront pas non plus.</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/al.jfif" height="350px" class="senscirc">
+                    <img src="../images/theme_conduite/al.jfif" height="350px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Taux d'alcoolémie après 2 verres d'alcool à jeun</small></p>
                 
@@ -164,7 +164,7 @@
                      systématiquement la réalité sur votre consommation d'alcool. </p>
                 <p>Sachez qu'en cas d'accident corporel vous serez automatiquement soumis au contrôle d'alcoolémie.</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/alcool4.jpg" height="300px" class="senscirc">
+                    <img src="../images/theme_conduite/alcool4.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Éthylotest chimique</small></p>
                 
@@ -175,7 +175,7 @@
                      être très précis. L'appareil qui semble être le plus précis est l'éthylomètre (voir image ci-dessous), 
                      à condition que le prévenu n'ait ni bu, ni mangé, ni fumé de cigarette dans la demi-heure précédant le test.</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/alcool5.jpg" height="250px" class="senscirc">
+                    <img src="../images/theme_conduite/alcool5.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Ethylomètre</small></p>
                 <p>Si un accident a eu lieu et que le conducteur est dans l'incapacité de souffler, 
@@ -264,10 +264,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -49,7 +49,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/parkingdeuroue.jpg" width="300px;" height="400px;">
+                    <img src="../images/parkingdeuroue.jpg" width="300px;" height="400px;">
                     </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/videosurveillance.jpg" width="100px;">
+                    <img src="../images/videosurveillance.jpg" width="100px;">
                     </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                     Sachez que tout parking est  représenté par un panneau bleu et s'il contient le pictogramme du disque, 
                     il est alors en zone bleue.</p>
                 <div class="card senscirc">
-                    <img src="./images/amenagerpourstation.jpg" height="100px" class="senscirc">
+                    <img src="../images/amenagerpourstation.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Lieu aménagé pour le stationnement gratuit, 
                     payant ou gratuit à durée limitée avec contrôle par disque </small></p>
@@ -108,7 +108,7 @@
                     Si vous voyez une ligne jaune continue, c'est interdit. Si la ligne jaune est discontinue, 
                     alors attention à l'heure de votre arrivée ainsi qu'à la durée du stationnement. Voici la photo ci-dessous :</p>
                 <div class="card senscirc">
-                    <img src="./images/livraison.jpg" height="400px" class="senscirc">
+                    <img src="../images/livraison.jpg" height="400px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Livraison</small></p>
                 
@@ -119,7 +119,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/panneaufouriere.jpg" width="100px;">
+                    <img src="../images/panneaufouriere.jpg" width="100px;">
                     </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                         pensez à vous ranger en marche arrière pour avoir une meilleure visibilité pour repartir.</li>
                 </ol>
                 <div class="card senscirc">
-                    <img src="./images/type de stationnement.jpg" height="300px" class="senscirc">
+                    <img src="../images/type de stationnement.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>type de stationnement</small></p>
                 <p>En fonction de la rue dans laquelle vous vous trouvez, vous allez adapter votre façon de stationner.</p>
@@ -176,7 +176,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/arretexeptionelmentautoriser.jpg" width="100px;">
+                    <img src="../images/arretexeptionelmentautoriser.jpg" width="100px;">
                     </div>
                     </div>
                 </div>
@@ -204,10 +204,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

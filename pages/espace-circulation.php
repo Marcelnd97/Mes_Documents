@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
 	
     <section>
@@ -70,7 +70,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/D906.jpg" width="300px;">
+                  <img src="../images/D906.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/gorgeluxe.jpg" width="300px;">
+                  <img src="../images/gorgeluxe.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -101,7 +101,7 @@
                pensez à emprunter l'accotement qui est contraire au sens de la circulation 
               (marchez du côté gauche de la route pour être vu).</P>
               <div class="card senscirc">
-                <img src="./images/partiroute.jpg" height="200px" class="senscirc">
+                <img src="../images/partiroute.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Parties de la route </small></p>
               <p>Quant aux voitures et aux bus, ils circulent essentiellement sur 
@@ -125,10 +125,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

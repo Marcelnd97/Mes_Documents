@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -34,7 +34,7 @@
               <p>Le cas général, illustré sur le schéma ci-dessous, démontre que le dépassement s'effectue par la gauche. 
                     La voiture bleue dépasse la jaune :</p>
               <div class="card senscirc">
-                <img src="./images/depaspratiquegeneral.jpg" height="300px" class="senscirc">
+                <img src="../images/depaspratiquegeneral.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Dépassement : pratique générale </small></p>
               
@@ -54,7 +54,7 @@
               </ol>
               
               <div class="card senscirc">
-                <img src="./images/despassementinterdit.jpg" height="300px" class="senscirc">
+                <img src="../images/despassementinterdit.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Dépassement interdit</small></p>
               
@@ -73,7 +73,7 @@
               
               
               <div class="card senscirc">
-                <img src="./images/depasvoiturlent.jpg" height="300px" class="senscirc">
+                <img src="../images/depasvoiturlent.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Dépassement des véhicules lents</small></p>
               
@@ -83,7 +83,7 @@
                 <li>Les <b>panneaux d'interdiction</b> bannissent le dépassement de tous les véhicules à moteur :</li>
               </ol>
               <div class="card senscirc">
-                <img src="./images/interditdepasser.jpg" height="150px" class="senscirc">
+                <img src="../images/interditdepasser.jpg" height="150px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Interdiction de dépasser</small></p>
               
@@ -98,7 +98,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/fininterditdepasser.jpg" width="200px;">
+                  <img src="../images/fininterditdepasser.jpg" width="200px;">
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@
               </ol>
               
               <div class="card senscirc">
-                <img src="./images/depassestdanger.jpg" height="300px" class="senscirc">
+                <img src="../images/depassestdanger.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Il est interdit et dangereux de dépasser </small></p>
               
@@ -120,7 +120,7 @@
               </ol>
               
               <div class="card senscirc">
-                <img src="./images/passageniveaudepassinterdit.jpg" height="300px" class="senscirc">
+                <img src="../images/passageniveaudepassinterdit.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Il est interdit et dangereux de dépasser 
                 Dépassement interdit sur un passage à niveau</small></p>
@@ -133,7 +133,7 @@
               </ol>
               
               <div class="card senscirc">
-                <img src="./images/depinter.jpg" height="300px" class="senscirc">
+                <img src="../images/depinter.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Dépassement interdit</small></p>
               
@@ -144,7 +144,7 @@
               <p>Voici le récapitulatif des panneaux qui explicitement (n°1 et n°2) interdisent le 
                 dépassement ou de façon implicite (les autres) :</p>
               <div class="card senscirc">
-                <img src="./images/recapdepinter.jpg" height="200px" class="senscirc">
+                <img src="../images/recapdepinter.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Dépassements interdits</small></p>
               <p><b>Réponse :</b></p>
@@ -180,10 +180,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

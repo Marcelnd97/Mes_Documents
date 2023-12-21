@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -30,7 +30,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/pansmsvarier.jpg" width="300px" style="border-radius: 10px;">
+                  <img src="../images/pansmsvarier.jpg" width="300px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -38,7 +38,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/fermeturedupassage.jpg" width="300px" style="border-radius: 10px;">
+                  <img src="../images/fermeturedupassage.jpg" width="300px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/radarepedagogique.jpg" width="300px" height="150px;" style="border-radius: 10px;">
+                  <img src="../images/radarepedagogique.jpg" width="300px" height="150px;" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -54,7 +54,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/flecheoblique.jpg" width="300px" style="border-radius: 10px;">
+                  <img src="../images/flecheoblique.jpg" width="300px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -69,10 +69,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

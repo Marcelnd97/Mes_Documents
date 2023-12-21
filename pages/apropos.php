@@ -38,7 +38,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -62,22 +62,22 @@
                 <!-- The slideshow/carousel -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./images/depaspratiquegeneral.jpg" alt="Los Angeles" class="d-block" style="width:100%; height:30%;">
+                    <img src="../images/depaspratiquegeneral.jpg" alt="Los Angeles" class="d-block" style="width:100%; height:30%;">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/stationunilateral.jpg" alt="Chicago" class="d-block" style="width:100%; height:30%;">
+                    <img src="../images/stationunilateral.jpg" alt="Chicago" class="d-block" style="width:100%; height:30%;">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/coupechemin.jpg" alt="New York" class="d-block" style="width:100%; height:30%;">
+                    <img src="../images/coupechemin.jpg" alt="New York" class="d-block" style="width:100%; height:30%;">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/depassestdanger.jpg" alt="New York" class="d-block" style="width:100%; height:30%;">
+                    <img src="../images/depassestdanger.jpg" alt="New York" class="d-block" style="width:100%; height:30%;">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/droitepresentfeux.jpg" alt="New York" class="d-block" style="width:100%; height:30%;">
+                    <img src="../images/droitepresentfeux.jpg" alt="New York" class="d-block" style="width:100%; height:30%;">
                   </div>
                   <div class="carousel-item">
-                    <img src="./images/droitepresentstop.jpg" alt="New York" class="d-block" style="width:100%; height:30%;">
+                    <img src="../images/droitepresentstop.jpg" alt="New York" class="d-block" style="width:100%; height:30%;">
                   </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@
               </div>
               <div class="card-body text-center">
                 <h5 class="card-title">
-                  <img src="./images/code.jpg" width="100px" height="100px" style="border-radius: 100px;">
+                  <img src="../images/code.jpg" width="100px" height="100px" style="border-radius: 100px;">
                 </h5>
                 <div class="col-md-12">
                   <div class="card p-2 mt-2">
@@ -155,7 +155,7 @@
               </div>
               <div class="card-body text-center">
                 <h5 class="card-title">
-                  <img src="./images/quiz.jpg" width="100px" height="100px" style="border-radius: 100px;" >
+                  <img src="../images/quiz.jpg" width="100px" height="100px" style="border-radius: 100px;" >
                 </h5>
                 <div class="col-md-12">
                   <div class="card p-2 mt-2">
@@ -224,10 +224,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

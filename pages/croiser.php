@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -39,7 +39,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/croiservoiture.jpg" height="300px" class="senscirc">
+                <img src="../images/croiservoiture.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Vous croisez cette voiture</small></p>
               
@@ -55,7 +55,7 @@
               <br>
               
               <div class="card senscirc">
-                <img src="./images/prioritecroisement.jpg" height="200px" class="senscirc">
+                <img src="../images/prioritecroisement.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Priorités dans les croisements 1</small></p>
               
@@ -76,7 +76,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/prioritedanscroisement.jpg" height="200px" class="senscirc">
+                <img src="../images/prioritedanscroisement.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Priorités dans les croisements 2</small></p>
               
@@ -94,7 +94,7 @@
                 mais un employé des travaux publics peut également régler l'ordre de passage. 
                 Remarquez que sur la photo les travaux se situent devant vous :</p>
               <div class="card senscirc">
-                <img src="./images/regulertraveaux.jpg" height="200px" class="senscirc">
+                <img src="../images/regulertraveaux.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Les employés des travaux publics régulent le passage</small></p>
               
@@ -113,7 +113,7 @@
                  Un véhicule de 2 m de large ou de 7 m de long doit s'arrêter voire stationner pour faciliter le passage au petit. 
                 Le "petit" véhicule a la priorité sur le "grand".</p>
               <div class="card senscirc">
-                <img src="./images/petitvehicule.jpg" height="300" class="senscirc">
+                <img src="../images/petitvehicule.jpg" height="300" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Priorité au petit véhicule</small></p>
               
@@ -121,7 +121,7 @@
                 mais que la route est très sinueuse et étroite (une seule voiture peut passer), 
                 pensez à utiliser le klaxon pour vous annoncer :</p>
               <div class="card senscirc">
-                <img src="./images/klaxonpreconiser.jpg" height="300" class="senscirc">
+                <img src="../images/klaxonpreconiser.jpg" height="300" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Klaxon préconisé</small></p>
               
@@ -130,7 +130,7 @@
                 vous allez la croiser en la contournant. 
                 Un marquage au sol blanc délimite le point de rencontre des voitures comme sur la photo ci-dessous :</p>
               <div class="card senscirc">
-                <img src="./images/pointrencontredeusvoiture.jpg" height="300" class="senscirc">
+                <img src="../images/pointrencontredeusvoiture.jpg" height="300" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Point de rencontre entre deux voitures tournant à gauche</small></p>
               
@@ -141,7 +141,7 @@
               <p>Une fois arrivées au point de rencontre, elles vont se croiser comme sur la photo ci-dessous. 
                 Notez qu'aucune règle de priorité ne s'applique entre elles dans la situation comme sur cette photo. </p>
               <div class="card senscirc">
-                <img src="./images/croisemtoungauche.jpg" height="300" class="senscirc">
+                <img src="../images/croisemtoungauche.jpg" height="300" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Croisement pour tourner chacune à gauche</small></p>
               
@@ -149,7 +149,7 @@
               <p>Il s'agit d'un cas similaire, sauf que vous croisez le véhicule en face par la gauche en tournant devant elle. 
                 Aucune règle de priorité ne s'applique non plus entre elles.</p>
               <div class="card senscirc">
-                <img src="./images/croisementindonesien.jpg" height="300" class="senscirc">
+                <img src="../images/croisementindonesien.jpg" height="300" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Croisement à l'indonésienne</small></p>
               <br>
@@ -174,10 +174,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -29,7 +29,7 @@
                 <hr>
                 <h2 style="font-weight: bold;"><b>Panneaux de localisation</b></h2>
                 <div class="card senscirc">
-                    <img src="./images/panonceau_01.jpg" height="200px" class="senscirc">
+                    <img src="../images/panonceau_01.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceau_01</small></p>
                 
@@ -51,7 +51,7 @@
                 <p>17. Véhicules équipés de chaînes à neige</p>
                 <p>18. Véhicules transportant des marchandises explosives ou facilement inflammables</p>
                 <div class="card senscirc">
-                    <img src="./images/panonceau_02.jpg" height="200px" class="senscirc">
+                    <img src="../images/panonceau_02.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceau 2</small></p>
                 <p>1. et 2. Panonceaux de direction</p>
@@ -69,7 +69,7 @@
                 <p>14. Véhicule de transport de marchandise</p>
                 <p>15. Véhicule transportant des marchandises susceptibles de polluer les eaux de nature et en quantité</p>
                 <div class="card senscirc">
-                    <img src="./images/panonceaux 3.jpg" height="200px" class="senscirc">
+                    <img src="../images/panonceaux 3.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceau 3</small></p>
                 
@@ -87,7 +87,7 @@
                 <p>17. Cycles</p>
                 <p>18. Motos et motos légères</p>
                 <div class="card senscirc">
-                    <img src="./images/panonceaux 4.jpg" height="200px" class="senscirc">
+                    <img src="../images/panonceaux 4.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceau 4 </small></p>
                 <p>1. Cyclistes autorisés</p>
@@ -113,10 +113,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

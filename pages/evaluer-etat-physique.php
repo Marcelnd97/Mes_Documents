@@ -16,7 +16,7 @@
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
      <!--L'en-tête de la page-->
      <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -63,7 +63,7 @@
                     pensez à en parler à votre médecin car ce genre de "handicap" est traité avec un masque de nuit. 
                     Il permet de se reposer et d'éviter les phases de somnolence au volant. Le masque ressemble à ça :</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/etat1.jpg" height="400px" class="senscirc">
+                    <img src="../images/theme_conduite/etat1.jpg" height="400px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Masque de nuit pour traiter l'apnée du sommeil</small></p>
                 <p>Sinon, certains aménagements peuvent être mis en place si vous souffrez d'un autre handicap : 
@@ -98,10 +98,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

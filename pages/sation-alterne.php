@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -40,7 +40,7 @@
                 <br>
                 <p>Voici l'exemple :</p>
                 <div class="card senscirc">
-                    <img src="./images/ioninterselonperiodmois.jpg" height="300px" class="senscirc">
+                    <img src="../images/ioninterselonperiodmois.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Stationnement interdit selon la période dans le mois</small></p>
                 <ol>
@@ -58,7 +58,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/pancombininterdposibstation.jpg" height="300px" class="senscirc">
+                    <img src="../images/pancombininterdposibstation.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceaux qui combinent les interdictions 
                     et les possibilités de stationner</small></p>
@@ -74,7 +74,7 @@
                 </ol>
                 <p>Voici à présent le schéma des stationnements unilatéraux à alternance semi-mensuelle :</p>
                 <div class="card senscirc">
-                    <img src="./images/stationunilateral.jpg" height="300px" class="senscirc">
+                    <img src="../images/stationunilateral.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Stationnement unilatéral</small></p>
                 <br>
@@ -94,10 +94,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

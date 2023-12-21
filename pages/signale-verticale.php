@@ -15,7 +15,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -47,7 +47,7 @@
                 <br>
               
                 <div class="card senscirc">
-                    <img src="./images/valeurpanneaux.jpg" height="100px" class="senscirc">
+                    <img src="../images/valeurpanneaux.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Valeur des panneaux</small></p>
                 
@@ -65,7 +65,7 @@
                     alors il faut pousser l'analyse bien plus loin, hiérarchiser les informations.</p>
                 <p>Voici les règles de base à retenir quant à la forme des panneaux :</p>
                 <div class="card senscirc">
-                    <img src="./images/formepanneaux.jpg" height="300px" class="senscirc">
+                    <img src="../images/formepanneaux.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Formes des panneaux</small></p>
                 
@@ -75,7 +75,7 @@
                     les mêmes en jaune indiqueront le danger temporaire. 
                     Vous devez donc redoubler de vigilance en présence des obstacles annoncés :</p>
                 <div class="card senscirc">
-                    <img src="./images/PermanentTemporaire.jpg" height="100px" class="senscirc">
+                    <img src="../images/PermanentTemporaire.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux permanents vs. Panneaux temporaires </small></p>
                 
@@ -89,7 +89,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                        <img src="./images/symbolprioritdroite.jpg" width="100px;">
+                        <img src="../images/symbolprioritdroite.jpg" width="100px;">
                         </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                     <div class="col">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <img src="./images/interdictionetleurfin.jpg" width="200px;">
+                                <img src="../images/interdictionetleurfin.jpg" width="200px;">
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/obligationetfin.jpg" width="200px;">
+                            <img src="../images/obligationetfin.jpg" width="200px;">
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/apliobligfin.jpg" width="200px;">
+                            <img src="../images/apliobligfin.jpg" width="200px;">
                         </div>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
                     donnent des informations utiles aux conducteurs, 
                     donc a priori, il n'y aurait pas de danger.</p>
                 <div class="card senscirc">
-                    <img src="./images/pourconduitepourservice.jpg" height="100px" class="senscirc">
+                    <img src="../images/pourconduitepourservice.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Indications de conduite</small></p>
                 
@@ -181,7 +181,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/panindication.jpg" width="200px;">
+                            <img src="../images/panindication.jpg" width="200px;">
                         </div>
                     </div>
                 </div>
@@ -195,14 +195,14 @@
                 <p><b>4. Panneaux rectangulaires = localisation</b></p>
                 <p>Les <b>panneaux rectangulaires</b> indiquent l'entrée en agglomération ou des itinéraires touristiques.</p>
                 <div class="card senscirc">
-                    <img src="./images/entrerenaglomeration.jpg" height="150px" class="senscirc">
+                    <img src="../images/entrerenaglomeration.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Entrée en agglomération et localisation d'un itinéraire touristique</small></p>
                 
                 <p><b>5. Panneaux rectangulaires avec une flèche = direction</b></p>
                 <p>Ces panneaux indiquent un itinéraire à suivre :</p>
                 <div class="card senscirc">
-                    <img src="./images/panneaudirection.jpg" height="150px" class="senscirc">
+                    <img src="../images/panneaudirection.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux des directions</small></p>
                 
@@ -214,7 +214,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/panpasmemesenseloncouleur.jpg" width="200px;">
+                            <img src="../images/panpasmemesenseloncouleur.jpg" width="200px;">
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/pannocaux.jpg" width="200px;">
+                            <img src="../images/pannocaux.jpg" width="200px;">
                         </div>
                     </div>
                 </div>
@@ -257,7 +257,7 @@
                 <br>
                 
                 <div class="card senscirc">
-                    <img src="./images/sensdespanoceaux.jpg" height="150px" class="senscirc">
+                    <img src="../images/sensdespanoceaux.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Sens des panonceaux</small></p>
                 
@@ -287,7 +287,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/2panensemble.jpg" width="100px;">
+                            <img src="../images/2panensemble.jpg" width="100px;">
                         </div>
                     </div>
                 </div>
@@ -310,20 +310,20 @@
                     <li>Lorsque le panonceau est placé entre 2 panneaux, il se réfère seulement au panneau du dessus. 
                         Le panneau qui se trouve au-dessous du panonceau est indépendant :</li>
                     <div class="card senscirc">
-                        <img src="./images/panplacerdessus.jpg" height="250px" class="senscirc">
+                        <img src="../images/panplacerdessus.jpg" height="250px" class="senscirc">
                     </div>
                     <p class="text-muted text-center"><small>Le panneau comportant le panonceau est placé au-dessus</small></p>
                     
                     <li>Lorsque chaque panneau contient un panonceau, les deux règles deviennent spécifiques :</li>
                     <div class="card senscirc">
-                        <img src="./images/panetpanocauassocier.jpg" height="250px" class="senscirc">
+                        <img src="../images/panetpanocauassocier.jpg" height="250px" class="senscirc">
                     </div>
                     <p class="text-muted text-center"><small>Chaque panneau est associé à son ou ses panonceaux</small></p>
                     
                     <li>Lorsqu'un seul panonceau est placé sous deux panneaux, le panonceau est commun aux deux uniquement 
                         si le panneau du haut est un panneau de danger et celui du bas d'interdiction :</li>
                     <div class="card senscirc">
-                        <img src="./images/panoceauxcommun.jpg" height="250px" class="senscirc">
+                        <img src="../images/panoceauxcommun.jpg" height="250px" class="senscirc">
                     </div>
                     <p class="text-muted text-center"><small>Panonceau commun</small></p>
                     
@@ -355,7 +355,7 @@
                     L'un des exemples serait la présence de ce radar pédagogique affichant la vitesse à laquelle vous roulez, 
                     comme sur la photo ci-dessous :</p>
                 <div class="card senscirc">
-                    <img src="./images/radarepedagogique.jpg" height="300px" class="senscirc">
+                    <img src="../images/radarepedagogique.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Radar pédagogique</small></p>
                 <p>Et voilà ! Pour le moment, il est juste important d'avoir pris vos marques.</p>
@@ -364,7 +364,7 @@
                     début de prendre vos propres notes et même de vous faire des schémas personnalisés.</p>
                 <h3><b>En résumé</b></h3>
                 <div class="card senscirc">
-                    <img src="./images/chematrecuputilatifdespanoceaux.jpg" height="500px" class="senscirc">
+                    <img src="../images/chematrecuputilatifdespanoceaux.jpg" height="500px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Schéma récapitulatif de la logique des panneaux </small></p>
                 <br>
@@ -376,10 +376,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -37,7 +37,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/panneauvit.jpg" width="300px;">
+                  <img src="../images/panneauvit.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/finlimitvit.jpg" width="100px;">
+                  <img src="../images/finlimitvit.jpg" width="100px;">
                   </div>
                 </div>
               </div>
@@ -72,7 +72,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/vitaglom.jpg" height="200px" class="senscirc">
+                <img src="../images/vitaglom.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Vitesse en agglomération cas général </small></p>
               <div class="card attention">
@@ -91,7 +91,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/courpierevit.jpg" width="300px;">
+                  <img src="../images/courpierevit.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/limitvitlieudit.jpg" width="300px;">
+                  <img src="../images/limitvitlieudit.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/evite-confus.jpg" width="300px;">
+                  <img src="../images/evite-confus.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -144,7 +144,7 @@
               <h3>Vitesse hors agglomération</h3>
               <p><b>Routes à double sens</b></p>
               <div class="card senscirc">
-                <img src="./images/vitrouted2sens.jpg" height="200px" class="senscirc">
+                <img src="../images/vitrouted2sens.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Vitesse sur les routes à double sens</small></p>
               
@@ -164,7 +164,7 @@
                 L'exemple de ce type de route peut être la voie rapide  
                 (2 fois 2 voies avec un terre plein central au milieu) représentée par le schéma ci-dessous :</p>
               <div class="card senscirc">
-                <img src="./images/routchausseparer.jpg" height="200px" class="senscirc">
+                <img src="../images/routchausseparer.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Route à chaussée séparée avec un terre plein au milieu</small></p>
               
@@ -178,13 +178,13 @@
               <br>
               
               <div class="card senscirc">
-                <img src="./images/acces-reglemente.jpg" height="200px" class="senscirc">
+                <img src="../images/acces-reglemente.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Route à accès réglementé</small></p>
               
               <p>Autoroute</p>
               <div class="card senscirc">
-                <img src="./images/limitvitautoroute.jpg" height="200px" class="senscirc">
+                <img src="../images/limitvitautoroute.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Limitation de vitesse sur autoroute</small></p>
               
@@ -208,7 +208,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/controleradare.jpg" width="300px;">
+                  <img src="../images/controleradare.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -216,7 +216,7 @@
               
               <p>Voici à quoi ils ressemblent :</p>
               <div class="card senscirc">
-                <img src="./images/typeradare.jpg" height="200px" class="senscirc">
+                <img src="../images/typeradare.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Types de radars</small></p>
               
@@ -229,7 +229,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/radaretrocon.jpg" height="200px" class="senscirc">
+                <img src="../images/radaretrocon.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Types de radars</small></p>
               <p>Il existe depuis quelques années des radars tronçons. Ils ne contrôlent pas la vitesse instantanée des usagers, 
@@ -251,7 +251,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/resumlimitvitautoroute.jpg" width="300px;"> 
+                  <img src="../images/resumlimitvitautoroute.jpg" width="300px;"> 
                   </div>
                 </div>
               </div>
@@ -261,7 +261,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/resumlimitvitrout.jpg" width="300px;">
+                  <img src="../images/resumlimitvitrout.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -271,7 +271,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/limitvit50km.jpg" width="300px;">
+                  <img src="../images/limitvit50km.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -374,10 +374,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

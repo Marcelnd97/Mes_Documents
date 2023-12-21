@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -45,7 +45,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/typeIntersection.png">
+                  <img src="../images/typeIntersection.png">
                   </div>
                 </div>
               </div>
@@ -60,7 +60,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/repèreInter.jpg" height="300px" class="senscirc">
+                <img src="../images/repèreInter.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Comment repérer une intersection ?</small></p>
               <br>
@@ -107,7 +107,7 @@
                 accompagnant le sens de la flèche verte. Elle a la priorité, pas vous :
               </p>
               <div class="card sensuniq">
-                <img src="./images/signalisation.jpg" height="300px" class="sensuniq">
+                <img src="../images/signalisation.jpg" height="300px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Intersection sans signalisation : priorité à droite</small></p>
               <p>Une autre règle qui s'applique mais qui n'est pas vraiment inhérente à la priorité à droite, 
@@ -116,7 +116,7 @@
              
               <br>
               <div class="card sensuniq">
-                <img src="./images/coupechemin.jpg" height="300px" class="sensuniq">
+                <img src="../images/coupechemin.jpg" height="300px" class="sensuniq">
               </div>
               
               <p class="text-muted text-center"><small>Si vous coupez le chemin à une autre voiture</small></p>
@@ -129,7 +129,7 @@
               <p>Pour les rendre visibles, les balises sont mises en place :</p>
               <br>
               <div class="card sensuniq">
-                <img src="./images/baliseinter.jpg" height="300px" class="sensuniq">
+                <img src="../images/baliseinter.jpg" height="300px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Balises d'intersection</small></p><br>
               
@@ -149,7 +149,7 @@
                 <p>Si les chemins de terre sont ouverts à la circulation publique, 
                     vous tomberez sur un panneau qui vous indiquera la démarche à suivre :</p>
                 <div class="card sensuniq">
-                    <img src="./images/cheminterre.jpg" height="300px" class="sensuniq">
+                    <img src="../images/cheminterre.jpg" height="300px" class="sensuniq">
                 </div>
                 <p class="text-muted text-center"><small>Chemin de terre a priori d'ordre privé</small></p><br>
                 
@@ -163,7 +163,7 @@
                     voir si un autre usager vient d'une rue perpendiculaire par exemple.</p>
                 
                 <div class="card sensuniq">
-                    <img src="./images/cheminterre.jpg" height="300px" class="sensuniq">
+                    <img src="../images/cheminterre.jpg" height="300px" class="sensuniq">
                 </div>
                 <p class="text-muted text-center"><small>Miroir réduisant le manque de visibilité</small></p><br>
                 <h3><b>Les ronds-points sans signalisation</b></h3>
@@ -191,10 +191,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

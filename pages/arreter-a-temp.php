@@ -16,7 +16,7 @@
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
      <!--L'en-tête de la page-->
      <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -38,14 +38,14 @@
                 <br>
                 <p>Observez le schéma du temps de réaction :</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/arret1.jfif" height="500px" class="senscirc">
+                    <img src="../images/theme_conduite/arret1.jfif" height="500px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Temps de réaction lors du freinage</small></p>
                 <p>Ce schéma vous aide à comprendre le temps qu'il vous faut pour appuyer sur le frein. Pendant que vous percevez, 
                     analysez, décidez et agissez, vous roulez toujours. 
                     C'est au niveau du point B (voir schéma ci-dessous) que vous commencez seulement à freiner :</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/arret2.jfif" height="150px" class="senscirc">
+                    <img src="../images/theme_conduite/arret2.jfif" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Distances parcourues lors de la distance d'arrêt</small></p>
                 <p><b>Temps de réaction</b></p>
@@ -53,7 +53,7 @@
                      parcourue en 1 seconde : il faut multiplier le chiffre des dizaines de la vitesse par 3. 
                      Exemple pour 50 km/h : 5 x 3 = 15 m. Vous parcourez donc 15 m sans réagir.</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/arret3.jpg" height="100px" class="senscirc">
+                    <img src="../images/theme_conduite/arret3.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Distance parcourue avant le freinage</small></p>
                 
@@ -81,7 +81,7 @@
                     temps sec, il faut y ajouter la moitié de cette même distance. 
                     D'où les chiffres 12,5 pour 25m, 40,5m pour les 81m et 84,5 pour les 169m.</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/arret4.jfif" height="150px" class="senscirc">
+                    <img src="../images/theme_conduite/arret4.jfif" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Distance d'arrêt sur chaussée sèche et mouillée</small></p>
                 <br>
@@ -104,10 +104,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

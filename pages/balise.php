@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -28,7 +28,7 @@
                 <h1 style="font-weight: bold;"><b>Balises</b></h1>
                 <hr>
                 <div class="card senscirc">
-                    <img src="./images/balise.jpg" height="150px" class="senscirc">
+                    <img src="../images/balise.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Balises sur la route</small></p>
                 <br>
@@ -50,10 +50,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

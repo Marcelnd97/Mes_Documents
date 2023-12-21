@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -43,7 +43,7 @@
                 <p>En quittant Naucelles (voir photo ci-dessous), le numéro de la route est écrit sur une 
                     sorte de panonceau jaune : D 453.</p>
                 <div class="card senscirc">
-                    <img src="./images/sortiaglomeration.jpg" height="200px" class="senscirc">
+                    <img src="../images/sortiaglomeration.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Sortie d'agglomération</small></p>
                 <div class="card important">
@@ -64,7 +64,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/bornederoute.jpg" width="200px;">
+                            <img src="../images/bornederoute.jpg" width="200px;">
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/bornacoutement.jpg" width="200px;">
+                            <img src="../images/bornacoutement.jpg" width="200px;">
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                         <div class="col">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                    <img src="./images/routeforest.jpg" width="200px;">
+                                    <img src="../images/routeforest.jpg" width="200px;">
                                 </div>
                             </div>
                         </div>
@@ -132,11 +132,11 @@
                             L'exemple de ce type de route peut être la voie rapide  
                             (2 fois 2 voies avec un terre-plein central au milieu) représentée par le schéma ci-dessous :</p>
                         <div class="card senscirc">
-                            <img src="./images/chauseparersableplein.jpg" height="200px" class="senscirc">
+                            <img src="../images/chauseparersableplein.jpg" height="200px" class="senscirc">
                         </div>
                         <p class="text-muted text-center"><small>Route à chaussée séparée avec un terre plein au milieu</small></p>
                         <div class="card senscirc">
-                            <img src="./images/routacceregle.jpg" height="200px" class="senscirc">
+                            <img src="../images/routacceregle.jpg" height="200px" class="senscirc">
                         </div>
                         <p class="text-muted text-center"><small>Routes à accès réglementé</small></p>
                         
@@ -144,14 +144,14 @@
                         <div class="col">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                    <img src="./images/finacceregle.jpg" width="200px;">
+                                    <img src="../images/finacceregle.jpg" width="200px;">
                                 </div>
                             </div>
                         </div>
                         <p class="text-muted text-center"><small>Fin de route à accès réglementé</small></p>
                     <b><li>Autoroute</li></b>
                         <div class="card senscirc">
-                            <img src="./images/voieautoroute.jpg" height="200px" class="senscirc">
+                            <img src="../images/voieautoroute.jpg" height="200px" class="senscirc">
                         </div>
                         <p class="text-muted text-center"><small>Voies d'autoroute</small></p>
                         <div class="card Informations bg-info">
@@ -178,10 +178,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

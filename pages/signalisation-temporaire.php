@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -28,14 +28,14 @@
                 <h1 style="font-weight: bold;"><b>Signalisation temporairection</b></h1>
                 <hr>
                 <div class="card senscirc">
-                    <img src="./images/infotempsuplement.jpg" height="100px" class="senscirc">
+                    <img src="../images/infotempsuplement.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Informations temporaires supplémentaires </small></p>
                 <br>
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/presignaledeviation1.jpg" width="300px" style="border-radius: 10px;">
+                  <img src="../images/presignaledeviation1.jpg" width="300px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -44,7 +44,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/presignaledeviation2.jpg" width="300px" style="border-radius: 10px;">
+                  <img src="../images/presignaledeviation2.jpg" width="300px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/presignaledeviation3.jpg" width="300px" style="border-radius: 10px;">
+                  <img src="../images/presignaledeviation3.jpg" width="300px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -62,7 +62,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/deviation.jpg" width="300px" style="border-radius: 10px;">
+                  <img src="../images/deviation.jpg" width="300px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -71,7 +71,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/autrpresignale.jpg" width="300px" style="border-radius: 10px;">
+                  <img src="../images/autrpresignale.jpg" width="300px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -84,7 +84,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/itnertempo.jpg" width="200px" style="border-radius: 10px;">
+                  <img src="../images/itnertempo.jpg" width="200px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -95,7 +95,7 @@
                 </ol>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/autresignaletravaux.jpg" height="200px" class="senscirc">
+                    <img src="../images/autresignaletravaux.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Autres signalisation de travaux</small></p>
                 <br>
@@ -107,7 +107,7 @@
                 <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/paquet-mobile.jpg" width="200px" style="border-radius: 10px;">
+                  <img src="../images/paquet-mobile.jpg" width="200px" style="border-radius: 10px;">
                   </div>
                 </div>
                 </div>
@@ -124,10 +124,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

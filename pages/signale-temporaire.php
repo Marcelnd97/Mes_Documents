@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -42,7 +42,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/sensidenticmaispasvaleur.jpg" width="300px;">
+                            <img src="../images/sensidenticmaispasvaleur.jpg" width="300px;">
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <img src="./images/pantempasperma.jpg" width="200px;">
+                            <img src="../images/pantempasperma.jpg" width="200px;">
                         </div>
                     </div>
                 </div>
@@ -84,13 +84,13 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/signaletemporaire.jpg" height="200px" class="senscirc">
+                    <img src="../images/signaletemporaire.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Signalisation temporaire (travaux) </small></p>
                 
                 <p>Voici d'autres panneaux que vous risquez de voir en cas de travaux :</p>
                 <div class="card senscirc">
-                    <img src="./images/pansymboltravaux.jpg" height="200px" class="senscirc">
+                    <img src="../images/pansymboltravaux.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux symbolisant les travaux</small></p>
                 
@@ -102,7 +102,7 @@
                 </ol>
                 <p>Voici les signaux de position de rétrécissement temporaire de la chaussée en cas de travaux :</p>
                 <div class="card senscirc">
-                    <img src="./images/plotsetpanaux.jpg" height="200px" class="senscirc">
+                    <img src="../images/plotsetpanaux.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Plots et panneaux d'une déviation ou d'un rétrécissement 
                     temporaire de la chaussée</small></p>
@@ -131,7 +131,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/comportmaadopter.jpg" height="200px" class="senscirc">
+                    <img src="../images/comportmaadopter.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Comportement à adopter : ralentir</small></p>
                 
@@ -140,7 +140,7 @@
                 <p>Il s'agit de feux qui sont annoncés avec des panneaux temporaires. 
                     Sur la photo ci-dessous les plots délimitent le passage des voitures :</p>
                 <div class="card senscirc">
-                    <img src="./images/panfeutempo.jpg" height="200px" class="senscirc">
+                    <img src="../images/panfeutempo.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux temporaires annonçant les feux temporaires</small></p>
                 
@@ -160,7 +160,7 @@
                 <br>
                 <p>Voici à présent les panneaux annonçant les déviations :</p>
                 <div class="card senscirc">
-                    <img src="./images/pandeviation.jpg" height="200px" class="senscirc">
+                    <img src="../images/pandeviation.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux de déviation</small></p>
                 
@@ -175,7 +175,7 @@
                     Le piquet vert autorise le passage et 
                     le rouge représentant le panneau du sens interdit, vous oblige à vous arrêter. </p>
                 <div class="card senscirc">
-                    <img src="./images/piquetmobile.jpg" height="200px" class="senscirc">
+                    <img src="../images/piquetmobile.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Piquets mobiles</small></p>
                 <h3><b>En résumé</b></h3>
@@ -197,10 +197,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

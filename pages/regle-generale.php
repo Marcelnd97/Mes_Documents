@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -41,7 +41,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/carefencombrer.jpg" height="200px" class="senscirc">
+                <img src="../images/carefencombrer.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Intersection encombrée</small></p>
               <p><b>Réponse : </b>Si l'intersection est encombrée comme sur la photo, 
@@ -56,7 +56,7 @@
                 Si l'une des voitures qui est à l'arrêt bouge, elle risque de bloquer la circulation :
               </p>
               <div class="card senscirc">
-                <img src="./images/interencombrer.jpg" height="300px" class="senscirc">
+                <img src="../images/interencombrer.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Intersection encombrée</small></p>
               
@@ -73,7 +73,7 @@
               <p>Observez la photo ci-dessous. Vous devez vous avancer. 
                 Dépasser les véhicules d'une autre file par la droite n'est pas considéré comme un dépassement :</p>
                 <div class="card senscirc">
-                <img src="./images/droite.jpg" height="200px" class="senscirc">
+                <img src="../images/droite.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Continuer à droite</small></p>
               <br>
@@ -94,10 +94,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

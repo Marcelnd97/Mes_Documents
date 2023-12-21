@@ -91,7 +91,7 @@
             <?php
 
                 // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-                include("script_link.php");
+                include("../script/script_link.php");
             ?>
     </body>
 </body>

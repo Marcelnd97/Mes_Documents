@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -34,7 +34,7 @@
                         Le panneau est donc rond, bleu et est rayé comme s'il était 16 h 50.</li>
                 </ol>
                 <div class="card senscirc">
-                    <img src="./images/panstationruinterd.jpg" height="200px" class="senscirc">
+                    <img src="../images/panstationruinterd.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneau qui interdit le stationnement dans une rue</small></p>
                 
@@ -47,7 +47,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/enter-et-sortie-zone.jpg" width="200px;">
+                    <img src="../images/enter-et-sortie-zone.jpg" width="200px;">
                     </div>
                     </div>
                 </div>
@@ -57,14 +57,14 @@
                 <p>Qu'il s'applique à une seule rue ou à toute une zone, très souvent il s'agit d'un stationnement payant. 
                     Il faut donc prendre un ticket à un horodateur. C'est une machine qui ressemble à cela :</p>
                 <div class="card senscirc">
-                    <img src="./images/horodateur-ticket.jpg" height="500px" class="senscirc">
+                    <img src="../images/horodateur-ticket.jpg" height="500px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Prenez un ticket à l'horodateur</small></p>
                 
                 <p>Voici les panneaux vous obligeant à payer pour stationner votre véhicule, 
                     qu'ils concernent une rue, une zone ou un horaire bien précis :</p>
                 <div class="card senscirc">
-                    <img src="./images/stationpayant.jpg" height="250px" class="senscirc">
+                    <img src="../images/stationpayant.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Stationnement payant</small></p>
                 <ol>
@@ -95,7 +95,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/disque-a-avoir.jpg" width="200px;">
+                    <img src="../images/disque-a-avoir.jpg" width="200px;">
                     </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                 <p>La durée de stationnement autorisée est normalement de 1 heure 30 entre 9 h et 19 h (libre de 11 h 30 à 14 h 30). 
                     Mais les horaires peuvent changer selon les villes.</p>
                 <div class="card senscirc">
-                    <img src="./images/stationzoneblue.jpg" height="250px" class="senscirc">
+                    <img src="../images/stationzoneblue.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Stationnement en zone bleue</small></p>
                 
@@ -119,7 +119,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/sortiezonecontrole.jpg" width="200px;">
+                    <img src="../images/sortiezonecontrole.jpg" width="200px;">
                     </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/logodisque.jpg" height="250px" class="senscirc">
+                    <img src="../images/logodisque.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Ancien logo représentant le disque</small></p>
                 <div class="card attention">
@@ -165,10 +165,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

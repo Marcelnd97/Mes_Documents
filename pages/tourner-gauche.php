@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -41,7 +41,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/chaussesensuniq.jpg" height="300px" class="senscirc">
+                <img src="../images/chaussesensuniq.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Tourner à gauche: chaussée à sens unique</small></p>
               
@@ -63,7 +63,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/gauchedoublesens.jpg" height="300px" class="senscirc">
+                <img src="../images/gauchedoublesens.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Tourner à gauche : chaussée à double sens</small></p>
               <b>Voici la réponse:</b>
@@ -102,7 +102,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                    <img src="./images/bifurgauche.jpg" height="300px" class="senscirc">
+                    <img src="../images/bifurgauche.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Tourner à gauche : bifurcations</small></p>
               <p><b>Réponse: </b>Oui, il faut se positionner sur la voie qui est la plus à droite (voie où figure la flèche n°1, 
@@ -129,7 +129,7 @@
                 N'oubliez pas que vous n'avez pas la priorité car vous coupez le chemin aux voitures venant d'en face.</p>
               <br> 
               <div class="card senscirc">
-                <img src="./images/voiestoktgauche.jpg" height="200px" class="senscirc">
+                <img src="../images/voiestoktgauche.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Voie de stockage : tourner à gauche</small></p>
               <br>
@@ -145,7 +145,7 @@
               </div>
               <br> 
               <div class="card senscirc">
-                <img src="./images/gaucherougfeu.jpg" height="300px" class="senscirc">
+                <img src="../images/gaucherougfeu.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Tourner à gauche en cas de feu rouge</small></p>
               <br>
@@ -153,7 +153,7 @@
                 le cas de la voiture blanche. Mais comme vous êtes aussi à l'arrêt, vous devez attendre que le feu passe au vert. 
                 Mais lorsque celui-ci devient vert, il faut redoubler de vigilance. Regardez la photo ci-dessous :</p>
               <div class="card senscirc">
-                <img src="./images/gauchevertfeu.jpg" height="300px" class="senscirc">
+                <img src="../images/gauchevertfeu.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Tourner à gauche lorsque le feu est vert </small></p>
               <br>
@@ -173,7 +173,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                    <img src="./images/gaucheinterdit.jpg" height="300px" class="senscirc">
+                    <img src="../images/gaucheinterdit.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Changer de direction : interdictions et marquage au sol</small></p>
               <p>Je sais que vous avez repéré le sens interdit et le contournement par la gauche. Mais il y a un autre 
@@ -184,7 +184,7 @@
 
               <br>
               <div class="card senscirc">
-                    <img src="./images/lignecombiner.jpg" height="150px" class="senscirc">
+                    <img src="../images/lignecombiner.jpg" height="150px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Lignes combinées</small></p>
               <p><b>Réponse : </b>Vous pouvez donc contourner à gauche par la partie 2 sur la photo, 
@@ -214,10 +214,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

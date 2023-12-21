@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -28,7 +28,7 @@
                 <h1 style="font-weight: bold;"><b>Priorités</b></h1>
                 <hr>
                 <div class="card senscirc">
-                    <img src="./images/priorite1.jpg" height="100px" class="senscirc">
+                    <img src="../images/priorite1.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Priorités 1 </small></p>
                 <br>
@@ -42,7 +42,7 @@
                 <p>8. Vous avez la priorité par rapport au sens inverse</p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/recuppanpriori.jpg" height="200px" class="senscirc">
+                    <img src="../images/recuppanpriori.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Récapitulatif des panneaux sur les priorités</small></p>
                 <br>
@@ -56,10 +56,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

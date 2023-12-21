@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -30,7 +30,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/obligation1.jpg" width="300px">
+                        <img src="../images/obligation1.jpg" width="300px">
                     </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/obligation2.jpg" width="300px">
+                        <img src="../images/obligation2.jpg" width="300px">
                     </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                        <img src="./images/obligation3.jpg" width="300px">
+                        <img src="../images/obligation3.jpg" width="300px">
                     </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                 <p>10. Choix entre 2 directions obligatoires (à gauche ou à droite)</p>
                 <br>
                 <div class="card sensuniq">
-                    <img src="./images/obligation4.jpg" height="100px" class="sensuniq">
+                    <img src="../images/obligation4.jpg" height="100px" class="sensuniq">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'obligation 4</small></p>
                 <br>
@@ -83,7 +83,7 @@
                 <p>8. Obligation d'allumer les feux (avant d'entrer dans un tunnel)</p>
                 <br>
                 <div class="card sensuniq">
-                    <img src="./images/obligation5.jpg" height="100px" class="sensuniq">
+                    <img src="../images/obligation5.jpg" height="100px" class="sensuniq">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux de fin d'obligation 55</small></p>
                 <br>
@@ -102,10 +102,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

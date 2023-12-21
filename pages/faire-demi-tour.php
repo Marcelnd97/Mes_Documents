@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -36,7 +36,7 @@
                  couleur et symbole. Comme c'est indiqué sur la photo, 
                 ce panneau vous interdit de faire demi-tour. Il faudrait attendre la prochaine intersection pour le faire.</p> 
               <div class="card senscirc">
-                <img src="./images/demitourinterdi.jpg" height="300px" class="senscirc">
+                <img src="../images/demitourinterdi.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Il est interdit de faire un demi-tour </small></p>
               
@@ -47,7 +47,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/demitourimpas.jpg" width="300px;">
+                  <img src="../images/demitourimpas.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -56,13 +56,13 @@
               <p>Observez les schémas ci-dessous pour étudier la manœuvre, mais vous allez vraiment vous rendre compte des gestes à 
                 effectuer une fois que vous allez commencer les heures de conduite.</p>
               <div class="card senscirc">
-                <img src="./images/fairedemitour.jpg" height="300px" class="senscirc">
+                <img src="../images/fairedemitour.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Faire le demi-tour</small></p>
               
               <p>Aussi, il ne faut pas oublier le demi-tour à droite (1) et à gauche (2) :</p>
               <div class="card senscirc">
-                <img src="./images/deuxcotedemitour.jpg" height="300px" class="senscirc">
+                <img src="../images/deuxcotedemitour.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Faire le demi-tour des deux côtés</small></p>
               <br>
@@ -74,7 +74,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/attendreavantour.jpg" width="200px;">
+                    <img src="../images/attendreavantour.jpg" width="200px;">
                     </div>
                     </div>
                 </div>
@@ -90,10 +90,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

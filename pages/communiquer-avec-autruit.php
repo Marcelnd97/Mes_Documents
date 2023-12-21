@@ -16,7 +16,7 @@
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
      <!--L'en-tête de la page-->
      <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -50,7 +50,7 @@
                      peuvent causer un embouteillage ou si on est en panne sur la chaussée.</p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/gauch-droit-commande.jpg" height="350px" class="senscirc">
+                    <img src="../images/gauch-droit-commande.jpg" height="350px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Clignotants et warning</small></p>
                 
@@ -73,7 +73,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/comuniquer.jpg" height="250px" class="senscirc">
+                    <img src="../images/theme_conduite/comuniquer.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Ne pas klaxonner</small></p>
                 <p>Réponse : Ici, le piéton est déjà engagé. Même s'il n'a pas respecté le feu piéton, 
@@ -81,7 +81,7 @@
                 <p>Si vous êtes sur une route très sinueuse et étroite, vous avez le droit d'utiliser le 
                     klaxon, c'est même conseillé :</p>
                 <div class="card senscirc">
-                    <img src="./images/klaxonpreconiser.jpg" height="300px" class="senscirc">
+                    <img src="../images/klaxonpreconiser.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Klaxon préconisé</small></p>
                 <h3 style="font-weight: bold;">Avertisseurs lumineux</h3>
@@ -90,13 +90,13 @@
                     c'est que dès que vous commencez à freiner un peu, le conducteur derrière vous le verra.</p>
                 <p class="text-muted text-center"><small >Rue à sens unique</small></p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/strategie2.jpg" height="250px" class="senscirc">
+                    <img src="../images/theme_conduite/strategie2.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>La voiture rouge est à l'arrêt</small></p>
                 <br>
                 <p>La nuit, vous pouvez aussi avertir les autres conducteurs d'un danger par un appel de phares rapide :</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/comuniquer2.jpg" height="250px" class="senscirc">
+                    <img src="../images/theme_conduite/comuniquer2.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Le conducteur derrière nous est soit en plein 
                     phare soit ce phare clignote pour faire un appel</small></p>
@@ -119,10 +119,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

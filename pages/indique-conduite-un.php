@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -28,7 +28,7 @@
                 <h1 style="font-weight: bold;"><b>Indications de conduite (1)</b></h1>
                 <hr>
                 <div class="card senscirc">
-                    <img src="./images/Indications-_conduite_01.jpg" height="100px" class="senscirc">
+                    <img src="../images/Indications-_conduite_01.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'indication 1 </small></p>
                 <br>
@@ -50,7 +50,7 @@
                 <p>8. Parking relais</p>
                 <p>9. Parc de stationnement sous vidéo-surveillance</p>
                 <div class="card senscirc">
-                    <img src="./images/Indications-_conduite_02.jpg" height="100px" class="senscirc">
+                    <img src="../images/Indications-_conduite_02.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'indication 2 </small></p>
                 <br>
@@ -70,7 +70,7 @@
                 <p>15. Présignalisation d'une impasse</p>
                 <p>16. Passage pour piéton (signal de position)</p>
                 <div class="card senscirc">
-                    <img src="./images/Indications-_conduite_03.jpg" height="250px" class="senscirc">
+                    <img src="../images/Indications-_conduite_03.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'indication 3</small></p>
                 <br>
@@ -92,7 +92,7 @@
                 <p>25. Voie de détresse à gauche</p>
                 <p>26. Voie de détresse à droite (en suivant la forme de la route)</p>
                 <div class="card senscirc">
-                    <img src="./images/Indications-_conduite_04.jpg" height="250px" class="senscirc">
+                    <img src="../images/Indications-_conduite_04.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'indication 4</small></p>
                 <br>
@@ -109,7 +109,7 @@
                 <p>35. Paiement automatique par pièces de monnaie et billets</p>
                 <p>36. Paiement par abonnement ; la voie est réservée aux usagers abonnés</p>
                 <div class="card senscirc">
-                    <img src="./images/Indications-_conduite_05.jpg" height="250px" class="senscirc">
+                    <img src="../images/Indications-_conduite_05.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'indication 5</small></p>
                 <br>
@@ -134,7 +134,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/Indications-_conduite_06.jpg" height="100px" class="senscirc">
+                    <img src="../images/Indications-_conduite_06.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'indication 6</small></p>
                 <br>
@@ -147,7 +147,7 @@
                 <p>52. Paiement de péage par abonnement ; la voie est réservé aux usagers abonnés</p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/Indications-_conduite_07.jpg" height="100px" class="senscirc">
+                    <img src="../images/Indications-_conduite_07.jpg" height="100px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneaux d'indication 7</small></p>
                 <br>
@@ -161,7 +161,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/Indications-_conduite_08.jpg" width="300px">
+                    <img src="../images/Indications-_conduite_08.jpg" width="300px">
                     </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/Indications-_conduite_09.jpg" width="300px">
+                    <img src="../images/Indications-_conduite_09.jpg" width="300px">
                     </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/conditioncirculation.jpg" width="300px">
+                    <img src="../images/conditioncirculation.jpg" width="300px">
                     </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                 <p>2. Présignalisation de la praticabilité d'une section de route. Les mentions précisent 
                     les conditions de circulation (ouvert)</p>
                 <div class="card senscirc">
-                    <img src="./images/peage.jpg" height="200px" class="senscirc">
+                    <img src="../images/peage.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Péage</small></p>
                 <br>
@@ -205,17 +205,17 @@
                 <p>2. Présignalisation d'une gare de péage avec retrait du ticket de péage ou paiement du péage</p>
                 <p>3. Présignalisation du paiement du péage</p>
                 <div class="card senscirc">
-                    <img src="./images/peage1.jpg" height="200px" class="senscirc">
+                    <img src="../images/peage1.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Indication sur autoroute</small></p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/peage2.jpg" height="200px" class="senscirc">
+                    <img src="../images/peage2.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Distances de sécurité </small></p>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/peage3.jpg" height="300px" class="senscirc">
+                    <img src="../images/peage3.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Zone où la vitesse est contrôlée par un ou plusieurs dispositifs de contrôle automatisé </small></p>
                 <br>
@@ -225,10 +225,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

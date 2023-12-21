@@ -31,7 +31,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
       <br><br><br>
       <div class="container-fluid mt-3">
@@ -48,7 +48,7 @@
           <div class="col-md-12">
             <div class="card codee">
               <div class="card-body text-center">
-                  <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                  <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                       height: 30%;; border-radius: 50%;
                       border-top-left-radius: 50% 50%; 
                       border-top-right-radius: 50% 50%; 
@@ -84,7 +84,7 @@
             </div>
             <div class="modal-body">
               <h5 class="modal-title">
-                <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                         height: 30%;; border-radius: 50%;
                         border-top-left-radius: 50% 50%; 
                         border-top-right-radius: 50% 50%; 
@@ -192,10 +192,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

@@ -40,7 +40,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php")
+        include("../header/header.php")
     ?>
         <br><br><br>
         <section>
@@ -66,7 +66,7 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
                                 border-top-left-radius: 50% 50%; 
                                 border-top-right-radius: 50% 50%; 
@@ -200,7 +200,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -297,7 +297,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -463,7 +463,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -559,7 +559,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -655,7 +655,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -720,7 +720,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -817,7 +817,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -911,7 +911,7 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/theme2.svg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/theme2.svg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
                                 margin:2px;">&nbsp;
                                 <span>Thème n° 2</span>    
@@ -965,7 +965,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/theme2.svg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme2.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     margin:2px;">
                         </h5>
@@ -1066,7 +1066,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/theme2.svg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme2.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     margin:2px;">
                         </h5>
@@ -1179,7 +1179,7 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/theme_trois/route_logo.svg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/theme_trois/route_logo.svg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
                                 margin:2px;">&nbsp;
                                 <span>Thème n° 3</span>    
@@ -1248,7 +1248,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/theme_trois/route_logo.svg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme_trois/route_logo.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     margin:2px;">
                         </h5>
@@ -1279,9 +1279,10 @@
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
                         </span>&nbsp;<span>7</span>
                         <hr>
+
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="theme_trois/nuit.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/nuit.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
                             <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Nuit</a>
                             </div>
@@ -1289,7 +1290,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="ptheme_trois/luie.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/pluie.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
                             <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Pluie</a>
                             </div>
@@ -1297,7 +1298,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="brouiltheme_trois/lard.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/brouillard.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
                             <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Brouillard</a>
                             </div>
@@ -1305,7 +1306,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="ntheme_trois/eige.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/neige.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
                             <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Neige</a>
                             </div>
@@ -1313,7 +1314,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="vertheme_trois/glas.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/verglas.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
                             <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Verglas</a>
                             </div>
@@ -1321,7 +1322,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="theme_trois/vent.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/vent.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
                             <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Vent</a>
                             </div>
@@ -1329,7 +1330,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="sotheme_trois/leil.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/soleil.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
                             <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Soleil</a>
                             </div>
@@ -1349,15 +1350,11 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme_trois/route_logo.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Conduire sur autoroute</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
                         <span>2</span>
@@ -1366,15 +1363,15 @@
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
+                                <h4><b>Règles sur autoroute</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
                             </div>
                             <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
+                            <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Adapter sa conduite</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1386,49 +1383,49 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/signalisation.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; La signalisation</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/regle-circulation.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les règles de circulation</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/change-direction.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Changer de direction</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/vitesse-distance.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Vitesse et distance de sécurité</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/depassement.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Dépaassements</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/comportement.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Comportements</a>
                             </div>
                         </div>
                         
@@ -1446,32 +1443,20 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme_trois/route_logo.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>La traversée de zones dangereuses</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
+                        <span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Zones dangereuses</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1479,53 +1464,37 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>4</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/chantier_routier.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les chantiers routiers</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/tunnels.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les tunnels</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/passage-niveau.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les passages à niveau</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_trois/tramways.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les tramways</a>
                             </div>
                         </div>
                         
@@ -1539,12 +1508,8 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/theme_quatre/autre_usagers.svg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
-                                border-top-left-radius: 50% 50%; 
-                                border-top-right-radius: 50% 50%; 
-                                border-bottom-right-radius: 50% 50%; 
-                                border-bottom-left-radius: 50% 50%;
                                 margin:2px;">&nbsp;
                                 <span>Thème n° 4</span>    
                             <h3 class="mt-1">
@@ -1596,32 +1561,20 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme_quatre/autre_usagers.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Le partage de la rue</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
+                        <span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Partage de la rue</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1629,53 +1582,13 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_quatre/organisation-espace.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Le partage de la rue</a>
                             </div>
                         </div>
                         
@@ -1693,15 +1606,11 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
-                                    height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
+                            <img src="../images/theme_quatre/autre_usagers.svg" class="rounded-circle" style="width: 30%; 
+                                    height: 30%; border-radius: 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Les spécificités des autres usagers</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
                         <span>2</span>
@@ -1710,7 +1619,7 @@
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
+                                <h4><b>Usagers fragiles</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1718,7 +1627,7 @@
                             <div class="col-md-6">
                             <a href="#"  style="color: chocolate; text-decoration: none;">
                                 <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Véhicules spécifiques</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1726,53 +1635,60 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>7</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_quatre/usagers-route.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Ausagers de la route</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_quatre/pietons.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les piétons</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_quatre/cycliste-cavalier.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les cyclistes et les cavaliers</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_quatre/deuxroues-motoriser.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les deux roues motorisés</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_quatre/vehicule-specifique.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les véhicules spécifiques</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_quatre/bus.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les bus</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                            <a href="../theme_quatre/camion.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les camions</a>
                             </div>
                         </div>
                         
@@ -1787,7 +1703,7 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
                                 border-top-left-radius: 50% 50%; 
                                 border-top-right-radius: 50% 50%; 
@@ -1889,7 +1805,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -1986,7 +1902,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -2083,7 +1999,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -2180,7 +2096,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -2277,7 +2193,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -2371,7 +2287,7 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
                                 border-top-left-radius: 50% 50%; 
                                 border-top-right-radius: 50% 50%; 
@@ -2413,7 +2329,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -2507,7 +2423,7 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
                                 border-top-left-radius: 50% 50%; 
                                 border-top-right-radius: 50% 50%; 
@@ -2564,7 +2480,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -2661,7 +2577,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -2754,7 +2670,7 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
                                 border-top-left-radius: 50% 50%; 
                                 border-top-right-radius: 50% 50%; 
@@ -2810,7 +2726,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -2907,7 +2823,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -3001,7 +2917,7 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
                                 border-top-left-radius: 50% 50%; 
                                 border-top-right-radius: 50% 50%; 
@@ -3073,7 +2989,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -3170,7 +3086,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -3267,7 +3183,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -3361,7 +3277,7 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
                                 border-top-left-radius: 50% 50%; 
                                 border-top-right-radius: 50% 50%; 
@@ -3432,7 +3348,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -3529,7 +3445,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -3628,7 +3544,7 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="./images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
                                     border-top-left-radius: 50% 50%; 
                                     border-top-right-radius: 50% 50%; 
@@ -3726,10 +3642,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 
 

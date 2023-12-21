@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -52,7 +52,7 @@
                 <p>L'interdiction de s'arrêter et de stationner se manifeste grâce à 
                 une ligne jaune continue comme sur la photo ci-dessous :</p>
                 <div class="card senscirc">
-                    <img src="./images/interditdarreter.jpg" height="300px" class="senscirc">
+                    <img src="../images/interditdarreter.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Interdiction de s'arrêter : Marquage au sol</small></p>
                 
@@ -68,7 +68,7 @@
                 <div class="col">
                     <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/interdicstation.jpg" width="100px;">
+                    <img src="../images/interdicstation.jpg" width="100px;">
                     </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                 <p>Ne soyez pas surpris de voir un panonceau compléter le sens d'un panneau. 
                     Je vous laisse deviner le sens du panonceau ci-dessous :</p>
                 <div class="card senscirc">
-                    <img src="./images/panoceaurelatifdistance.jpg" height="300px" class="senscirc">
+                    <img src="../images/panoceaurelatifdistance.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceau relatif à la distance</small></p>
                 
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="card senscirc">
-                    <img src="./images/pannocodistinterdic.jpg" height="600px" class="senscirc">
+                    <img src="../images/pannocodistinterdic.jpg" height="600px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceaux qui s'appliquent à la 
                     distance d'interdiction d'arrêt</small></p>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <div class="card senscirc">
-                    <img src="./images/interdicreferncusager.jpg" height="300px" class="senscirc">
+                    <img src="../images/interdicreferncusager.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Interdictions se référant à des usagers</small></p>
                 <ol>
@@ -209,7 +209,7 @@
                   La règle s'applique jusqu'à la prochaine intersection, 
                   tout comme dans le cas de l'interdiction d'arrêt. Observez la photo ci-dessous :</p>
                 <div class="card senscirc">
-                  <img src="./images/marqstationinter.jpg" height="200px" class="senscirc">
+                  <img src="../images/marqstationinter.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Marquage au sol : stationnement interdit, arrêt autorisé</small></p>
                 <br>
@@ -221,7 +221,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                  <img src="./images/paninterstation.jpg" height="200px" class="senscirc">
+                  <img src="../images/paninterstation.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panneau d'interdiction de stationner</small></p>
                 
@@ -234,7 +234,7 @@
                   Je joins juste une image pour l'illustrer :</p>
                 <br>
                 <div class="card senscirc">
-                  <img src="./images/panpreisdiststation.jpg" height="200px" class="senscirc">
+                  <img src="../images/panpreisdiststation.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Panonceau précisant la distance à laquelle 
                   s'applique l'interdiction de stationner </small></p>
@@ -254,7 +254,7 @@
                 <div class="col">
                   <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/interstatio-casspecific.jpg" width="100px;">
+                    <img src="../images/interstatio-casspecific.jpg" width="100px;">
                     </div>
                   </div>
                 </div>
@@ -272,7 +272,7 @@
                 <p>N'oubliez pas que vous n'avez le droit ni de vous arrêter ni de stationner sur certains marquages 
                   au sol commes les damiers ou emplacements de bus:</p>
                 <div class="card senscirc">
-                  <img src="./images/stationIntlignebus.jpg" height="200px" class="senscirc">
+                  <img src="../images/stationIntlignebus.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Lignes de bus et le damier : arrêts et stationnements interdits</small></p>
                 <div class="card question">
@@ -288,7 +288,7 @@
                 <div class="col">
                   <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/interstationenvigueur.jpg" width="300px;">
+                    <img src="../images/interstationenvigueur.jpg" width="300px;">
                     </div>
                   </div>
                 </div>
@@ -304,7 +304,7 @@
                 <div class="col">
                   <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/arretstationinter-vs-stationinterdit.jpg" width="200px;">
+                    <img src="../images/arretstationinter-vs-stationinterdit.jpg" width="200px;">
                     </div>
                   </div>
                 </div>
@@ -328,10 +328,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

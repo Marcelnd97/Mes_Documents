@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -34,7 +34,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/depassautoriser.jpg" height="300px" class="senscirc">
+                <img src="../images/depassautoriser.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Dépassement autorisé </small></p>
               <p><b>Réponse :</b> Il faut d'abord évaluer les possibilités de dépassement et avant de passer à l'acte, 
@@ -62,7 +62,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/circdoublesens.jpg" width="200px">
+                  <img src="../images/circdoublesens.jpg" width="200px">
                   </div>
                 </div>
               </div>
@@ -90,7 +90,7 @@
               </div>
               <br>
               <div class="card senscirc">
-                <img src="./images/anglevisibletinvisible.jpg" height="500px" class="senscirc">
+                <img src="../images/anglevisibletinvisible.jpg" height="500px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Angles visibles et invisibles depuis la place 
                 du conducteur</small></p>
@@ -122,12 +122,12 @@
                 Il faut profiter de ces occasions pour doubler en toute sécurité. 
                 Voici le schéma d'un tronçon de route où les dépassements sont possibles :</p>
               <div class="card senscirc">
-                <img src="./images/depassepossible.jpg" height="300px" class="senscirc">
+                <img src="../images/depassepossible.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Dépassements possibles</small></p>
               <br>
               <div class="card senscirc">
-                <img src="./images/pannindicelargi.jpg" height="300px" class="senscirc">
+                <img src="../images/pannindicelargi.jpg" height="300px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Panneaux indiquant l'élargissement et le rétrécissement de voies</small></p>
               <ol>
@@ -157,7 +157,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/signal2x2voies.jpg" width="300px">
+                  <img src="../images/signal2x2voies.jpg" width="300px">
                   </div>
                 </div>
               </div>
@@ -183,10 +183,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

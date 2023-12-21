@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -37,7 +37,7 @@
                 voulez tourner à droite, vous avez la priorité car vous ne coupez le chemin à personne. En revanche, 
                 comme le feu est aussi vert pour les piétons dans la rue où vous tournez, ce sont eux qui ont la priorité.</p>
               <div class="card sensuniq">
-                <img src="./images/droitepresentfeux.jpg" height="350px" class="sensuniq">
+                <img src="../images/droitepresentfeux.jpg" height="350px" class="sensuniq">
               </div>
               
               <p class="text-muted text-center"><small >Tourner à droite en présence des feux</small></p>
@@ -71,7 +71,7 @@
               </div>
               <br>
                <div class="card sensuniq">
-                <img src="./images/droitepresentstop.jpg" height="350px" class="sensuniq">
+                <img src="../images/droitepresentstop.jpg" height="350px" class="sensuniq">
               </div>
               
               <p class="text-muted text-center"><small >Tourner à droite en présence d'un Stop</small></p>
@@ -105,7 +105,7 @@
               <br>
              
                <div class="card sensuniq">
-                <img src="./images/losangeblancrouge.jpg" height="350px" class="sensuniq">
+                <img src="../images/losangeblancrouge.jpg" height="350px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Priorités avec le losange blanc et jaune</small></p>
                
@@ -130,7 +130,7 @@
               <br>
               
               <div class="card sensuniq">
-                <img src="./images/tourencontrepan.jpg" height="350px" class="sensuniq">
+                <img src="../images/tourencontrepan.jpg" height="350px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Tourner à gauche si vous rencontrez le panneau Cédez le passage</small></p>
               <p><b>Réponse: </b>Vous avez repéré les deux voitures derrière leur Cédez le passage (la bleue et la rouge). 
@@ -148,7 +148,7 @@
               <br>
               
               <div class="card sensuniq">
-                <img src="./images/ordrepassage.jpg" height="350px" class="sensuniq">
+                <img src="../images/ordrepassage.jpg" height="350px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Quel est l'ordre de passage ? </small></p>
               
@@ -156,7 +156,7 @@
               la priorité car selon l'effet miroir (par rapport aux deux autres voitures qui ont un Stop) 
               elle n'a pas de restrictions. Après elle, pourra s'engager la voiture qui tourne à droite puis celle qui tourne à gauche.</p>
               <div class="card sensuniq">
-                <img src="./images/gauchepresencestop.jpg" height="350px" class="sensuniq">
+                <img src="../images/gauchepresencestop.jpg" height="350px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Tourner à gauche en présence d'un Stop</small></p>
               
@@ -170,7 +170,7 @@
               </div>
               <br>
               <div class="card sensuniq">
-                <img src="./images/axepriorite.jpg" height="200px" class="sensuniq">
+                <img src="../images/axepriorite.jpg" height="200px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Axes prioritaires et ordre de passage</small></p>
               <ol>
@@ -207,7 +207,7 @@
               </div>
               <br>
               <div class="card sensuniq">
-                <img src="./images/intersectionT.jpg" height="200px" class="sensuniq">
+                <img src="../images/intersectionT.jpg" height="200px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Ordre de passage dans une intersection en T</small></p>
               
@@ -224,7 +224,7 @@
               <br>
               
               <div class="card sensuniq">
-                <img src="./images/ordrepasscas1.jpg" height="250px" class="sensuniq">
+                <img src="../images/ordrepasscas1.jpg" height="250px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Ordre de passage : cas 1</small></p>
               
@@ -244,7 +244,7 @@
               <br>
               
               <div class="card sensuniq">
-                <img src="./images/ordrepasscas2.jpg" height="250px" class="sensuniq">
+                <img src="../images/ordrepasscas2.jpg" height="250px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Ordre de passage : cas 2</small></p> 
               
@@ -260,7 +260,7 @@
               </div>
               <br>
               <div class="card sensuniq">
-                <img src="./images/ordrepasscas3.jpg" height="250px" class="sensuniq">
+                <img src="../images/ordrepasscas3.jpg" height="250px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Ordre de passage : cas 3</small></p> 
               <p><b>Réponse : </b>La voiture n°2 a la priorité car elle ne coupe le chemin à personne. 
@@ -284,10 +284,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

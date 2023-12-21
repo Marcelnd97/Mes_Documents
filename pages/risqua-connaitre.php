@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -38,7 +38,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                        <img src="./images/dangerpresisounon.jpg" width="200px;">
+                        <img src="../images/dangerpresisounon.jpg" width="200px;">
                         </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                 <p>Le panneau n°1 ne précise pas la nature du danger, tandis que le n°2 annonce les arbres inclinés.</p>
                 <p>La signalisation lumineuse ressemble à ce type de panneaux :</p>
                 <div class="card senscirc">
-                    <img src="./images/virageanoceavecpandynamic.jpg" height="200px" class="senscirc">
+                    <img src="../images/virageanoceavecpandynamic.jpg" height="200px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Virage annoncé avec un panneau dynamique</small></p>
                 <p>Un autre panneau qui vous alertera des dangers permanents sera le risque de chute 
@@ -56,7 +56,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                        <img src="./images/chutdepierre.jpg" width="200px;">
+                        <img src="../images/chutdepierre.jpg" width="200px;">
                         </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                        <img src="./images/animausuroute.jpg" width="200px;">
+                        <img src="../images/animausuroute.jpg" width="200px;">
                         </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                 <div class="col">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                        <img src="./images/routecouper.jpg" width="200px;">
+                        <img src="../images/routecouper.jpg" width="200px;">
                         </div>
                         </div>
                     </div>
@@ -128,10 +128,10 @@
 
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
         
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
     
 </body>

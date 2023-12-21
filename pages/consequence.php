@@ -16,7 +16,7 @@
 
 <!--L'en-tête de la page-->
 <?php
-    include("header.php");
+    include("../header/header.php");
 ?>
     <section>
       <br><br><br><br>
@@ -174,7 +174,7 @@
                 la force centrifuge va entraîner un changement de direction pour la voiture et sa déviation de la route :</p>
               <br>
               <div class="card senscirc">
-                <img src="./images/forcentrefuge.jpg" height="200px" class="senscirc">
+                <img src="../images/forcentrefuge.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Force centrifuge plus forte que l'adhérence des pneus </small></p>
               <div class="card Informations bg-info">
@@ -204,10 +204,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

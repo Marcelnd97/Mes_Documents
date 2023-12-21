@@ -16,7 +16,7 @@
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
      <!--L'en-tête de la page-->
      <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -63,7 +63,7 @@
                 </div>
                 <br>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/drogue1.jpg" height="250px" class="senscirc">
+                    <img src="../images/theme_conduite/drogue1.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Cannabis et son dépistage</small></p>
                 <p>La molécule principale du cannabis étant le T.H.C. (tétrahydrocannabinol), les tests salivaire 
@@ -106,10 +106,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

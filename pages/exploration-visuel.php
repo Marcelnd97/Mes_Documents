@@ -16,7 +16,7 @@
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
      <!--L'en-tête de la page-->
      <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -34,7 +34,7 @@
                 <p>L’œil ne peut pas tout voir, contrairement à ce que l'on pourrait croire. 
                     De plus, si la vitesse augmente, le champ de vision rétrécit !</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/cond_img1.jfif" height="300px" class="senscirc">
+                    <img src="../images/theme_conduite/cond_img1.jfif" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Largeur du champ visuel</small></p>
                 
@@ -42,7 +42,7 @@
                 <p>Pour éviter d'être pris au dépourvu, vous devez regarder loin devant vous.</p>
                 <p><b>Regarder autour de vous</b></p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/cond_img2.jfif" height="500px" class="senscirc">
+                    <img src="../images/theme_conduite/cond_img2.jfif" height="500px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>La tête du conducteur doit être mobile</small></p>
                 <br>
@@ -65,10 +65,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

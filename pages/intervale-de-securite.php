@@ -16,7 +16,7 @@
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
      <!--L'en-tête de la page-->
      <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -51,7 +51,7 @@
                 <br>
                 <p>Voici comment vous pouvez faire ce calcul :</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/interval1.jpg" height="300px" class="senscirc">
+                    <img src="../images/theme_conduite/interval1.jpg" height="300px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Comment calculer les 2 secondes ?</small></p>
                 <p>Il faut que vous preniez un repère fixe devant vous 
@@ -63,14 +63,14 @@
                 <p><em>Comme la vitesse peut être très élevée (jusqu'à 130 km/h), il est primordial de respecter les distances. 
                     Vous verrez ce genre de panneaux qui vous aideront à établir un calcul approximatif, mais efficace :</em></p>
                 <div class="card senscirc">
-                    <img src="./images/peage2.jpg" height="150px" class="senscirc">
+                    <img src="../images/peage2.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Distances de sécurité sur autoroute</small></p>
                 <p>Comme vous pouvez le voir, on se sert de <b>la ligne de rive</b> pour calculer. Si une ligne fait 
                 39 m et l'intervalle entre les deux lignes est de 13 m, 
                 l'espace à laisser correspond à (39 m x 2) additionné à la distance entre les lignes (13m) et cela donne <b>91 m.</b></p>
                 <div class="card senscirc">
-                    <img src="./images/lignerivsurautoroute.jpg" height="150px" class="senscirc">
+                    <img src="../images/lignerivsurautoroute.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Calcul des distances sur autoroute </small></p>
                 <p><b>Distances sur route à 110 km/h</b></p>
@@ -80,7 +80,7 @@
                      la ligne médiane pour vérifier si la distance est respectée ou pas. Il faut donc compter 6 traits entre 
                      les véhicules.</p>
                 <div class="card senscirc">
-                    <img src="./images/lignemedianesuroute.jpg" height="150px" class="senscirc">
+                    <img src="../images/lignemedianesuroute.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Calcul des distances sur route </small></p>
                 <p><b>Distances sur route à 80 km/h</b></p>
@@ -89,7 +89,7 @@
                     Il faut donc faire le calcul grâce aux traits et aussi grâce à la vitesse. C'est l'astuce qui peut
                     vous aider le jour de l'examen !</p>
                 <div class="card senscirc">
-                    <img src="./images/lignederivesurroute.jpg" height="150px" class="senscirc">
+                    <img src="../images/lignederivesurroute.jpg" height="150px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Ligne de rive sur route à 90 km / h </small></p>
                 
@@ -107,7 +107,7 @@
                 
                 <p>Pour évaluer les distances, vous pouvez vous référer aux points bleus :</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/aprehender.jpg" height="250px" class="senscirc">
+                    <img src="../images/theme_conduite/aprehender.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Distances à appréhender dans un tunnel</small></p>
                 <p><b class="text-muted">Tableau récapitulatif</b></p>
@@ -154,7 +154,7 @@
                      vous pouvez aussi utiliser un point de repère. Il faut que vous puissiez voir dans votre 
                      rétroviseur intérieur les deux phares entiers du véhicule derrière vous.</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/imageretro.jpg" height="250px" class="senscirc">
+                    <img src="../images/theme_conduite/imageretro.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>2 phares entiers = distance de sécurité suffisante</small></p>
                 <div class="card important">
@@ -190,10 +190,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

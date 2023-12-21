@@ -15,7 +15,7 @@
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
      <!--L'en-tête de la page-->
      <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -33,7 +33,7 @@
                 S'il y a une voiture devant vous que vous souhaitez dépasser (voir la photo ci-dessous), 
                 je vous conseille de patienter pendant 6 km avant de vous lancer dans un dépassement :</p>
               <div class="card senscirc">
-                <img src="./images/nodepasvirage.jpg" height="200px" class="senscirc">
+                <img src="../images/nodepasvirage.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Ne dépassez pas d'autres véhicules dans les virages</small></p>
               
@@ -43,7 +43,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/depasmaeviter.jpg" width="300px">
+                  <img src="../images/depasmaeviter.jpg" width="300px">
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@
                 vous ne pouvez pas voir si quelqu'un arrive en face. Bien entendu, 
                 le dépassement est extrêmement dangereux. La preuve en image :</p>
               <div class="card senscirc">
-                <img src="./images/depassdanger.jpg" height="200px" class="senscirc">
+                <img src="../images/depassdanger.jpg" height="200px" class="senscirc">
               </div>
               <p class="text-muted text-center"><small>Dépassement dangereux</small></p>
               <p>Je vous déconseille également de vous engager dans un dépassement si les conditions climatiques ne 
@@ -87,10 +87,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

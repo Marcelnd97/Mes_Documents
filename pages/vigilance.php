@@ -16,7 +16,7 @@
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
      <!--L'en-tête de la page-->
      <?php
-        include("header.php")
+        include("../header/header.php")
      ?>
     <br><br><br>
     <section>
@@ -74,7 +74,7 @@
                      Je sais que vous serez tentés de le faire, mais attendez de vous arrêter et coupez
                       votre moteur pour passer un coup de fil ou répondre à un texto. C'est toujours plus sûr.</p>
                 <div class="card senscirc">
-                    <img src="./images/theme_conduite/vigile1.jpg" height="250px" class="senscirc">
+                    <img src="../images/theme_conduite/vigile1.jpg" height="250px" class="senscirc">
                 </div>
                 <p class="text-muted text-center"><small>Incompatibilité entre le téléphone portable et la conduite</small></p>   
                 <div class="card Informations bg-info">
@@ -159,10 +159,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

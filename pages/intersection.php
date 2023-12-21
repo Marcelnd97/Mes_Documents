@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -67,7 +67,7 @@
                 des avenues entières où la circulation se déroule dans un sens seulement (voir la pastille 2 du schéma).
               </p>
               <div class="card senscirc">
-                <img src="./images/sensunique.png" height="300px" class="senscirc">
+                <img src="../images/sensunique.png" height="300px" class="senscirc">
               </div>
               
               <p class="text-muted text-center"><small >sens de circulation</small></p>
@@ -77,7 +77,7 @@
               </p>
 
               <div class="card sensuniq">
-                <img src="./images/sens-unique.png" height="300px" class="sensuniq">
+                <img src="../images/sens-unique.png" height="300px" class="sensuniq">
               </div>
               
               <p class="text-muted text-center"><small >Rue à sens unique</small></p>
@@ -108,7 +108,7 @@
              
               <br>
               <div class="card sensuniq">
-                <img src="./images/fleche.jpg" height="300px" class="sensuniq">
+                <img src="../images/fleche.jpg" height="300px" class="sensuniq">
               </div>
               <p class="text-muted text-center"><small>Positionnement sur la chaussée</small></p>
               <p>Les flèches sont donc répétées 3 fois dans chacune des voies. 
@@ -152,7 +152,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/double.png" width="100px">
+                  <img src="../images/double.png" width="100px">
                   </div>
                 </div>
               </div>
@@ -203,7 +203,7 @@
                 <div class="col">
                   <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/obliger.jpeg" width="300px" height="150px">
+                    <img src="../images/obliger.jpeg" width="300px" height="150px">
                     </div>
                   </div>
                 </div>
@@ -229,7 +229,7 @@
                 <div class="col">
                   <div class="row">
                     <div class="col-md-12 text-center">
-                    <img src="./images/versus.jpg" width="300px" height="150px" style="background-color: gray;">
+                    <img src="../images/versus.jpg" width="300px" height="150px" style="background-color: gray;">
                     </div>
                   </div>
                 </div>
@@ -253,10 +253,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

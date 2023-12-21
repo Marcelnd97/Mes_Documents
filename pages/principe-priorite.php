@@ -16,7 +16,7 @@
 
     <!--L'en-tête de la page-->
     <?php
-        include("header.php");
+        include("../header/header.php");
     ?>
     <section>
       <br><br><br><br>
@@ -36,7 +36,7 @@
                     L'axe prioritaire est toujours en gras comme sur les photos ci-dessous :
               </p>
               <div class="card senscirc">
-                <img src="./images/pandeterminprio.jpg" height="200px" class="senscirc">
+                <img src="../images/pandeterminprio.jpg" height="200px" class="senscirc">
               </div>
               
               <p class="text-muted text-center"><small>Panonceaux déterminant les priorités </small></p>
@@ -54,7 +54,7 @@
                 l'axe prioritaire et qu'elle aille en direction du Cédez le passage ou pas, 
                 elle reste prioritaire :</p>
               <div class="card senscirc">
-                <img src="./images/fonctaxe.jpg" height="350px" class="senscirc">
+                <img src="../images/fonctaxe.jpg" height="350px" class="senscirc">
               </div>
               <br>
               <h4><b>Entrée et sortie d'agglomération</b></h4>
@@ -64,7 +64,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/courpiere.jpg" width="300px;">
+                  <img src="../images/courpiere.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -73,7 +73,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/champiex.jpg" width="300px;">
+                  <img src="../images/champiex.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -84,7 +84,7 @@
               <div class="col">
                 <div class="row">
                   <div class="col-md-12 text-center">
-                  <img src="./images/nocourpiere.jpg" width="300px;">
+                  <img src="../images/nocourpiere.jpg" width="300px;">
                   </div>
                 </div>
               </div>
@@ -96,7 +96,7 @@
                     tout en vous servant de la voie d'accélération pour vous insérer sur la chaussée prioritaire.
                 </p>
                 <div class="card sensuniq">
-                    <img src="./images/voieinsert.jpg" height="200px" class="sensuniq">
+                    <img src="../images/voieinsert.jpg" height="200px" class="sensuniq">
                 </div> 
               <p class="text-muted text-center"><small>Voies d'insertion ne donnent pas la priorité</small></p>
               <h3><b>En résumé</b></h3>
@@ -117,10 +117,10 @@
     <!--Le pied de la page-->
     <?php
     // <!--Le pied de la page-->
-        include("footer.php");
+        include("../footer/footer.php");
 
         // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
-        include("script_link.php");
+        include("../script/script_link.php");
     ?>
 </body>
 </html>

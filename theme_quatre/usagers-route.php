@@ -11,7 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../pages/assets/theme.css">
-    <title>Les cyclistes et les cavaliers</title>
+    <title>Usagers de la route</title>
 </head>
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
 
@@ -26,174 +26,59 @@
         <!-- Content here -->
         <div class="row">
           <div class="col-md-10" style="padding-left: 25%;">
-                <h1 style="font-weight: bold;"><b>Les cyclistes et les cavaliers</b></h1>
+                <h1 style="font-weight: bold;"><b>Usagers de la route</b></h1>
                 <br>
-                
-
-
-
-
-
-
-
-
-
-                <p>Vous n'êtes pas seul en tant qu'automobiliste. Certes, vous l'avez déjà remarqué 
-                    en étant piéton, mais une fois les rôles inversés, la logique reste la même : 
-                    on n'est pas tout seul sur la route.</p>
-                <p>Observez la photo ci-dessous. L'automobiliste doit faire attention aux cyclistes 
-                    (sur la bande cyclable ou sur le trottoir), aux piétons, aux autres voitures. 
-                    Et ce n'est pas tout. Le schéma ci-dessous démontre que la chaussée n'est pas le seul 
-                    endroit où se cachent les dangers pour les automobilistes.</p>
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="card" 
-                            style="border: none; max-width: 650px; 
-                            margin: 100px auto; border: 2px solid chocolate; 
-                            margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_quatre/espace1.jfif">
-                        </div>
-                        <p class="text-muted text-center"><small>Sas réservé aux vélos</small></p>
+                <p>Commençons par la définition des gens qui se retrouvent sur la route. Il s'agit, 
+                    en grande partie, des conducteurs de voitures, mais il est important de ne pas négliger 
+                    ceux qui participent activement à la circulation, comme les piétons ou les cyclistes. 
+                    Je suis sûre que vous savez tout cela, mais quelques précisions ne vous feront pas de mal.</p>
+                <p>Les conducteurs de voitures ne sont pas les seuls usagers de la route. Ne négligez 
+                    surtout pas les piétons, les conducteurs de véhicules à deux roues (motos ou vélos), 
+                    les conducteurs de transports en commun, des véhicules lents ou d'intervention urgente.</p>
+                <br>
+                <div class="card attention">
+                    <div class="card-body">
+                    <b><i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;Attention</b>
+                    <p>Ce serait une erreur de croire que la signalisation vise seulement les voitures. 
+                    Au contraire, elle donne des indications à tout le monde !</p>
                     </div>
                 </div>
-                
-                <p><b>Zone de rencontre</b></p>
-                <p>Une autre zone où les automobilistes doivent être vigilants est celle qui est ouverte 
-                    à tous les modes de transport, mais les piétons bénéficient de la priorité sur tous, 
-                    à l'exception des tramways. La vitesse y est limitée à 20 km/h.</p>
-                <p>Voici les panneaux relatifs à cette zone :</p>
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="card" 
-                            style="border: none; max-width: 250px; 
-                            margin: 100px auto;
-                            margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_quatre/espace2.jpg">
-                        </div>
-                        <p class="text-muted text-center"><small>
-                            Les piétons peuvent utiliser toute la chaussée et traverser partout (et sortie de zone) </small></p>
-                    </div>
-                </div>
-                
-                <p><b>Autres tronçons de route partagés entre les différents usagers</b></p>
-                <p>La voie verte est un axe de circulation ouvert à tous les moyens de locomotion non motorisés.
-                     Elle est donc ouverte aux piétons, aux cyclistes, aux rollers, aux personnes à mobilité 
-                     réduite et aux cavaliers, dans le cadre du tourisme, des loisirs et des déplacements de 
-                     la population locale.</p>
+                <br>
+                <h2 style="font-weight: bold;">Les piétons</h2>
+                <p>Ce qui correspond à ce terme est non seulement une personne qui marche, mais aussi 
+                    quelqu'un qui conduit une poussette ou tout autre véhicule de petites dimensions sans moteur ;
+                     piéton est aussi une personne qui conduit à la main un cycle (vélo) ou un cyclomoteur (scooter) 
+                     ou bien une personne à mobilité réduite se déplaçant en fauteuil roulant. Les piétons
+                      empruntent le trottoir pour des raisons de sécurité. Seulement en cas d'impossibilité 
+                      d'utiliser le trottoir, les piétons peuvent emprunter la route mais à condition d'être 
+                      très vigilants.</p>
+                <h2 style="font-weight: bold;">Les cyclistes</h2>
+                <p>Ce sont des personnes qui se déplacent sur un vélo en empruntant des bandes ou des 
+                    pistes cyclables. Ils partagent parfois, et souvent même, la route avec les automobilistes. 
+                    Les personnes qui se déplacent en trottinette électrique doivent respecter les mêmes règles que 
+                    les cyclistes.</p>
+                <h2 style="font-weight: bold;">Les deux-roues</h2>
+                <p>Il existe plusieurs catégories de deux roues-motorisés qui requièrent différents permis 
+                    de conduire. Les cyclomotoristes d'un côté et les motocyclistes de l'autre. Les premiers 
+                    sont ceux qui conduisent des scooters. Les seconds, des motos un peu plus grandes et 
+                    plus puissantes.</p>
+                <p>Les conducteurs de bus, trams ou de camions sont aussi les usagers de la route.</p>
                 <br>
                 <div class="card Informations bg-info">
                     <div class="card-body">
                     <b><i class="bi bi-info-square"></i>&nbsp;&nbsp;Informations</b>
-                    <p>La voie verte touche une grande variété de personnes et d'utilisations. 
-                        Elle se caractérise avant tout par son degré de sécurité et son accessibilité.</p>
+                    <p>A part les piétons et les vélos, les autres usagers de la route ont aussi besoin d'un permis de conduire.
+                         J'en parlerai plus tard, dans un autre cours.</p>
                     </div>
                 </div>
                 <br>
-                <p>Voici le panneau qui la représente :</p>                
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="card" 
-                            style="border: none; max-width: 250px; 
-                            margin: 100px auto; 
-                            margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_quatre/espace3.jpg">
-                        </div>
-                        <p class="text-muted text-center"><small>Voici le panneau qui la représente :</small></p>
-                    </div>
-                </div>
-                <p>Un autre panneau peut se référer à deux types d'usagers pour leur signaler une issue, 
-                    comme le panneau ci-dessous :</p>
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="card" 
-                            style="border: none; max-width: 150px; 
-                            margin: 100px auto;
-                            margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_quatre/espace4.jpg">
-                        </div>
-                        <p class="text-muted text-center"><small>Impasse comportant une issue pour 
-                            les piétons et les cyclistes</small></p>
-                    </div>
-                </div>
                 
-                <p><b>Voies partagées</b></p>
-                <p>Parfois un sens unique reste ouvert au sens inverse pour les vélos :</p>
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="card" 
-                            style="border: none; max-width: 250px; 
-                            margin: 100px auto;
-                            margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_quatre/espace5.jpg">
-                        </div>
-                        <p class="text-muted text-center"><small>Voie ouverte aux vélos, la chaussée
-                             sépare les deux voies par une ligne continue</small></p>
-                    </div>
-                </div>
-                <P><b>L'aire piétonne</b></P>
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="card" 
-                            style="border: none; max-width: 350px; 
-                            margin: 100px auto;
-                            margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_quatre/espace6.jpg">
-                        </div>
-                        <p class="text-muted text-center"><small>L'aire piétonne </small></p>
-                    </div>
-                </div>
-                <p>L'aire piétonne est une zone (ensemble de rues) affectée à la circulation des piétons. Les piétons y
-                    sont prioritaires sur tous les autres usagers (sauf face à un tramway).</p>
-                <p> Les cyclistes peuvent parfois y circuler. Et parfois certains véhicules motorisés peuvent y accéder
-                    (comme les bus). Dans ce cas, ils doivent circuler à l'allure du pas.</p>
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="card" 
-                            style="border: none; max-width: 350px; 
-                            margin: 100px auto;
-                            margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_quatre/espace7.jpg">
-                        </div>
-                        <p class="text-muted text-center"><small>L'aire piétonne avec tranche horaire</small></p>
-                    </div>
-                </div>
-                
-                <p>Quand un panneau d'entrée d'aire piétonne est complété de ce type de panonceau, 
-                    cela signifie que la zone est piétonne pendant le créneau horaire indiqué.</p>
-                <div class="card question">
-                    <div class="card-body">
-                    <p><b><i class="bi bi-chat-dots"></i>&nbsp;&nbsp;Question</b></p>
-                    <p>Observez la photo ci-dessous. A votre avis, à qui devez-vous céder le passage ? 
-                        A droite ou à gauche ?</p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="card" 
-                            style="border: none; max-width: 650px; 
-                            margin: 100px auto; border: 2px solid chocolate; 
-                            margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_quatre/espace8.jpg">
-                        </div>
-                        <p class="text-muted text-center"><small>Sens de la circulation </small></p>
-                    </div>
-                </div>
-                <p><b>Réponse :</b> La première règle à prendre en compte est le panneau Stop. Vous devez vous arrêter 
-                    et céder le passage. Mais de quel côté ? Le panneau d'indication placé à gauche indique que 
-                    vous pouvez tourner uniquement à gauche (et il existe 2 voies), car le sens de circulation 
-                    pour aller à droite est réservé seulement pour les bus. 
-                    Peu importe la direction que vous prenez, <b>vous devez toujours céder le passage des deux côtés.</b> </p>
-                <br>
                 
                 <h3><b>En résumé</b></h3>
                 <ol style="margin-left: 10px; list-style-type: disc;">
-                    <li>Vous n'êtes jamais seuls sur la route, donc pour certaines catégories d'usagers vous serez informés
-                         de leur présence ou de leur passage grâce aux panneaux ou au marquage au sol.</li>
-                    <li>Soyez prudents dans les zones partagées et ne roulez pas vite pour pouvoir anticiper 
-                        les dangers et les scénarios catastrophiques.</li>
-                    <li>Si vous tombez sur les panneaux qui se réfèrent autant aux automobilistes, 
-                        qu'aux autres usagers, vous devez prendre en compte tout le monde.</li>
+                    <li>Il existe plusieurs types d'usagers de la route : piétons, deux-roues motorisés ou pas, 
+                        conducteurs de voitures, conducteurs de bus, de camions.</li>
+                    <li>Les assimilés piétons sont aussi les personnes en fauteuil roulant.</li>
                 </ol>
           </div>
         </div>

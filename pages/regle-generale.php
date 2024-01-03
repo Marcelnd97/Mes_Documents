@@ -11,6 +11,8 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../pages/assets/theme.css">
+    <title>Règles générale</title>
+    <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
 

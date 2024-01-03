@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajouter un utilisateur</title>
     <link rel="stylesheet" href="../style.css" />
+    <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body>
 <?php

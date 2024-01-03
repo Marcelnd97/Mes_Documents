@@ -35,6 +35,8 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../pages/assets/theme.css">
+    <title>Thèmes et chapitres</title>
+    <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body class="codebody">
 
@@ -1936,24 +1938,16 @@
                                     height: 30%;; border-radius: 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Le permis à points</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
+                        <span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Permis et infractions</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -1961,53 +1955,69 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>8</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/formation.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les formations</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/capital-initial.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Capital initial et permie probatoire</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/perte-point.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Perte de points</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/reconstitution.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Reconstitution du capital</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/categorie-permis.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les catégories de permis</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/perte-permis.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Perte de permis (invalidation)</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                            <a href="../theme_cinq/epreuve-theorique.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Epreuve théorique générale (E.T.G)</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                            <a href="../theme_cinq/epreuve-pratique.php" class="btn btn-outline-light" style="color: black; border: none; 
+                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Epreuve pratique</a>
                             </div>
                         </div>
                         
@@ -2029,24 +2039,16 @@
                                     height: 30%;; border-radius: 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Les infractions</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
+                        <span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Infractions aux codes</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -2054,53 +2056,29 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>3</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/retrait-imediat-permis.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Retrait immédiat du permis</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/contravention.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Contraventions</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/delit.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Délits</a>
                             </div>
                         </div>
                         
@@ -2122,81 +2100,18 @@
                                     height: 30%;; border-radius: 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
-                        <hr>
-                        <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
-                                <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                        </div>
+                        <h3 class="mt-3"><b>Voyager à l'étranger</b></h3>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_cinq/specificite-code.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Spécificitées du code</a>
                             </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
-                            </div>
-                        </div>
-                        
                         </div>
                     </div>
                     </div>
@@ -2208,12 +2123,8 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/theme_six/theme6_logo.svg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
-                                border-top-left-radius: 50% 50%; 
-                                border-top-right-radius: 50% 50%; 
-                                border-bottom-right-radius: 50% 50%; 
-                                border-bottom-left-radius: 50% 50%;
                                 margin:2px;">&nbsp;
                                 <span>Thème n° 6</span>    
                             <h3 class="mt-1">
@@ -2244,97 +2155,76 @@
                 <div class="modal fade" id="secours" data-bs-backdrop="choix" data-bs-keyboard="false" 
                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog text-center">
-                    <div class="modal-content" style="background-color: chocolate; color: white;">
-                        <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                        <h5 class="modal-title">
-                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
-                                    height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
-                                    margin:2px;">
-                        </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
-                        <hr>
-                        <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
-                                <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
+                        <div class="modal-content" style="background-color: chocolate; color: white;">
+                            <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <h5 class="modal-title">
+                                <img src="../images/theme_six/theme6_logo.svg" class="rounded-circle" style="width: 30%; 
+                                        height: 30%;; border-radius: 50%;
+                                        margin:2px;">
+                            </h5>
+                            <h3 class="mt-3"><b>Porter secours</b></h3>
+                            <hr>
+                            <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
+                            <span>1</span>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="#" style="color: chocolate; text-decoration: none;">
+                                        <div class="card" style="color: chocolate;">
+                                        <h4><b>Protéger, alerter, secourir</b></h4>
+                                        <h4>10 questions</h4>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
                             </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
-                                <h4>10 questions</h4>
+                            <hr>
+                            <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
+                            </span>&nbsp;<span>5</span>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                <a href="../theme_six/accident.php" class="btn btn-outline-light" style="color: black; border: none; 
+                                border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                                <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Accident</a>
                                 </div>
-                            </a>
                             </div>
-                        </div>
-                        <hr>
-                        <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <div class="row">
+                                <div class="col-md-12">
+                                <a href="../theme_six/protege-zone.php" class="btn btn-outline-light" style="color: black; border: none; 
+                                border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                                <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Protéger la zone</a>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
+                            <div class="row">
+                                <div class="col-md-12">
+                                <a href="../theme_six/evalue-etat_victime.php" class="btn btn-outline-light" style="color: black; border: none; 
+                                border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                                <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Evaluer l'état des victimes</a>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
+                            <div class="row">
+                                <div class="col-md-12">
+                                <a href="../theme_six/alerter.php" class="btn btn-outline-light" style="color: black; border: none; 
+                                border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                                <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Alerter ou faire alerter</a>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
+                            <div class="row">
+                                <div class="col-md-12">
+                                <a href="../theme_six/secourir.php" class="btn btn-outline-light" style="color: black; border: none; 
+                                border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
+                                <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Secourir</a>
+                                </div>
+                            </div>
                             </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
-                            </div>
-                        </div>
-                        
-                        </div>
-                    </div>
                     </div>
                 </div>
 
@@ -2344,12 +2234,8 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/theme_sept/theme7_logo.svg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
-                                border-top-left-radius: 50% 50%; 
-                                border-top-right-radius: 50% 50%; 
-                                border-bottom-right-radius: 50% 50%; 
-                                border-bottom-left-radius: 50% 50%;
                                 margin:2px;">&nbsp;
                                 <span>Thème n° 7</span>    
                             <h3 class="mt-1">
@@ -2401,32 +2287,20 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme_sept/theme7_logo.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>S'installer au poste de conduite</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
+                        <span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Installation sécurisée</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -2434,53 +2308,37 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>4</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_sept/etre-aisé.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Être à l'aise</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_sept/etre-assis.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Être bien assis</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_sept/visibilite-optimal.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avoir une visibilité optimal</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_sept/ajuster-ceinture.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Ajuster la ceinture</a>
                             </div>
                         </div>
                         
@@ -2498,32 +2356,20 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme_sept/theme7_logo.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Entrer et sortir du véhicule</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
+                        <span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Adopter les bons gestes</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -2531,53 +2377,22 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>2</span>
                         <hr>
+
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_sept/avant-partir.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant de partir</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_sept/avant-quitte-voiture.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant de quitter la voiture</a>
                             </div>
                         </div>
                         
@@ -2591,12 +2406,8 @@
                 <div class="row carteCode">
                     <div class="col-md-12">
                         <div class="cours">
-                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 8%; 
+                            <img src="../images/theme_huit/theme8_logo.svg" class="rounded-circle" style="width: 8%; 
                                 height: 8%;; border-radius: 50%;
-                                border-top-left-radius: 50% 50%; 
-                                border-top-right-radius: 50% 50%; 
-                                border-bottom-right-radius: 50% 50%; 
-                                border-bottom-left-radius: 50% 50%;
                                 margin:2px;">&nbsp;
                                 <span>Thème n° 8</span>    
                             <h3 class="mt-1"><b>La mécanique et les équipements</b></h3>
@@ -2647,32 +2458,20 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme_huit/theme8_logo.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>Le fonctionnement</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
+                        <span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Équippements du véhicule</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -2680,53 +2479,29 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>3</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_huit/vue-densemble.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Vue d'ensemble</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_huit/tableau-de-bord.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Tableau de bord</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_huit/eclairage.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; L'éclairage</a>
                             </div>
                         </div>
                         
@@ -2744,32 +2519,20 @@
                         </div>
                         <div class="modal-body">
                         <h5 class="modal-title">
-                            <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
+                            <img src="../images/theme_huit/theme8_logo.svg" class="rounded-circle" style="width: 30%; 
                                     height: 30%;; border-radius: 50%;
-                                    border-top-left-radius: 50% 50%; 
-                                    border-top-right-radius: 50% 50%; 
-                                    border-bottom-right-radius: 50% 50%; 
-                                    border-bottom-left-radius: 50% 50%;
                                     margin:2px;">
                         </h5>
-                        <h3 class="mt-3"><b>Les Intersections</b></h3>
+                        <h3 class="mt-3"><b>L'entretien et le dépannage</b></h3>
                         <hr>
                         <span><b><i class="bi bi-file-earmark-richtext"></i>&nbsp;Quiz :</b></span>&nbsp;
-                        <span>2</span>
+                        <span>1</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
                             <a href="#" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
-                                <h4><b>Aborder une intersection</b></h4>
-                                <h4>10 questions</h4>
-                                </div>
-                            </a>
-                            </div>
-                            <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
-                                <div class="card">
-                                <h4><b>Intersections et propriétés</b></h4>
+                                <h4><b>Entretien du véhicule</b></h4>
                                 <h4>10 questions</h4>
                                 </div>
                             </a>
@@ -2777,53 +2540,29 @@
                         </div>
                         <hr>
                         <span><b><i class="bi bi-bookmark"></i>&nbsp;Fiche détaillées :</b>
-                        </span>&nbsp;<span>6</span>
+                        </span>&nbsp;<span>3</span>
                         <hr>
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_huit/visite-technique.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Avant une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Visites techniques</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_huit/surveillance-conducteur.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Aborder une intersection</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; La surveillance du conducteur</a>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
+                            <a href="../theme_huit/pneus.php" class="btn btn-outline-light" style="color: black; border: none; 
                             border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les panneaux de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Principes de priorité</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les carrefours à sens giratoire</a>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                            <a href="#" class="btn btn-outline-light" style="color: black; border: none; 
-                            border-radius: 20px; width: 400px; text-align: left; font-size: 20px;">
-                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les feux et les agents</a>
+                            <i class="bi bi-check2-square"></i>&nbsp;&nbsp; Les pneus</a>
                             </div>
                         </div>
                         

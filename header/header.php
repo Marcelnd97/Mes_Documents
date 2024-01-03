@@ -7,10 +7,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand" href="#">
-              <img class="circular-square" src="../images/bdd.png" style="width: 40px; 
-              height: 40px; border-radius: 50%;
-              margin:2px;">
-              Driving Solution
+              <img class="circular-square" src="../images/logo/logo driving-car-solution.png" style="width: 50px; 
+              height: 50px;;">
+              Driving Car Solution
             </a>
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 modelmenu">
               <li class="nav-item">

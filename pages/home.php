@@ -21,6 +21,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home admin</title>
+    <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body>
 

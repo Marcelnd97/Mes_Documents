@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../pages/assets/theme.css">
     <title>La pluie</title>
+    <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
 

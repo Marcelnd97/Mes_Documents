@@ -10,7 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <title>Quiz Circulation</title>
+    <link rel="stylesheet" href="../pages/assets/theme.css">
+    <title>Règle de priorité</title>
   <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
   <style>
     body {
@@ -18,7 +19,12 @@
       text-align: center;
       background-color: chocolate;
     }
-    .app{
+    #soundIcon {
+      
+      padding-left: 25px;
+      font-size: x-large;
+    }
+    .app {
       background: #fff;
       width: 90%;
       max-width: 650px;
@@ -29,7 +35,6 @@
     img {
       max-width: 100%;
       height: auto;
-
     }
 
     #quiz-container {
@@ -45,7 +50,6 @@
     .options {
       display: flex;
       flex-direction: column;
-      /* align-items: center; */
       max-width: 100%;
     }
 
@@ -61,46 +65,44 @@
       margin-top: 10px;
       padding-bottom: 10px;
     }
-    button{
-        /* border: 1px solid #222; */
-        border: none;
-        background: #979695;
-        color: #222;
-        padding: 10px;
-        margin: 10px 0;
-        text-align: left;
-        border-radius: 4px;
-        font-weight: 500;
-        width: 95%;
-        cursor: pointer;
-        transition: all 0.4s;
+    button {
+      border: none;
+      background: #979695;
+      color: #222;
+      padding: 10px;
+      margin: 10px 0;
+      text-align: left;
+      border-radius: 4px;
+      font-weight: 500;
+      width: 95%;
+      cursor: pointer;
+      transition: all 0.4s;
     }
-    button:hover{
-        background: white;
-        color: #001e4d;
-
+    button:hover {
+      background: white;
+      color: #001e4d;
     }
-    .style{
+    .style {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    .restart{
+    .restart {
       border: 1px solid #222;
-        border-radius: 4px;
-        font-weight: 500;
-        width: 40%;
-        text-align: center;
+      border-radius: 4px;
+      font-weight: 500;
+      width: 40%;
+      text-align: center;
     }
-    .restart:hover{
+    .restart:hover {
       background: blue;
-        color: #fff;
+      color: #fff;
     }
-    .card{
-        background-color: blue;
-        color: #fff;
+    .card {
+      background-color: blue;
+      color: #fff;
     }
-    #btn-next{
+    #btn-next {
       background: #001e4d;
       color: #fff;
       font-weight: 500;
@@ -114,35 +116,62 @@
       display: none;
     }
   
-    #son{
+    #son {
       background-color: blue;
       color: white;
       margin: 10px auto;
-      max-width: 31%;
+      max-width: 40%;
     }
-    #sons{
+    #sons {
       margin: 10px auto;
       height: 10%;
       border: none;
     }
   </style>
 </head>
-<body>
+<body style="background-color: gainsboro; font-family:'Times New Roman', Times, serif; font-size: 17px;">
+  <!--L'en-tête de la page-->
+    <?php
+          include("../header/header.php");
+      ?>
     <br>
+    <br>
+    <br>
+    <br>
+    <div class="container" id="container">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                  <h3 style="font-weight: bold; padding-right: 20px;"><marquee behavior="alternate"
+                   direction="left">Il est conseillée de ne pas raffraîchir 
+                   la page dés l'instant que vous commencez le test pour ne pas réinitialiser la série.</marquee></h3>
+              </div>
+                
+            </div>
+        </div>
+    </div>
     <div class="container app">
         <div id="quiz-container">
           <div class="row">
             <div class="col-md-12">
                   <div class="card" id="quiz-image">
-                      <div id="quiz-image"></div>  
+                      <div id="quiz-image-content"></div>  
                   </div>
               </div> 
           </div>
           <br>
           <div class="row">
+              <div class="col-md-6">
+                  <div class="card" id="quiz-questionNumber">
+                      <div id="quiz-questionNumber-content" class="questionNumber"></div>
+                  </div>
+              </div>
+          </div>
+          <br>
+          <div class="row">
               <div class="col-md-12">
                   <div class="card" id="quiz-question">
-                      <div id="quiz-question" class="question"></div>
+                      <div id="quiz-question-content" class="question"></div>
                   </div>
               </div>
           </div>
@@ -150,7 +179,7 @@
           <div class="row">
               <div class="col-md-12">
                   <div class="card" id="quiz-options">
-                          <div id="quiz-options" class="options"></div>
+                          <div id="quiz-options-content" class="options"></div>
                   </div>
               </div>
           </div>
@@ -158,10 +187,10 @@
           <div class="row">
               <div class="col-md-12 style">
                   <div class="card score" id="score">
-                      <div id="score">Score: 0</div> 
+                      <div id="score-content">Score: 0</div> 
                   </div>
                   <div class="card" id="timer">
-                  <div id="timer">Temps restant: <span id="time">60</span> secondes</div>
+                      <div id="timer-content">Temps restant: <span id="time">60</span> secondes</div>
                   </div>
               </div>
           </div>
@@ -171,15 +200,17 @@
           <div class="row">
               <div class="col-md-12">
                   <div class="card" id="son">
-                  <button id="sons" onclick="toggleSound()">Activer/Désactiver le Son</button>
+                      <button id="sons" onclick="toggleSound()">
+                        <i id="soundIcon" class="bi-volume-mute">&nbsp;&nbsp; Active/Pause</i>
+                    </button>
                   </div>
               </div>
           </div>
         </div>
-          <!-- <button id="suivant" onclick="nextQuestion()">Parleur</button> -->
-          
           <button id="restart-button" class="restart" style="display: none;" onclick="restartQuiz()">Recommencer le Quiz</button>
-        
+          <br>
+          <p id="noteBien"><b>NB :</b><i> Vous êtes libre d'activer la son mais sachez que le lecteur peut vous faire perdre beaucoup de temps dans les séries. 
+          Donc il est conseillé de ne pas l'activer et de vous concentrer.</i></p>
     </div>
 
   <script>
@@ -300,29 +331,32 @@
     ];
 
     let currentQuestionIndex = 0;
+    let countQuestions = 1;
     let score = 0;
-    let time = 600; // Temps en secondes
+    let time = 280; // Temps en secondes
     let soundEnabled = false;
 
     function loadQuestion() {
       const currentQuestion = quizData[currentQuestionIndex];
 
-      document.getElementById("quiz-question").textContent = currentQuestion.question;
+      document.getElementById("quiz-question-content").textContent = currentQuestion.question;
 
-
-      const imageContainer = document.getElementById("quiz-image");
+      const imageContainer = document.getElementById("quiz-image-content");
       imageContainer.innerHTML = `<img src="${currentQuestion.image}" alt="Quiz Image">`;
 
-      const optionsContainer = document.getElementById("quiz-options");
+
+      const optionsContainer = document.getElementById("quiz-options-content");
       optionsContainer.innerHTML = "";
 
       currentQuestion.options.forEach((option) => {
         const button = document.createElement("button");
-        button.textContent = option;
+        button.textContent = option.text;
         button.classList.add("option");
-        button.onclick = () => checkAnswer(option);
+        button.onclick = () => checkAnswer(option.text);
         optionsContainer.appendChild(button);
       });
+
+      updateCountQuestion();
       updateScore();
       speak(currentQuestion.audioQuestion); // Lire la question à voix haute
     }
@@ -332,27 +366,40 @@
       const options = document.querySelectorAll('.option');
 
       options.forEach(option => {
-        if(option.textContent === currentQuestion.correctAnswer){
-          option.parentNode.style.backgroundColor = 'green'; //Réponse correct en vert
-        }else if (option.textContent === selectedAnswer) {
-          option.parentNode.style.backgroundColor = 'red'; //Réponse incorrect en rouge
+        const isCorrect = currentQuestion.options.find(opt => opt.isCorrect).text;
+
+        if (option.textContent === isCorrect) {
+          if (option.textContent === selectedAnswer) {
+            option.parentNode.style.backgroundColor = 'green'; // Réponse correcte en vert
+          }else {
+            option.parentNode.style.backgroundColor = 'red'; // Réinitialiser la couleur pour les options incorrectes
+          }
+          // option.parentNode.style.backgroundColor = 'green'; // Réponse correcte en vert
+        } else if (option.textContent === selectedAnswer) {
+          option.parentNode.style.backgroundColor = 'red'; // Réponse incorrecte en rouge
         }
       });
 
+      const correctOption = currentQuestion.options.find(option => option.isCorrect);
       
-        if (selectedAnswer === currentQuestion.correctAnswer) {
-          score++;
-          if (soundEnabled) {
-            speak("Bravo !");
-            playAudio(currentQuestion.audioAnswer);
-          } 
-        }else {
-          speak("Attention ! La réponse correcte est " + currentQuestion.correctAnswer);
+      if (selectedAnswer) {
+        countQuestions ++;
+      }
+
+      if (selectedAnswer === correctOption.text) {
+        score++;
+        if (soundEnabled) {
+          speak("Bravo !");
+          playAudio(currentQuestion.audioAnswer);
+        } 
+      } else {
+        speak("Attention ! La réponse correcte est " + correctOption.text);
       }
 
       currentQuestionIndex++;
       nextQuestion();
     }
+
 
     function nextQuestion() {
       if (currentQuestionIndex < quizData.length) {
@@ -362,33 +409,40 @@
       }
     }
 
+    function updateCountQuestion(){
+      document.getElementById("quiz-questionNumber-content").textContent = `Conteur de question: ${countQuestions} / ${quizData.length}`;
+    }
+
     function updateScore() {
-      document.getElementById("score").textContent = `Score: ${score}`;
+      document.getElementById("score-content").textContent = `Score: ${score}`;
     }
     
     function endQuiz() {
-
       if (currentQuestionIndex <= quizData.length) {
-
-          speak("Votre score final est: " + score + "sur" + quizData.length + 
-                ". Vous pouver refaire le teste pour mieux comprendre"); 
-        
+        speak("Votre score final est: " + score + " sur " + quizData.length + ". Vous pouvez refaire le test pour mieux comprendre"); 
       }
+
       document.getElementById("quiz-image").style.display = 'none';
       document.getElementById("quiz-question").style.display = 'none';
       document.getElementById("quiz-options").style.display = 'none';
       document.getElementById("timer").style.display = 'none';
       document.getElementById("son").style.display = 'none';
-      document.getElementById("score").textContent = `Votre score final est: ${score} sur ${quizData.length}`;
+      document.getElementById("score-content").textContent = `Votre score final est: ${score} sur ${quizData.length}`;
       document.getElementById("restart-button").style.display = 'inline';
+      document.getElementById("quiz-questionNumber").style.display = "none";
+      document.getElementById("noteBien").style.display = "none";
+      document.getElementById("container").style.display = "none";
+
     }
 
     function restartQuiz() {
       // Réinitialiser les variables et afficher à nouveau les éléments nécessaires
       currentQuestionIndex = 0;
+      countQuestions = 1;
       score = 0;
-      time = 600;
+      time = 280;
       loadQuestion();
+      resetOptionsColor();
       
       document.getElementById("quiz-options").style.display = 'flex';
       document.getElementById("quiz-image").style.display = 'flex';
@@ -396,6 +450,15 @@
       document.getElementById("son").style.display = 'block';
       document.getElementById("timer").style.display = 'block';
       document.getElementById("restart-button").style.display = 'none';
+      document.getElementById("container").style.display = "flex";
+
+    }
+
+    function resetOptionsColor() {
+      const options = document.querySelectorAll('.option');
+      options.forEach(option => {
+        option.parentNode.style.backgroundColor = ''; // Réinitialiser la couleur
+      });
     }
 
     function countdown() {
@@ -413,6 +476,19 @@
 
     function toggleSound() {
       soundEnabled = !soundEnabled;
+
+      const soundIcon = document.getElementById('soundIcon');
+      const soundButton = document.getElementById('sons');
+
+      if (soundEnabled) {
+        soundIcon.classList.remove('bi-volume-mute');
+        soundIcon.classList.add('bi-volume-up', 'bi-3x');
+        // speak("Le song est activé");
+      } else {
+        soundIcon.classList.remove('bi-volume-up');
+        soundIcon.classList.add('bi-volume-mute', 'bi-3x');
+        // speak("Le son est désactivé");
+      }
     }
 
     function speak(text) {
@@ -435,5 +511,13 @@
     loadQuestion();
     countdown();
   </script>
+
+  <?php
+    // <!--Le pied de la page-->
+        include("../footer/footer.php");
+        
+        // <!--Ces deux script concerne les popervers, les listes deroulante ou des info-bulles-->
+        include("../script/script_link.php");
+  ?>
 </body>
 </html>

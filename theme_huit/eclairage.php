@@ -11,7 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../pages/assets/theme.css">
-    <title>Avant de quitter la voiture</title>
+    <title>L'éclairage</title>
     <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
@@ -27,102 +27,132 @@
         <!-- Content here -->
         <div class="row">
           <div class="col-md-10" style="padding-left: 25%;">
-                <h1 style="font-weight: bold;"><b>Avant de quitter la voiture</b></h1>
+                <h1 style="font-weight: bold;"><b>L'éclairage</b></h1>
                 <br>
-                <p>Une fois arrêtés ou garés, vous allez devoir vous assurer de 2 choses :</p>
-                <ol style="list-style-type: disc;">
-                    <li>que votre véhicule peut rester arrêté ou stationné à l'endroit où vous le laissez ;</li>
-                    <li>que vous ne mettez en danger ni votre vie, ni celle des autres usagers de la route.</li>
-                </ol>
-                <h1 style="font-weight: bold;"><b>Laissez le véhicule en toute sécurité</b></h1>
-                <p>Vous devez vous assurer que l'endroit où vous vous arrêtez ou stationnez est autorisé. 
-                    Si vous voulez quitter le véhicule pour prendre une photo par exemple, il est important 
-                    d'opter pour un endroit sûr. Vous n'allez pas non plus vous garer sur un pont et partir.
-                     En plus, c'est strictement interdit !</p>
-                <p>Pour stationner en sécurité, procédez par étapes :</p>
-                <ol style="list-style-type: disc;">
-                    <li>point mort,</li>
-                    <li>frein à main</li>
-                    <li>et coupez le contact.</li>
-                </ol>
+                <b>Éclairage et visibilité</b>
+                <b class="text-muted">Voyants</b>
                 <br>
-                <div class="card Informations bg-info">
-                    <div class="card-body">
-                    <b><i class="bi bi-info-square"></i>&nbsp;&nbsp;Informations</b>
-                    <p>Si jamais vous devez stationner dans une rue à forte pente, enclenchez la première vitesse 
-                        et serrez le frein à main. Tournez ensuite un peu les roues vers 
-                        le trottoir pour éviter que la voiture ne bouge si jamais les freins lâchent.</p>
-                    </div>
+                <div class="card question">
+                <div class="card-body">
+                <p><b><i class="bi bi-chat-dots"></i>&nbsp;&nbsp;Question</b></p>
+                <p>A votre avis, quel est le degré d'alerte quand on allume les phares ? 
+                    Sauriez-vous reconnaître le type de phares allumés ?</p>
+                </div>
                 </div>
                 <br>
-                <p>Si vous stationnez dans un parking souterrain où les espaces sont parfois ridicules, il faut 
-                    ouvrir doucement les portières pour ne pas rayer le véhicule du voisin. Dans la rue, il faut 
-                    se servir du rétroviseur extérieur pour être sûr de ne pas gêner un usager (un piéton ou un 
-                    cycliste par exemple).</p>
-                <p>Aussi, évitez de laisser dans la voiture les objets qui pourraient susciter de la convoitise 
-                    auprès des personnes malveillantes. Certaines n'hésiteront pas à casser la vitre et voler vos 
-                    affaires. Je me réfère à un GPS que vous auriez pu laisser traîner, un téléphone ou un autre
-                     objet précieux.</p>
-                <br>
-                <div class="card attention">
-                    <div class="card-body">
-                    <b><i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;Attention</b>
-                    <p>Pensez à bien fermer la voiture à clé et à cacher les objets de valeur. 
-                    Vous pouvez installer une alarme et mettre en place le dispositif d'antivol pour le volant.</p>
+                <div class="row">
+                    <div class="col-md-12" >
+                        <div class="card" 
+                            style="border: none; max-width: 650px; 
+                            margin: 100px auto; border: 2px solid chocolate;
+                            margin-top: 10px; margin-bottom: 10px;" >
+                                <img src="../images/theme_huit/claire1.jpg">
+                        </div>
+                        <p class="text-muted text-center"><small>Témoins pour les phares</small></p>
                     </div>
                 </div>
-                <br>
-                <p>Si vous devez prendre un bac, vous n'allez certainement pas rester dans la voiture 
-                    pendant tout le trajet. Avant de quitter le véhicule pensez à :</p>
-                <ol style="list-style-type: disc;">
-                    <LI>actionner le frein à main ;</LI>
-                    <LI>couper le moteur.</LI>
-                </ol>
-                <br>
+                
+                <p><b>Réponse :</b></p>
+                <p>Voici la liste des phares à savoir reconnaître sur votre tableau de bord.</p>
+                <p>1. Feux de route ; 2. Feux antibrouillard avant ; 3. Feux antibrouillard arrière ; 4.
+                     Feux de croisement ; 5. Feux de position.</p>
+                <p>Dès que vous allumez un phare, vous verrez l'un des témoins correspondants s'allumer sur 
+                    votre tableau de bord. Il s'agit d'un témoin de signalisation.</p>
+                <p>Vu leurs couleurs, ce n'est donc pas un problème, juste une information du bon fonctionnement 
+                    de ce dispositif d'éclairage. D'ailleurs, la couleur peut varier selon le modèle du véhicule.</p>
+                <p><b class="text-muted">Phares</b></p>
                 <div class="row">
                     <div class="col-md-12" >
                         <div class="card" 
                             style="border: none; max-width: 450px; 
                             margin: 100px auto; border: 2px solid chocolate;
                             margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_sept/quiter1.jfif">
+                                <img src="../images/theme_huit/claire2.jfif">
                         </div>
-                        <p class="text-muted text-center"><small>Quittez le véhicule en toute sécurité</small></p>
+                        <p class="text-muted text-center"><small>Phares avant et arrière</small></p>
                     </div>
                 </div>
-                <br>
-                <h2 style="font-weight: bold;">Les autres usagers de la route</h2>
-                <br>
-                <div class="card question">
-                <div class="card-body">
-                <p><b><i class="bi bi-chat-dots"></i>&nbsp;&nbsp;Question</b></p>
-                <p>Si vous avez des passagers qui sont assis derrière, de quel côté devraient-ils sortir ?</p>
+                
+                <b>Éclairage avant comprend :</b>
+                <ol style="list-style-type: disc;">
+                    <li>2 feux de route dont la portée est de 100 m minimum (ampoule de la partie 2) ;</li>
+                    <li>2 feux de croisement dont la portée est de 30 m minimum et qui éclairent plus loin à 
+                        droite qu'à gauche pour ne pas gêner les usagers croisés) (ampoule de gauche de
+                         la partie 1) ;</li>
+                    <li>2 feux de position, visibles à 150 m minimum  (ampoule de droite de la partie 2) ;</li>
+                    <li>2 feux de brouillard (ampoule de la partie 3).</li>
+                </ol>
+                <p>Il existe aussi :</p>
+                <ol style="list-style-type: disc;">
+                    <li>2 feux diurnes permettant de mettre en évidence le véhicule de jour ;</li>
+                    <li>2 feux d'angle qui éclairent la route par là où l'on tourne ; </li>
+                </ol>
+                <b>Éclairage arrière comprend :</b>
+                <ol style="list-style-type: disc;">
+                    <li>2 feux de position rouges qui sont visibles à 150 m ;</li>
+                    <li>2 ou 3 feux Stop rouges qui s'allument lorsque l'on appuie sur la pédale de freins 
+                         (partie 2 sur la photo) ;</li>
+                    <li>2 catadioptres rouges ;</li>
+                    <li>1 ou 2 feux de marche arrière qui sont blancs quand ils s'allument (partie 1 sur la photo) ;</li>
+                    <li>1 ou 2 feux de brouillard (partie 3 sur la photo).</li>
+                </ol>
+                <p>Les feux de marche arrière s'allument quand on passe la marche arrière. Si votre voiture 
+                    dispose d'un seul feu de brouillard arrière, alors il est placé à gauche.</p>
+                <b>Éclairage avant et arrière comprend :</b>
+                <ol style="list-style-type: disc;">
+                    <li>2 clignotants (gauche et droit) ;</li>
+                    <li>feux de détresse ou warnings (ce sont en réalité les 4 clignotants) ; il s'agit d'un 
+                        témoin de signalisation ;</li>
+                    <li>plaques blanches d'immatriculation rétroréfléchissante, lisibles à 20m minimum. </li>
+                </ol>
+                <div class="row">
+                    <div class="col-md-12" >
+                        <div class="card" 
+                            style="border: none; max-width: 250px; 
+                            margin: 100px auto; border: 2px solid chocolate;
+                            margin-top: 10px; margin-bottom: 10px;" >
+                                <img src="../images/theme_huit/claire3.jpg">
+                        </div>
+                        <p class="text-muted text-center"><small>Voyant clignotants et warnings</small></p>
+                    </div>
                 </div>
+               
+                <p><b>Quand utiliser les différents feux</b></p>
+                <p><b>Feux d'angle</b></p>
+                <p>Tout véhicule peut être muni à l’avant de 2 feux d’angle émettant latéralement une 
+                    lumière blanche afin de compléter l’éclairage de la route située dans les virages. 
+                    Les feux d'angle s'activent à 40 km/h ou en actionnant le clignotant.</p>
+                <b>Feux adaptatifs</b>
+                <p>Tous les véhicules n'en sont pas équipés. Mais cette aide est très utile pour mieux 
+                    voir ce qui se passe dans les virages. En effet, ils suivent la direction donnée par le volant.</p>
+                <div class="row">
+                    <div class="col-md-12" >
+                        <div class="card" 
+                            style="border: none; max-width: 450px; 
+                            margin: 100px auto; border: 2px solid chocolate;
+                            margin-top: 10px; margin-bottom: 10px;" >
+                                <img src="../images/theme_huit/claire4.jpg">
+                        </div>
+                        <p class="text-muted text-center"><small>Feux d'angle</small></p>
+                    </div>
                 </div>
-                <br>
-                <p><b>Réponse : </b>Comme en France on roule à droite, il faut privilégier 
-                la droite pour que les passagers ne sortent pas sur la chaussée, mais sur le trottoir. 
-                Si vous avez plusieurs passagers, il convient de s'organiser pour savoir qui descend 
-                en premier pour qu'ils n'aient pas à changer de place en cours de trajet.</p>
                 <br>
                 <div class="card attention">
                     <div class="card-body">
                     <b><i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;Attention</b>
-                    <p>Hiver comme été, ne laissez jamais des enfants en bas âge enfermés seuls dans la voiture. 
-                    Pareil pour les animaux en été, même avec une vitre ouverte. 
-                    Les chiens peuvent mourir de déshydratation même en 10 minutes !</p>
+                    <p>Si l'un de vos phares est en panne, vous risquez une amende. Les clignotants et les 
+                        feux Stop ont plus de poids pour la sécurité que les feux arrière. Si la visibilité est mauvaise 
+                        et que vous avez oublié de mettre les phares, vous risquez 135 euros d'amende.</p>
                     </div>
                 </div>
                 <br>
                                 
                 <h3><b>En résumé</b></h3>
                 <ol style="margin-left: 10px; list-style-type: disc;">
-                   <li>Vous ne pouvez pas laisser votre véhicule n'importe où n'importe comment, vous risquez 
-                    des amendes ou de gêner d'autres usagers de la route.</li>
-                   <li>Vous devez analyser l'environnement dans lequel vous envisagez de laisser votre véhicule
-                     pour des questions de sécurité.</li>
-                   <li>Avant de quitter le véhicule, vous devriez vous assurer qu'aucun objet n'attire l'attention 
-                    d'une personne malveillante.</li>
+                   <li>Les phares peuvent contenir plusieurs ampoules.</li>
+                   <li>Lorsque vous allumez les phares, un voyant sur votre tableau de bord s'allume 
+                    également pour vous en informer.</li>
+                   <li>Si vos phares sont en panne, vous risquez une amende.</li>
                 </ol>
 
           </div>

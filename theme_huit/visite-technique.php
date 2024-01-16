@@ -11,7 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../pages/assets/theme.css">
-    <title>Avant de quitter la voiture</title>
+    <title>Les visites techniques</title>
     <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
@@ -27,103 +27,79 @@
         <!-- Content here -->
         <div class="row">
           <div class="col-md-10" style="padding-left: 25%;">
-                <h1 style="font-weight: bold;"><b>Avant de quitter la voiture</b></h1>
+                <h1 style="font-weight: bold;"><b>Les visites techniques</b></h1>
                 <br>
-                <p>Une fois arrêtés ou garés, vous allez devoir vous assurer de 2 choses :</p>
+                <p>C'est un passage obligatoire pour tout conducteur, lui permettant de vérifier si son véhicule 
+                    fonctionne correctement. Une sorte de bilan de santé. Vous devez donc prendre l'initiative
+                     de présenter votre véhicule dans un centre agréé avant la date limite.</p>
+                <h2 style="font-weight: bold;"><b>Quand effectuer le contrôle ?</b></h2>
+                <p>Si votre voiture est neuve, vous devez la présenter au contrôle technique entre ses 3,5 ans 
+                    et 4 ans après la date de sa première mise en circulation. Les contrôles sont ensuite 
+                    obligatoires tous les 2 ans.</p>
+                <h2 style="font-weight: bold;"><b>Issue du contrôle</b></h2>
+                <p>Le contrôle technique vérifie 133 points sur le véhicule.</p>
+                <p>Si le véhicule passe le contrôle, le technicien remet au propriétaire :</p>
                 <ol style="list-style-type: disc;">
-                    <li>que votre véhicule peut rester arrêté ou stationné à l'endroit où vous le laissez ;</li>
-                    <li>que vous ne mettez en danger ni votre vie, ni celle des autres usagers de la route.</li>
+                    <li>un procès verbal indiquant le résultat du contrôle,</li>
+                    <li>une vignette collée sur le pare-brise avec la date de validité,</li>
+                    <li>une autre petite vignette collée au dos du certificat d'immatriculation.</li>
                 </ol>
-                <h1 style="font-weight: bold;"><b>Laissez le véhicule en toute sécurité</b></h1>
-                <p>Vous devez vous assurer que l'endroit où vous vous arrêtez ou stationnez est autorisé. 
-                    Si vous voulez quitter le véhicule pour prendre une photo par exemple, il est important 
-                    d'opter pour un endroit sûr. Vous n'allez pas non plus vous garer sur un pont et partir.
-                     En plus, c'est strictement interdit !</p>
-                <p>Pour stationner en sécurité, procédez par étapes :</p>
+                <p>Si le véhicule doit repasser le contrôle, vous avez 2 mois pour faire les réparations 
+                    indiquées sur le procès-verbal et faire la contre-visite.</p>
+                <p>Une lettre, sur le procès verbal et la vignette sur le certificat d'immatriculation, 
+                    indique le résultat du contrôle technique :</p>
                 <ol style="list-style-type: disc;">
-                    <li>point mort,</li>
-                    <li>frein à main</li>
-                    <li>et coupez le contact.</li>
+                    <li>A (Accepté), le contrôle est favorable,</li>
+                    <li>S (Sursis), une contre-visite est obligatoire,</li>
+                    <li>R (Refusé), le véhicule ne peut plus circuler dès minuit le jour du contrôle.</li>
                 </ol>
                 <br>
                 <div class="card Informations bg-info">
                     <div class="card-body">
                     <b><i class="bi bi-info-square"></i>&nbsp;&nbsp;Informations</b>
-                    <p>Si jamais vous devez stationner dans une rue à forte pente, enclenchez la première vitesse 
-                        et serrez le frein à main. Tournez ensuite un peu les roues vers 
-                        le trottoir pour éviter que la voiture ne bouge si jamais les freins lâchent.</p>
+                    <p>Les véhicules utilitaires de moins de 3,5 tonnes doivent subir une visite
+                         complémentaire de contrôle anti pollution.</p>
                     </div>
                 </div>
                 <br>
-                <p>Si vous stationnez dans un parking souterrain où les espaces sont parfois ridicules, il faut 
-                    ouvrir doucement les portières pour ne pas rayer le véhicule du voisin. Dans la rue, il faut 
-                    se servir du rétroviseur extérieur pour être sûr de ne pas gêner un usager (un piéton ou un 
-                    cycliste par exemple).</p>
-                <p>Aussi, évitez de laisser dans la voiture les objets qui pourraient susciter de la convoitise 
-                    auprès des personnes malveillantes. Certaines n'hésiteront pas à casser la vitre et voler vos 
-                    affaires. Je me réfère à un GPS que vous auriez pu laisser traîner, un téléphone ou un autre
-                     objet précieux.</p>
+                <h2 style="font-weight: bold;"><b>Coût</b></h2>
+                <p>Le prix d'un contrôle technique peut varier selon les régions et son tarif est entre 80 et 100 euros.</p>
+                <h2 style="font-weight: bold;"><b>En cas de vente du véhicule</b></h2>
+                <p>Si vous voulez vendre votre véhicule, c'est vous qui devrez vous charger 
+                    de son contrôle technique et non pas son acheteur.</p>
+                <p>Lors de la vente de votre véhicule, le contrôle technique doit avoir moins de 6 mois.</p>
                 <br>
                 <div class="card attention">
                     <div class="card-body">
                     <b><i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;Attention</b>
-                    <p>Pensez à bien fermer la voiture à clé et à cacher les objets de valeur. 
-                    Vous pouvez installer une alarme et mettre en place le dispositif d'antivol pour le volant.</p>
+                    <p>Tout véhicule de plus de 4 ans doit subir un contrôle technique, 
+                    sauf si ce dernier a été fait dans les 6 mois précédant la vente.</p>
                     </div>
                 </div>
                 <br>
-                <p>Si vous devez prendre un bac, vous n'allez certainement pas rester dans la voiture 
-                    pendant tout le trajet. Avant de quitter le véhicule pensez à :</p>
+                <h2 style="font-weight: bold;"><b>Sanctions</b></h2>
+                <p>Si le contrôle technique n'est à jour, vous encourez :</p>
                 <ol style="list-style-type: disc;">
-                    <LI>actionner le frein à main ;</LI>
-                    <LI>couper le moteur.</LI>
+                    <li>une amende de 4e classe (135€),</li>
+                    <li>et une immobilisation du véhicule.</li>
                 </ol>
-                <br>
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="card" 
-                            style="border: none; max-width: 450px; 
-                            margin: 100px auto; border: 2px solid chocolate;
-                            margin-top: 10px; margin-bottom: 10px;" >
-                                <img src="../images/theme_sept/quiter1.jfif">
-                        </div>
-                        <p class="text-muted text-center"><small>Quittez le véhicule en toute sécurité</small></p>
-                    </div>
-                </div>
-                <br>
-                <h2 style="font-weight: bold;">Les autres usagers de la route</h2>
-                <br>
-                <div class="card question">
-                <div class="card-body">
-                <p><b><i class="bi bi-chat-dots"></i>&nbsp;&nbsp;Question</b></p>
-                <p>Si vous avez des passagers qui sont assis derrière, de quel côté devraient-ils sortir ?</p>
-                </div>
-                </div>
-                <br>
-                <p><b>Réponse : </b>Comme en France on roule à droite, il faut privilégier 
-                la droite pour que les passagers ne sortent pas sur la chaussée, mais sur le trottoir. 
-                Si vous avez plusieurs passagers, il convient de s'organiser pour savoir qui descend 
-                en premier pour qu'ils n'aient pas à changer de place en cours de trajet.</p>
-                <br>
-                <div class="card attention">
-                    <div class="card-body">
-                    <b><i class="bi bi-exclamation-triangle"></i>&nbsp;&nbsp;Attention</b>
-                    <p>Hiver comme été, ne laissez jamais des enfants en bas âge enfermés seuls dans la voiture. 
-                    Pareil pour les animaux en été, même avec une vitre ouverte. 
-                    Les chiens peuvent mourir de déshydratation même en 10 minutes !</p>
-                    </div>
-                </div>
+                <p>Après la constatation du défaut de contrôle technique, les forces de l'ordre 
+                    conservent le certificat d'immatriculation. Vous avez alors 7 jours pour réaliser le contrôle. 
+                    C'est seulement sur présentation du procès verbal positif du contrôle technique que les agents 
+                    vous rendront le certificat d'immatriculation.</p>
                 <br>
                                 
                 <h3><b>En résumé</b></h3>
                 <ol style="margin-left: 10px; list-style-type: disc;">
-                   <li>Vous ne pouvez pas laisser votre véhicule n'importe où n'importe comment, vous risquez 
-                    des amendes ou de gêner d'autres usagers de la route.</li>
-                   <li>Vous devez analyser l'environnement dans lequel vous envisagez de laisser votre véhicule
-                     pour des questions de sécurité.</li>
-                   <li>Avant de quitter le véhicule, vous devriez vous assurer qu'aucun objet n'attire l'attention 
-                    d'une personne malveillante.</li>
+                   <li>Le contrôle technique est obligatoire pour tout véhicule.</li>
+                   <li>Les contrôles se font tous les 2 ans, sauf pour les voitures neuves 
+                    (avant qu'elle n'accomplisse ses 4 ans).</li>
+                   <li>En fonction de l'issue du contrôle, une lettre est apposée pour signaler 
+                    si la voiture passe le test ou si elle doit le repasser.</li>
+                   <li>Un macaron est collé sur le pare-brise pour signaler la date du prochain 
+                    contrôle technique.</li>
                 </ol>
+                <br>
 
           </div>
         </div>

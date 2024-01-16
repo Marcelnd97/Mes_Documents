@@ -99,7 +99,7 @@
                     <div class="card p-2 mt-2">
                       <p class="card-text">Face à la recrudescence des accidents dont la plupart sont dûs 
                         au méconnaissance aux règles élémentaires du code de la route.</p>
-                      <p>Driversolution est une solution innovante pour permettre à tout chacun à maîtriser les règles
+                      <p>Driving car solution est une solution innovante pour permettre à tout chacun à maîtriser les règles
                         du code de la route gage de la sécurité routière. La personne organise sa formation en
                         fonction de ses disponibilités et de ses connaissances. La formation au code est accessible
                         24h/24 et 7j/7 via un ordinateur, une tablette ou un smartphone. Aussi, sa formation surmesure 
@@ -132,7 +132,7 @@
                 <div class="col-md-12">
                   <div class="card p-2 mt-2">
                     <p class="card-text">Vous pouvez à tout moment commencer à apprendre vos codes de conduite. 
-                      Pour ce faire soit voit vous cliquez sur le bouton en bas du 
+                      Pour ce faire soit vous cliquez sur le bouton en bas du 
                       texte soit vous passez par le menu de la barre de navigation. <b>Attention ! </b>
                         Cette dernière possibilité requière imperativement une authentification. 
                       Ce la signifie que vous ne vous êtes pas connecté vous aurais ni aux cours ni aux séries.

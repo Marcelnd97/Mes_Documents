@@ -217,144 +217,148 @@
   <script>
     const quizData = [
       {
-        question: "",
-        image: "../images/quizcroiser/croiser1.jpg",
+        question: "La signalisation : - est",
+        image: "../images/quizpanneau/paneau1.jpg",
         options: [
-        {text: "Je passe", isCorrect: true}, 
-        {text: "ou je céde le passage", isCorrect: false}
+        {text: "A. temporaire", isCorrect: true}, 
+        {text: "B. permanente", isCorrect: false}
         ],
-        audioQuestion: "Je passe ou je cède le passage",
+        audioQuestion: "La signalisation : - est. A. temporaire, B. permanente",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Je passe",
-        image: "../images/quizcroiser/croiser2.jpg",
+        question: "La signalisation : - indique le risque de rencontrer",
+        image: "../images/quizpanneau/paneau1.jpg",
         options: [
-        {text: "A. OUI", isCorrect: true}, 
-        {text: "B. NON", isCorrect: false}
+        {text: "A. un accident", isCorrect: false}, 
+        {text: "B. des travaux", isCorrect: true}
         ],
-        audioQuestion: "Je passe : A. OUI, B. NON",
+        audioQuestion: "La signalisation : - indique le risque de rencontrer : A. un accident, B. des travaux",
         audioAnswer: "correct.mp3"
       },
       {
-        question: " Je suis en descente.",
-        image: "../images/quizcroiser/croiser3.jpg",
+        question: "La signalisation : - interdit",
+        image: "../images/quizpanneau/paneau2.jpg",
         options: [
-        {text: "A. je reste sur ma trajectoire", isCorrect: false}, 
-        {text: "B. je serre à droite", isCorrect: true}
+        {text: "A. le stationnement et priorité", isCorrect: false}, 
+        {text: "B. l'arrêt et stationnement", isCorrect: true}
         ],
-        audioQuestion: " Je suis en descente. A. je reste sur ma trajectoire, B. je serre à droite",
+        audioQuestion: " La signalisation : - interdit. A. le stationnement et priorité, B. l'arrêt et stationnement",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Si le croisement est impossible :",
-        image: "../images/quizcroiser/croiser3.jpg",
+        question: "La signalisation : - prend effet",
+        image: "../images/quizpanneau/paneau2.jpg",
         options: [
-        {text: "A.j'avance", isCorrect: false}, 
-        {text: "B. je recule", isCorrect: true}
+        {text: "A. avant le panneau", isCorrect: false}, 
+        {text: "B. à partir du le panneau", isCorrect: true}
         ],
-        audioQuestion: "Si le croisement est impossible : A. j'avance, B. je recule",
+        audioQuestion: "La signalisation : - prend effet. A. avant le panneau, B. à partir du le panneau",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "",
-        image: "../images/quizcroiser/croiser4.jpg",
+        question: "Je vais rencontrer un passage à niveau :",
+        image: "../images/quizpanneau/paneau3.jpg",
         options: [
-        {text: "A. je ralentis et je serre à droite", isCorrect: true}, 
-        {text: "B. ou je serre à droite et je ralentis", isCorrect: false}
+        {text: "A. muni de barières", isCorrect: false}, 
+        {text: "B. sans barières", isCorrect: true}
         ],
-        audioQuestion: "A. je ralentis et je serre à droite, B. ou je serre à droite et je ralentis",
+        audioQuestion: "Je vais rencontrer un passage à niveau : A. muni de barières, B. sans barières",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Je dépasse :",
-        image: "../images/quizcroiser/croiser5.jpg",
+        question: "Ce panneau indique :",
+        image: "../images/quizpanneau/paneau4.jpg",
         options: [
-        {text: "A. OUI", isCorrect: false}, 
-        {text: "B. NON", isCorrect: true}
+        {text: "A. un danger", isCorrect: false}, 
+        {text: "B. une direction", isCorrect: false}, 
+        {text: "C. une interdiction", isCorrect: true}, 
+        {text: "D. une indication", isCorrect: false}
         ],
-        audioQuestion: "Je dépasse : A. OUI, B. NON",
+        audioQuestion: "Ce panneau indique : A. un danger, B. une direction, C. une interdiction, D. une indication",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Le marquage autorise le dépassement : - dans la situation 1",
-        image: "../images/quizcroiser/croiser6.jpg",
+        question: "À la prochaine intersection :",
+        image: "../images/quizpanneau/paneau5.jpg",
         options: [
-        {text: "A. OUI", isCorrect: false}, 
-        {text: "B.NON", isCorrect: true}
+        {text: "A. je cède le passage", isCorrect: false}, 
+        {text: "B. les usagers venant de droite et de gauche ne cèderont pas le passage", isCorrect: true}
         ],
-        audioQuestion: "Le marquage autorise le dépassement : - dans la situation 1/ A.OUI, B.NON",
+        audioQuestion: "À la prochaine intersection : A. je cède le passage, B. les usagers venant de droite et de gauche ne cèderont pas le passage",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Le marquage autorise le dépassement : - dans la situation 2",
-        image: "../images/quizcroiser/croiser6.jpg",
+        question: "Ce panneau indique :",
+        image: "../images/quizpanneau/paneau6.jpg",
         options: [
-        {text: "C. de tous les véhicules", isCorrect: false}, 
-        {text: "D. des véhicules circulant lentement", isCorrect: true}
+        {text: "A. un danger inconnu", isCorrect: false}, 
+        {text: "B. une priorité à droite", isCorrect: true},
+        {text: "C. un stop", isCorrect: false}
         ],
-        audioQuestion: "Le marquage autorise le dépassement : - dans la situation 2. C. de tous les véhicules, D. des véhicules circulant lentement",
+        audioQuestion: "Ce panneau indique : A. un danger inconnu, B. une priorité à droite, C. un stop",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Pour un dépassement, il est conseillé d'avoir une différence de vitesse d'au moins :",
-        image: "../images/quizcroiser/croiser7.jpg",
+        question: "À l'arrivée d'un train, le feu est :",
+        image: "../images/quizpanneau/paneau7.jpg",
         options: [
-        {text: "A. 10km/h", isCorrect: false}, 
-        {text: "B. 20km/h", isCorrect: true},
-        {text: "C. 40km/h", isCorrect: false}
+        {text: "A. orange clignotant", isCorrect: false}, 
+        {text: "B. orange fixe", isCorrect: false},
+        {text: "C. rouge clignotant", isCorrect: true},
+        {text: "D. rouge fixe", isCorrect: false}
         ],
-        audioQuestion: "Pour un dépassement, il est conseillé d'avoir une différence de vitesse d'au moins : A. 10km/h, B. 20km/h, C. 40km/h",
+        audioQuestion: "À l'arrivée d'un train, le feu est : A. orange clignotant, B. orange fixe, C. rouge clignotant, D. rouge fixe",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Au niveau d'une priorité à droite :",
-        image: "../images/quizcroiser/croiser8.jpg",
+        question: "La signalisation indique un passage à niveau :",
+        image: "../images/quizpanneau/paneau8.jpg",
         options: [
-        {text: "A. tout dépassement est interdit", isCorrect: false}, 
-        {text: "B. le dépassement des deux roues est autorisé", isCorrect: true}
+        {text: "A. avec barières", isCorrect: false}, 
+        {text: "B. sans barière", isCorrect: true}
         ],
-        audioQuestion: "Au niveau d'une priorité à droite :A. tout dépassement est interdit, B. le dépassement des deux roues est autorisé",
+        audioQuestion: "La signalisation indique un passage à niveau : A. avec barières, B. sans barière",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "La signalisation indique un rétrécissement :",
-        image: "../images/quizcroiser/croiser9.jpg",
-        options: [
-        {text: "A. par la droite", isCorrect: true}, 
-        {text: "B. par la gauche", isCorrect: false}
-        ],
-        audioQuestion: "La signalisation indique un rétrécissement : A. par la droite, B. par la gauche",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "J'indique immédiatement mon intention de changer de voie :",
-        image: "../images/quizcroiser/croiser9.jpg",
-        options: [
-        {text: "A. OUI", isCorrect: true}, 
-        {text: "B. NON", isCorrect: false}
-        ],
-        audioQuestion: "J'indique immédiatement mon intention de changer de voie : A. OUI, B. NON",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Je ralentis pour laisser l'usager à gauche se rabattre :",
-        image: "../images/quizcroiser/croiser10.jpg",
-        options: [
-        {text: "A. OUI", isCorrect: false}, 
-        {text: "B. NON", isCorrect: true}
-        ],
-        audioQuestion: "Je ralentis pour laisser l'usager à gauche se rabattre : A. OUI, B. NON",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "L'usager à gauche peut continuer de dépasser :",
-        image: "../images/quizcroiser/croiser10.jpg",
+        question: "Je m'arrête :",
+        image: "../images/quizpanneau/paneau8.jpg",
         options: [
         {text: "C. OUI", isCorrect: true}, 
         {text: "D. NON", isCorrect: false}
         ],
-        audioQuestion: "L'usager à gauche peut continuer de dépasser : A. OUI, B. NON",
+        audioQuestion: "Je m'arrête : A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Dans ce tunnel, le dépassement est autorisé :",
+        image: "../images/quizpanneau/paneau9.jpg",
+        options: [
+        {text: "A. OUI", isCorrect: true}, 
+        {text: "B. NON", isCorrect: false}
+        ],
+        audioQuestion: "Dans ce tunnel, le dépassement est autorisé : A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "La sortie est à :",
+        image: "../images/quizpanneau/paneau9.jpg",
+        options: [
+        {text: "C. 300 m", isCorrect: false}, 
+        {text: "D. 600 m", isCorrect: true}
+        ],
+        audioQuestion: "La sortie est à : C. 300 m, D. 600 m",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "À partir de ce panneau, j'allume les feux de route :",
+        image: "../images/quizpanneau/paneau10.jpg",
+        options: [
+        {text: "C. OUI", isCorrect: false}, 
+        {text: "D. NON", isCorrect: true}
+        ],
+        audioQuestion: "À partir de ce panneau, j'allume les feux de route : A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       // Ajoutez d'autres questions ici...

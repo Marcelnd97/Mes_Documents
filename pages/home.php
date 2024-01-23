@@ -5,7 +5,7 @@
    
     // vérifier si l'utilisateur est connecté, sinon redirigez le vers la page de donnection
     if(! isset($_SESSION['id'])) {
-        header('location: index.php');
+        header('location: accueil.php');
         exit();
     }
 
@@ -28,7 +28,7 @@
     <?php
         if (isset($_SESSION['id'])) {?>
 
-            <a class="btn btn-primary" href="deconnexion.php">Se déconnecter</a>
+            <a class="btn btn-primary" href="deconnexion">Se déconnecter</a>
             <h2>Voici le profil de <?= $_SESSION['username'] ."&nbsp;&nbsp;". $_SESSION['mail']; ?></h2>
             <div>Quelques informations sur vous : </div>
             <ul>
@@ -44,7 +44,7 @@
     
 
 
-    <body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
+    <<body class="codebody">>
         <div class='row m-3'>
                 <div class='col-md-12 p-0'>
                     <h1>Le profil de l'utilisateur</h1>

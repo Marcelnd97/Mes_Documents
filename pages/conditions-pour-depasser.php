@@ -14,7 +14,7 @@
     <title>Conditions pour dépasser</title>
     <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
-<body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
+<<body class="codebody">>
 
 <!--L'en-tête de la page-->
 <?php
@@ -24,9 +24,9 @@
       <br><br><br><br>
 
       <div class="container">
-        <!-- Content here -->
-        <div class="row">
-          <div class="col-md-10" style="padding-left: 25%;">
+       <!-- Content here -->
+        <div class="row justify-content-center">
+          <div class="col-md-8">
               <h1><b>Conditions pour dépasser</b></h1>
               <br>
               <p>Les dépassements sont autorisés seulement si toutes les conditions de sécurité sont 

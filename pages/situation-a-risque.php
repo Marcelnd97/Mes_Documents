@@ -10,11 +10,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../pages/assets/theme.css">
+    <link rel="stylesheet" href="../assets/theme.css">
     <title>Les situations à rique</title>
     <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
-<body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
+<<body class="codebody">>
      <!--L'en-tête de la page-->
      <?php
         include("../header/header.php")
@@ -22,9 +22,9 @@
     <br><br><br>
     <section>
       <div class="container">
-        <!-- Content here -->
-        <div class="row">
-          <div class="col-md-10" style="padding-left: 25%;">
+       <!-- Content here -->
+        <div class="row justify-content-center">
+          <div class="col-md-8">
                 <h1 style="font-weight: bold;">Les situations à rique</h1>
                 <br> 
                 <p>Dans le chapitre précédent, nous avons déjà vu qu'observer pour pouvoir agir était important. 

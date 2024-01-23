@@ -3,7 +3,7 @@
     include('config.php');
 
     if (isset($_SESSION['id'])) {
-        header('Location: index.php');
+        header('Location: accueil.php');
         exit;
     }
 
@@ -71,7 +71,7 @@
                         header("Location: theme-des-leçons.php");
                         exit;
                     } else {
-                        header("Location: index.html");
+                        header("Location: accueil.html");
                         exit;
                     }
                 }
@@ -91,84 +91,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <link rel="stylesheet" href="../pages/assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
-
-    <style>
-        .my-container{
-            margin-top: 200px;
-            max-width: 500px;
-            margin: 0 35%;
-            border: 3px solid black;
-            border-radius: 12px;
-            
-        }
-        .card-header{
-             background-color: chocolate;
-             color: white;
-        }
-        .card-footer{
-            background-color: chocolate;
-             color: white;
-        }
-        .connect{
-            color: blue;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="../assets/theme.css">
 </head>
-<body>
+<body class="codebody">
 
-    <div class="contaner mt-4 my-container">
-            <div class="card justify-content-md-center">
-                <div class="card-header text-center">
-                    <div class="col-md-12">
-                        <img src="../images/client.png" width="100px;" height="100px;">
+    <div class="container mt-3">
+        <div class="row justify-content-md-center">
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-header apropos text-center">
+                        <div class="col-md-12">
+                            <img src="../images/client.png" width="100px;" height="100px;">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <?php if(! empty($message)) { ?>
+                            <div class="alert alert-danger" role="alert">
+                            <p class="errorMessage"><?php echo $message; ?></p>
+                            </div>
+                        <?php } ?>
+                        <form action="" method="post">
+                            <?php
+                            if (isset($er_mail)){
+                            ?>
+                                <div><?= $er_mail ?></div>
+                            <?php
+                            }
+                            ?>
+                            <div class="mb-3">
+                            <input type="email" class="form-control" name="mail" 
+                                value="<?php if(isset($mail)){ echo $mail; }?>" placeholder="Votre mail" required>
+                            </div>
+
+                            <?php
+                            if (isset($er_mdp)){
+                            ?>
+                                <div><?= $er_mdp ?></div>
+                            <?php
+                            }
+                            ?>
+
+                            <div class="mb-3">
+                            <input type="password" class="form-control" name="mdp" 
+                                placeholder="votre mot de passe" value="<?php if(isset($mdp)){ echo $mdp; }?>" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary" name="connexion">login</button>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <p class="box-register">Vous êtes nouveau ici ?&nbsp;
+                                <a class="connect" href="inscription.php">S'inscrire</a>
+                        </p>
                     </div>
                 </div>
-                <div class="card-body">
-                    <?php if(! empty($message)) { ?>
-                        <div class="alert alert-danger" role="alert">
-                        <p class="errorMessage"><?php echo $message; ?></p>
-                        </div>
-                    <?php } ?>
-                    <form action="" method="post">
-                        <?php
-                        if (isset($er_mail)){
-                        ?>
-                            <div><?= $er_mail ?></div>
-                        <?php
-                        }
-                        ?>
-                        <div class="mb-3">
-                        <input type="email" class="form-control" name="mail" 
-                            value="<?php if(isset($mail)){ echo $mail; }?>" placeholder="Votre mail" required>
-                        </div>
-
-                        <?php
-                        if (isset($er_mdp)){
-                        ?>
-                            <div><?= $er_mdp ?></div>
-                        <?php
-                        }
-                        ?>
-
-                        <div class="mb-3">
-                        <input type="password" class="form-control" name="mdp" 
-                            placeholder="votre mot de passe" value="<?php if(isset($mdp)){ echo $mdp; }?>" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary" name="connexion">login</button>
-                    </form>
-                </div>
-                <div class="card-footer">
-                    <p class="box-register">Vous êtes nouveau ici ?&nbsp;
-                            <a class="connect" href="inscription.php">S'inscrire</a>
-                    </p>
-                </div>
             </div>
+        </div>
         </div>
     </div>
 </body>

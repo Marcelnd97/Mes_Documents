@@ -24,9 +24,9 @@
       <br><br><br><br>
 
       <div class="container">
-        <!-- Content here -->
-        <div class="row">
-          <div class="col-md-10" style="padding-left: 25%;">
+       <!-- Content here -->
+        <div class="row justify-content-center">
+          <div class="col-md-8">
               <h1><b>Limitations et contrôles</b></h1>
               <br> 
               <h4><b>Vitesse en agglomération</b></h4>

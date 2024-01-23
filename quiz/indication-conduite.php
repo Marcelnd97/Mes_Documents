@@ -11,7 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="../pages/assets/theme.css">
+  <link rel="stylesheet" href="../assets/theme.css">
   <title>Indications de conduite</title>
   <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
   <style>
@@ -130,22 +130,17 @@
     }
   </style>
 </head>
-<body style="background-color: gainsboro; font-family:'Times New Roman', Times, serif; font-size: 17px;">
-  <!--L'en-tête de la page-->
+<body class="codebody">  <!--L'en-tête de la page-->
     <?php
           include("../header/header.php");
       ?>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container" id="container">
+    <div class="container mt-3" id="infor">
         <div class="row">
             <div class="col-md-12">
-              <div class="card">
-                  <h3 style="font-weight: bold; padding-right: 20px;"><marquee behavior="alternate"
-                   direction="left">Il est conseillée de ne pas raffraîchir 
-                   la page dés l'instant que vous commencez le test pour ne pas réinitialiser la série.</marquee></h3>
+              <div class="card rowdefile">
+                  <h3 class="marquee"><marquee behavior="alternate"
+                   direction="left">Il est recommandé de ne pas raffraîchir 
+                   la page dés l'instant que vous commencez le teste pour ne pas réinitialiser la série.</marquee></h3>
               </div>
                 
             </div>
@@ -153,40 +148,40 @@
     </div>
     <div class="container app">
         <div id="quiz-container">
-          <div class="row">
-            <div class="col-md-12">
-                  <div class="card" id="quiz-image">
+          <div class="row justify-content-md-center">
+            <div class="col-md-10">
+                  <div class="card justify-content-md-center" id="quiz-image">
                       <div id="quiz-image-content"></div>  
                   </div>
               </div> 
           </div>
           <br>
-          <div class="row">
-              <div class="col-md-6">
+          <div class="row justify-content-md-center">
+              <div class="col-md-8">
                   <div class="card" id="quiz-questionNumber">
                       <div id="quiz-questionNumber-content" class="questionNumber"></div>
                   </div>
               </div>
           </div>
           <br>
-          <div class="row">
-              <div class="col-md-12">
+          <div class="row justify-content-md-center">
+              <div class="col-md-8">
                   <div class="card" id="quiz-question">
                       <div id="quiz-question-content" class="question"></div>
                   </div>
               </div>
           </div>
           <br>
-          <div class="row">
-              <div class="col-md-12">
+          <div class="row justify-content-md-center">
+              <div class="col-md-8">
                   <div class="card" id="quiz-options">
-                          <div id="quiz-options-content" class="options"></div>
+                      <div id="quiz-options-content" class="options"></div>
                   </div>
               </div>
           </div>
           <br>
-          <div class="row">
-              <div class="col-md-12 style">
+          <div class="row justify-content-md-center">
+              <div class="col-md-4 style">
                   <div class="card score" id="score">
                       <div id="score-content">Score: 0</div> 
                   </div>
@@ -198,176 +193,167 @@
           <br>
           <audio id="audio"></audio>
           
-          <div class="row">
-              <div class="col-md-12">
-                  <div class="card" id="son">
-                      <button id="sons" onclick="toggleSound()">
+          <div class="row justify-content-md-center">
+              <div class="col-md-3">
+                <div class="card son" id="son">
+                    <a class="btn btn-info" id="sons" onclick="toggleSound()">
                         <i id="soundIcon" class="bi-volume-mute">&nbsp;&nbsp; Active/Pause</i>
-                    </button>
-                  </div>
+                    </a>
+                </div>
+                  
               </div>
           </div>
         </div>
-          <button id="restart-button" class="restart" style="display: none;" onclick="restartQuiz()">Recommencer le Quiz</button>
-          <br>
+        <div class="row justify-content-md-center">
+          <div class="col-md-3" class="restart">
+              <button id="restart-button" onclick="restartQuiz()">Recommencer le Quiz</button>
+          </div>
+        </div>
+        <!-- <br>
           <p id="noteBien"><b>NB :</b><i> Vous êtes libre d'activer la son mais sachez que le lecteur peut vous faire perdre beaucoup de temps dans les séries. 
-          Donc il est conseillé de ne pas l'activer et de vous concentrer.</i></p>
+          Donc il est conseillé de ne pas l'activer et de vous concentrer.</i></p> -->
     </div>
 
   <script>
     const quizData = [
       {
-        question: "",
-        image: "../images/quizcroiser/croiser1.jpg",
+        question: "Le panneau indiquant une vitesse minimale obligatoire de 30 km/h est :",
+        image: "../images/quizpanneau/pano1.jpg",
         options: [
-        {text: "Je passe", isCorrect: true}, 
-        {text: "ou je céde le passage", isCorrect: false}
+        {text: "A. le n°1", isCorrect: false}, 
+        {text: "B. le n°2", isCorrect: false},
+        {text: "C. le n°3", isCorrect: true},
+        {text: "D. le n°4", isCorrect: false}
         ],
-        audioQuestion: "Je passe ou je cède le passage",
+        audioQuestion: "Le panneau indiquant une vitesse minimale obligatoire de 30 km/h est : A. le n°1 , B. le n°2, C. le n°3, D. le n°4",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Je passe",
-        image: "../images/quizcroiser/croiser2.jpg",
+        question: "Le panneau indiquant une obligation est :",
+        image: "../images/quizpanneau/pano2.jpg",
+        options: [
+            {text: "A. le n°1", isCorrect: false}, 
+            {text: "B. le n°2", isCorrect: true},
+        ],
+        audioQuestion: "Le panneau indiquant une obligation est : A. le n°1, B. le n°2",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Je peux tourner : - à gauche.",
+        image: "../images/quizpanneau/pano3.jpg",
         options: [
         {text: "A. OUI", isCorrect: true}, 
         {text: "B. NON", isCorrect: false}
         ],
-        audioQuestion: "Je passe : A. OUI, B. NON",
+        audioQuestion: "Je peux tourner : - à gauche. A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: " Je suis en descente.",
-        image: "../images/quizcroiser/croiser3.jpg",
-        options: [
-        {text: "A. je reste sur ma trajectoire", isCorrect: false}, 
-        {text: "B. je serre à droite", isCorrect: true}
-        ],
-        audioQuestion: " Je suis en descente. A. je reste sur ma trajectoire, B. je serre à droite",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Si le croisement est impossible :",
-        image: "../images/quizcroiser/croiser3.jpg",
-        options: [
-        {text: "A.j'avance", isCorrect: false}, 
-        {text: "B. je recule", isCorrect: true}
-        ],
-        audioQuestion: "Si le croisement est impossible : A. j'avance, B. je recule",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "",
-        image: "../images/quizcroiser/croiser4.jpg",
-        options: [
-        {text: "A. je ralentis et je serre à droite", isCorrect: true}, 
-        {text: "B. ou je serre à droite et je ralentis", isCorrect: false}
-        ],
-        audioQuestion: "A. je ralentis et je serre à droite, B. ou je serre à droite et je ralentis",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Je dépasse :",
-        image: "../images/quizcroiser/croiser5.jpg",
+        question: "Je peux tourner : - à droite.",
+        image: "../images/quizpanneau/pano3.jpg",
         options: [
         {text: "A. OUI", isCorrect: false}, 
         {text: "B. NON", isCorrect: true}
         ],
-        audioQuestion: "Je dépasse : A. OUI, B. NON",
+        audioQuestion: "Je peux tourner : - à droite. A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Le marquage autorise le dépassement : - dans la situation 1",
-        image: "../images/quizcroiser/croiser6.jpg",
+        question: "Ce panneau signale :",
+        image: "../images/quizpanneau/pano4.jpg",
         options: [
-        {text: "A. OUI", isCorrect: false}, 
-        {text: "B.NON", isCorrect: true}
+        {text: "A. une autoroute", isCorrect: false}, 
+        {text: "B. une limitation de vitesse à 70km/h", isCorrect: false},
+        {text: "C. une route à accés règlementé", isCorrect: true }
         ],
-        audioQuestion: "Le marquage autorise le dépassement : - dans la situation 1/ A.OUI, B.NON",
+        audioQuestion: "Ce panneau signale : A. une autoroute, B. une limitation de vitesse à 70km/h, C. une route à accés règlementé",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Le marquage autorise le dépassement : - dans la situation 2",
-        image: "../images/quizcroiser/croiser6.jpg",
+        question: "Un arrêt de bus est signalé par le panneau :",
+        image: "../images/quizpanneau/pano5.jpg",
         options: [
-        {text: "C. de tous les véhicules", isCorrect: false}, 
-        {text: "D. des véhicules circulant lentement", isCorrect: true}
+        {text: "A. le n°1", isCorrect: true}, 
+        {text: "B. le n°2", isCorrect: false}
         ],
-        audioQuestion: "Le marquage autorise le dépassement : - dans la situation 2. C. de tous les véhicules, D. des véhicules circulant lentement",
+        audioQuestion: "Un arrêt de bus est signalé par le panneau : A. le n°1, B. le n°2",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Pour un dépassement, il est conseillé d'avoir une différence de vitesse d'au moins :",
-        image: "../images/quizcroiser/croiser7.jpg",
+        question: "À 150 mètres, je peux accéder à :",
+        image: "../images/quizpanneau/pano6.jpg",
         options: [
-        {text: "A. 10km/h", isCorrect: false}, 
-        {text: "B. 20km/h", isCorrect: true},
-        {text: "C. 40km/h", isCorrect: false}
+        {text: "A. une aire de pique-nique", isCorrect: true}, 
+        {text: "B. une auberge de jeunesse", isCorrect: false}
         ],
-        audioQuestion: "Pour un dépassement, il est conseillé d'avoir une différence de vitesse d'au moins : A. 10km/h, B. 20km/h, C. 40km/h",
+        audioQuestion: "À 150 mètres, je peux accéder à : A. une aire de pique-nique, B. une auberge de jeunesse",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Au niveau d'une priorité à droite :",
-        image: "../images/quizcroiser/croiser8.jpg",
+        question: "Ce panneau indique :",
+        image: "../images/quizpanneau/pano7.jpg",
         options: [
-        {text: "A. tout dépassement est interdit", isCorrect: false}, 
-        {text: "B. le dépassement des deux roues est autorisé", isCorrect: true}
+        {text: "A. une traversée fréquente de joggeurs", isCorrect: false}, 
+        {text: "B. un point 'détente' ", isCorrect: true},
+        {text: "C. une voie verte", isCorrect: false}
         ],
-        audioQuestion: "Au niveau d'une priorité à droite :A. tout dépassement est interdit, B. le dépassement des deux roues est autorisé",
+        audioQuestion: "Ce panneau indique : A. une traversée fréquente de joggeurs, B. un point 'détente', C. une voie verte",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "La signalisation indique un rétrécissement :",
-        image: "../images/quizcroiser/croiser9.jpg",
+        question: "La balise signale : - dans la situation 1",
+        image: "../images/quizpanneau/pano8.jpg",
         options: [
-        {text: "A. par la droite", isCorrect: true}, 
-        {text: "B. par la gauche", isCorrect: false}
+        {text: "A. un passage à niveau", isCorrect: true}, 
+        {text: "B. une intersection", isCorrect: false},
         ],
-        audioQuestion: "La signalisation indique un rétrécissement : A. par la droite, B. par la gauche",
+        audioQuestion: "La balise signale : - dans la situation 1. A. un passage à niveau, B. une intersection",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "J'indique immédiatement mon intention de changer de voie :",
-        image: "../images/quizcroiser/croiser9.jpg",
+        question: "La balise signale : - dans la situation 2:",
+        image: "../images/quizpanneau/pano8.jpg",
         options: [
-        {text: "A. OUI", isCorrect: true}, 
-        {text: "B. NON", isCorrect: false}
+        {text: "C. un passage à niveau", isCorrect: true}, 
+        {text: "D. un virage", isCorrect: false}
         ],
-        audioQuestion: "J'indique immédiatement mon intention de changer de voie : A. OUI, B. NON",
+        audioQuestion: "La balise signale : - dans la situation 2: C. un passage à niveau, D. un virage",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Je ralentis pour laisser l'usager à gauche se rabattre :",
-        image: "../images/quizcroiser/croiser10.jpg",
+        question: "Je vais aborder :",
+        image: "../images/quizpanneau/pano9.jpg",
         options: [
-        {text: "A. OUI", isCorrect: false}, 
-        {text: "B. NON", isCorrect: true}
+        {text: "A. une priorité à droite", isCorrect: false}, 
+        {text: "B. un virage important", isCorrect: true},
+        {text: "C. un sens unique", isCorrect: false}
         ],
-        audioQuestion: "Je ralentis pour laisser l'usager à gauche se rabattre : A. OUI, B. NON",
+        audioQuestion: "Je vais aborder : A. une priorité à droite, B. un virage important, C. un sens unique",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "L'usager à gauche peut continuer de dépasser :",
-        image: "../images/quizcroiser/croiser10.jpg",
+        question: "La balise indique :",
+        image: "../images/quizpanneau/pano10.jpg",
         options: [
-        {text: "C. OUI", isCorrect: true}, 
-        {text: "D. NON", isCorrect: false}
+        {text: "A. un virage", isCorrect: false}, 
+        {text: "B. un obstacle", isCorrect: true}
         ],
-        audioQuestion: "L'usager à gauche peut continuer de dépasser : A. OUI, B. NON",
+        audioQuestion: "La balise indique : A. un virage, B. un obstacle",
         audioAnswer: "correct.mp3"
       },
-      // Ajoutez d'autres questions ici...
     ];
 
     let currentQuestionIndex = 0;
     let countQuestions = 1;
     let score = 0;
-    let time = 280; // Temps en secondes
+    let time = 600; // Temps en secondes
     let soundEnabled = false;
 
     function loadQuestion() {
       const currentQuestion = quizData[currentQuestionIndex];
+      document.getElementById("quiz-questionNumber").style.display = "flex";
+      
+      document.getElementById("restart-button").style.display = 'none';
 
       document.getElementById("quiz-question-content").textContent = currentQuestion.question;
 
@@ -458,10 +444,10 @@
       document.getElementById("timer").style.display = 'none';
       document.getElementById("son").style.display = 'none';
       document.getElementById("score-content").textContent = `Votre score final est: ${score} sur ${quizData.length}`;
-      document.getElementById("restart-button").style.display = 'inline';
+      document.getElementById("restart-button").style.display = 'flex';
       document.getElementById("quiz-questionNumber").style.display = "none";
       document.getElementById("noteBien").style.display = "none";
-      document.getElementById("container").style.display = "none";
+      document.getElementById("infor").style.display = "none";
 
     }
 
@@ -470,17 +456,18 @@
       currentQuestionIndex = 0;
       countQuestions = 1;
       score = 0;
-      time = 280;
+      time = 600;
       loadQuestion();
       resetOptionsColor();
       
       document.getElementById("quiz-options").style.display = 'flex';
       document.getElementById("quiz-image").style.display = 'flex';
       document.getElementById("quiz-question").style.display = 'flex';
-      document.getElementById("son").style.display = 'block';
+      document.getElementById("son").style.display = 'flex';
       document.getElementById("timer").style.display = 'block';
-      document.getElementById("restart-button").style.display = 'none';
-      document.getElementById("container").style.display = "flex";
+      document.getElementById("defilant").style.display = "flex";
+      document.getElementById("quiz-questionNumber").style.display = "flex";
+
 
     }
 

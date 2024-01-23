@@ -29,7 +29,7 @@
     <title>Code de la route</title>
     <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
-<body style="background-color: white; font-family:'Times New Roman', Times, serif; font-size: 17px;">
+<<body class="codebody">>
 
 <!--L'en-tête de la page-->
 <?php
@@ -42,7 +42,7 @@
             <h1>Leçons de code</h1>
           </div>
           <div class="col-md-6 positionlecon">
-            <a href="theme-des-leçons.php" class="btn" style="background-color: chocolate; color: white;">
+            <a href="theme-des-leçons" class="btn" style="background-color: chocolate; color: white;">
             <b>Toutes les leçons</b></a>
           </div>
         </div>
@@ -52,10 +52,6 @@
               <div class="card-body text-center">
                   <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                       height: 30%;; border-radius: 50%;
-                      border-top-left-radius: 50% 50%; 
-                      border-top-right-radius: 50% 50%; 
-                      border-bottom-right-radius: 50% 50%; 
-                      border-bottom-left-radius: 50% 50%;
                       margin:2px;">    
                   <h3 class="mt-3"><b>La circulation rouière</b></h3>
                   <span><b><i class="bi bi-bookmark"></i></i>&nbsp;Fiche: </b>
@@ -88,10 +84,6 @@
               <h5 class="modal-title">
                 <img src="../images/direction.jpg" class="rounded-circle" style="width: 30%; 
                         height: 30%;; border-radius: 50%;
-                        border-top-left-radius: 50% 50%; 
-                        border-top-right-radius: 50% 50%; 
-                        border-bottom-right-radius: 50% 50%; 
-                        border-bottom-left-radius: 50% 50%;
                         margin:2px;">
               </h5>
               <h3 class="mt-3"><b>Les Intersections</b></h3>
@@ -174,22 +166,6 @@
         </div>
       </div>
     </section>
-    <!--Le pied de la page-->
-    <footer>
-      <div class="container-fluid text-center">
-          <div class="row footer">
-            <div class="col-md-4">
-              <p>DRIVING SOLUTION</p>
-            </div>
-            <div class="col-md-4">  
-              <p>&copy; 2023 Mon Site. Tous droits réservés.</p>
-            </div>
-            <div class="col-md-4">
-              <p>Réseau Sociaux</p>
-            </div>
-          </div>
-      </div>
-    </footer>
 
     <!--Le pied de la page-->
     <?php

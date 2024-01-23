@@ -11,141 +11,22 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="../pages/assets/theme.css">
+  <link rel="stylesheet" href="../assets/theme.css">
   <title>Les panneaux (2)</title>
   <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: chocolate;
-    }
-    #soundIcon {
-      
-      padding-left: 25px;
-      font-size: x-large;
-    }
-    .app {
-      background: #fff;
-      width: 90%;
-      max-width: 650px;
-      margin: 100px auto;
-      border-radius: 10px;
-      padding: 7px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    #quiz-container {
-      max-width: 700px;
-      margin: 0 auto;
-    }
-
-    .question {
-      margin-top: 20px;
-      padding-bottom: 20px;
-    }
-
-    .options {
-      display: flex;
-      flex-direction: column;
-      max-width: 100%;
-    }
-
-    .option {
-      margin: 10px;
-    }
-
-    #score {
-      margin-top: 10px;
-      padding: 20px;
-    }
-    #timer {
-      margin-top: 10px;
-      padding-bottom: 10px;
-    }
-    button {
-      border: none;
-      background: #979695;
-      color: #222;
-      padding: 10px;
-      margin: 10px 0;
-      text-align: left;
-      border-radius: 4px;
-      font-weight: 500;
-      width: 95%;
-      cursor: pointer;
-      transition: all 0.4s;
-    }
-    button:hover {
-      background: white;
-      color: #001e4d;
-    }
-    .style {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .restart {
-      border: 1px solid #222;
-      border-radius: 4px;
-      font-weight: 500;
-      width: 40%;
-      text-align: center;
-    }
-    .restart:hover {
-      background: blue;
-      color: #fff;
-    }
-    .card {
-      background-color: blue;
-      color: #fff;
-    }
-    #btn-next {
-      background: #001e4d;
-      color: #fff;
-      font-weight: 500;
-      width: 150px;
-      border: 0;
-      padding: 10px;
-      text-align: center;
-      margin: 20px auto 0;
-      border-radius: 4px;
-      cursor: pointer;
-      display: none;
-    }
-  
-    #son {
-      background-color: blue;
-      color: white;
-      margin: 10px auto;
-      max-width: 40%;
-    }
-    #sons {
-      margin: 10px auto;
-      height: 10%;
-      border: none;
-    }
-  </style>
+ 
 </head>
-<body style="background-color: gainsboro; font-family:'Times New Roman', Times, serif; font-size: 17px;">
-  <!--L'en-tête de la page-->
+<body class="codebody">  <!--L'en-tête de la page-->
     <?php
           include("../header/header.php");
       ?>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container" id="container">
+    <div class="container mt-3" id="infor">
         <div class="row">
             <div class="col-md-12">
-              <div class="card">
-                  <h3 style="font-weight: bold; padding-right: 20px;"><marquee behavior="alternate"
-                   direction="left">Il est conseillée de ne pas raffraîchir 
-                   la page dés l'instant que vous commencez le test pour ne pas réinitialiser la série.</marquee></h3>
+              <div class="card rowdefile">
+                  <h3 class="marquee"><marquee behavior="alternate"
+                   direction="left">Il est recommandé de ne pas raffraîchir 
+                   la page dés l'instant que vous commencez le teste pour ne pas réinitialiser la série.</marquee></h3>
               </div>
                 
             </div>
@@ -153,40 +34,40 @@
     </div>
     <div class="container app">
         <div id="quiz-container">
-          <div class="row">
-            <div class="col-md-12">
-                  <div class="card" id="quiz-image">
+          <div class="row justify-content-md-center">
+            <div class="col-md-10">
+                  <div class="card justify-content-md-center" id="quiz-image">
                       <div id="quiz-image-content"></div>  
                   </div>
               </div> 
           </div>
           <br>
-          <div class="row">
-              <div class="col-md-6">
+          <div class="row justify-content-md-center">
+              <div class="col-md-8">
                   <div class="card" id="quiz-questionNumber">
                       <div id="quiz-questionNumber-content" class="questionNumber"></div>
                   </div>
               </div>
           </div>
           <br>
-          <div class="row">
-              <div class="col-md-12">
+          <div class="row justify-content-md-center">
+              <div class="col-md-8">
                   <div class="card" id="quiz-question">
                       <div id="quiz-question-content" class="question"></div>
                   </div>
               </div>
           </div>
           <br>
-          <div class="row">
-              <div class="col-md-12">
+          <div class="row justify-content-md-center">
+              <div class="col-md-8">
                   <div class="card" id="quiz-options">
-                          <div id="quiz-options-content" class="options"></div>
+                      <div id="quiz-options-content" class="options"></div>
                   </div>
               </div>
           </div>
           <br>
-          <div class="row">
-              <div class="col-md-12 style">
+          <div class="row justify-content-md-center">
+              <div class="col-md-4 style">
                   <div class="card score" id="score">
                       <div id="score-content">Score: 0</div> 
                   </div>
@@ -198,20 +79,24 @@
           <br>
           <audio id="audio"></audio>
           
-          <div class="row">
-              <div class="col-md-12">
-                  <div class="card" id="son">
-                      <button id="sons" onclick="toggleSound()">
+          <div class="row justify-content-md-center">
+              <div class="col-md-3">
+                <div class="card son" id="son">
+                    <a class="btn btn-info" id="sons" onclick="toggleSound()">
                         <i id="soundIcon" class="bi-volume-mute">&nbsp;&nbsp; Active/Pause</i>
-                    </button>
-                  </div>
+                    </a>
+                </div>
+                  
               </div>
           </div>
         </div>
-          <button id="restart-button" class="restart" style="display: none;" onclick="restartQuiz()">Recommencer le Quiz</button>
-          <br>
+        <div class="row justify-content-md-center">
+          <div class="col-md-3" class="restart">
+              <button id="restart-button" onclick="restartQuiz()">Recommencer le Quiz</button>
+          </div>
+        </div><!-- <br>
           <p id="noteBien"><b>NB :</b><i> Vous êtes libre d'activer la son mais sachez que le lecteur peut vous faire perdre beaucoup de temps dans les séries. 
-          Donc il est conseillé de ne pas l'activer et de vous concentrer.</i></p>
+          Donc il est conseillé de ne pas l'activer et de vous concentrer.</i></p> -->
     </div>
 
   <script>
@@ -367,7 +252,7 @@
     let currentQuestionIndex = 0;
     let countQuestions = 1;
     let score = 0;
-    let time = 280; // Temps en secondes
+    let time = 600; // Temps en secondes
     let soundEnabled = false;
 
     function loadQuestion() {
@@ -406,9 +291,8 @@
           if (option.textContent === selectedAnswer) {
             option.parentNode.style.backgroundColor = 'green'; // Réponse correcte en vert
           }else {
-            option.parentNode.style.backgroundColor = 'red'; // Réinitialiser la couleur pour les options incorrectes
+            option.parentNode.style.backgroundColor = 'red'; // changer la couleur en rouge pour les options incorrectes
           }
-          // option.parentNode.style.backgroundColor = 'green'; // Réponse correcte en vert
         } else if (option.textContent === selectedAnswer) {
           option.parentNode.style.backgroundColor = 'red'; // Réponse incorrecte en rouge
         }
@@ -474,7 +358,7 @@
       currentQuestionIndex = 0;
       countQuestions = 1;
       score = 0;
-      time = 280;
+      time = 600;
       loadQuestion();
       resetOptionsColor();
       
@@ -485,6 +369,8 @@
       document.getElementById("timer").style.display = 'block';
       document.getElementById("restart-button").style.display = 'none';
       document.getElementById("container").style.display = "flex";
+      document.getElementById("quiz-questionNumber").style.display = "flex";
+
 
     }
 

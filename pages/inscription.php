@@ -5,7 +5,7 @@
     $message = '';
 
     if (isset($_SESSION['id'])){
-        header('Location: index.php');
+        header('Location: accueil.php');
         exit;
     }
     
@@ -126,160 +126,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inscription</title>
-    <link rel="stylesheet" href="../pages/assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
-    <style>
-        .my-container{
-            margin-top: 200px;
-            max-width: 500px;
-            margin: 0 35%;
-            border: 3px solid black;
-            border-radius: 12px;
-            
-        }
-        .card-header{
-             background-color: chocolate;
-             color: white;
-        }
-        .card-footer{
-            background-color: chocolate;
-             color: white;
-        }
-        .connect{
-            color: blue;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="../assets/theme.css">
 </head>
-<body>
+<body class="codebody">
 
-    <div class="contaner mt-4 my-container">
-        <div class="card justify-content-md-center">
-            <div class="card-header text-center">
-                <div class="col-md-12">
-                    <img src="../images/client.png" width="100px;" height="100px;">
+    <div class="container-fluid mt-3 my-container">
+        <div class="row justify-content-md-center">
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-header apropos text-center">
+                    <div class="col-md-12">
+                        <img src="../images/client.png" width="100px;" height="100px;">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <?php if (!empty($message)): ?>
+                        <p style="color:red"><?= $message ?></p>
+                    <?php endif; ?>
+                    <form method="post">
+
+                    <?php
+                        // S'il y a une erreur sur le nom alors on affiche
+                        if (isset($er_username)){
+                        ?>
+                        <div><?= $er_username ?></div>
+                    <?php
+                    }
+                    ?>
+                        <div class="mb-3">
+                        <input type="text" class="form-control" name="username" <?php if(isset($username)){ echo $username; }?> 
+                            placeholder="Votre nom d'utilisateur" required>
+                        </div>
+
+                    <?php
+                        // S'il y a une erreur sur le nom alors on affiche
+                        if (isset($er_prenom)){
+                        ?>
+                        <div><?= $er_prenom ?></div>
+                    <?php
+                    }
+                    ?>
+                        <div class="mb-3">
+                        <input type="text" class="form-control" name="prenom" <?php if(isset($prenom)){ echo $prenom; }?>
+                            placeholder=" Votre prénom" required>
+                        </div>
+                    
+                    <?php
+                        // S'il y a une erreur sur le nom alors on affiche
+                        if (isset($er_nom)){
+                        ?>
+                        <div><?= $er_nom ?></div>
+                    <?php
+                    }
+                    ?>
+                        <div class="mb-3">
+                        <input type="text" class="form-control" name="nom"  <?php if(isset($nom)){ echo $nom; }?> 
+                            placeholder="Votre nom" required>
+                        </div>
+
+                    <?php
+                        // S'il y a une erreur sur le nom alors on affiche
+                        if (isset($er_phone)){
+                        ?>
+                        <div><?= $er_phone ?></div>
+                    <?php
+                    }
+                    ?>
+                        <div class="mb-3">
+                        <input type="text" class="form-control" name="telephone" <?php if(isset($telephone)){ echo $telephone; }?> 
+                            placeholder="Votre téléphone" required>
+                        </div>
+
+                    <?php
+                        // S'il y a une erreur sur le nom alors on affiche
+                        if (isset($er_adresse)){
+                        ?>
+                        <div><?= $er_adresse ?></div>
+                    <?php
+                    }
+                    ?>
+                        <div class="mb-3">
+                        <input type="text" class="form-control" name="adresse" <?php if(isset($adresse)){ echo $adresse; }?> 
+                            placeholder="Votre adresse" required>
+                        </div>
+
+                    <?php
+                        // S'il y a une erreur sur le nom alors on affiche
+                        if (isset($er_mail)){
+                        ?>
+                        <div><?= $er_mail ?></div>
+                    <?php
+                    }
+                    ?>
+                        <div class="mb-3">
+                        <input type="text" class="form-control" name="mail" <?php if(isset($mail)){ echo $mail; }?> 
+                            placeholder="Votre e-mail" required>
+                        </div>
+
+                    <?php
+                        // S'il y a une erreur sur le nom alors on affiche
+                        if (isset($er_mdp)){
+                        ?>
+                        <div><?= $er_mdp ?></div>
+                    <?php
+                    }
+                    ?>
+                        <div class="mb-3">
+                        <!-- <input type="password" placeholder="Mot de passe" name="mdp" value="" required> -->
+                        <input type="password" class="form-control" name="mdp" <?php if(isset($mdp)){ echo $mdp; }?> 
+                            placeholder="Votre mot de passe" required>
+                        </div>
+
+                        <div class="mb-3">
+                        <input type="password" class="form-control" placeholder="Confirmer le mot de passe" name="confmdp" required>
+                        </div>
+
+                        <button type="submit" name="inscription" value="S'inscrire" class="btn btn-primary">s'inscrire</button>
+                    
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-md-6">
+                        <a class="connect" href="login.php">Connectez-vous ici</a>
+                        </div>
+                        <!-- <div class="col-md-6">
+                        <a class="btn btn-primary  connect" href="mot-de-passe-oublier.php">Mot de pass oublié</a>
+                        </div> -->
+                    </div>
                 </div>
             </div>
-            <div class="card-body">
-                <?php if (!empty($message)): ?>
-                    <p style="color:red"><?= $message ?></p>
-                <?php endif; ?>
-                <form method="post">
-
-                <?php
-                    // S'il y a une erreur sur le nom alors on affiche
-                    if (isset($er_username)){
-                    ?>
-                    <div><?= $er_username ?></div>
-                <?php
-                }
-                ?>
-                    <div class="mb-3">
-                    <input type="text" class="form-control" name="username" <?php if(isset($username)){ echo $username; }?> 
-                        placeholder="Votre nom d'utilisateur" required>
-                    </div>
-
-                <?php
-                    // S'il y a une erreur sur le nom alors on affiche
-                    if (isset($er_prenom)){
-                    ?>
-                    <div><?= $er_prenom ?></div>
-                <?php
-                }
-                ?>
-                    <div class="mb-3">
-                    <input type="text" class="form-control" name="prenom" <?php if(isset($prenom)){ echo $prenom; }?>
-                         placeholder=" Votre prénom" required>
-                    </div>
-                
-                <?php
-                    // S'il y a une erreur sur le nom alors on affiche
-                    if (isset($er_nom)){
-                    ?>
-                    <div><?= $er_nom ?></div>
-                <?php
-                }
-                ?>
-                    <div class="mb-3">
-                    <input type="text" class="form-control" name="nom"  <?php if(isset($nom)){ echo $nom; }?> 
-                        placeholder="Votre nom" required>
-                    </div>
-
-                <?php
-                    // S'il y a une erreur sur le nom alors on affiche
-                    if (isset($er_phone)){
-                    ?>
-                    <div><?= $er_phone ?></div>
-                <?php
-                }
-                ?>
-                    <div class="mb-3">
-                    <input type="text" class="form-control" name="telephone" <?php if(isset($telephone)){ echo $telephone; }?> 
-                        placeholder="Votre téléphone" required>
-                    </div>
-
-                <?php
-                    // S'il y a une erreur sur le nom alors on affiche
-                    if (isset($er_adresse)){
-                    ?>
-                    <div><?= $er_adresse ?></div>
-                <?php
-                }
-                ?>
-                    <div class="mb-3">
-                    <input type="text" class="form-control" name="adresse" <?php if(isset($adresse)){ echo $adresse; }?> 
-                        placeholder="Votre adresse" required>
-                    </div>
-
-                <?php
-                    // S'il y a une erreur sur le nom alors on affiche
-                    if (isset($er_mail)){
-                    ?>
-                    <div><?= $er_mail ?></div>
-                <?php
-                }
-                ?>
-                    <div class="mb-3">
-                    <input type="text" class="form-control" name="mail" <?php if(isset($mail)){ echo $mail; }?> 
-                        placeholder="Votre e-mail" required>
-                    </div>
-
-                <?php
-                    // S'il y a une erreur sur le nom alors on affiche
-                    if (isset($er_mdp)){
-                    ?>
-                    <div><?= $er_mdp ?></div>
-                <?php
-                }
-                ?>
-                    <div class="mb-3">
-                    <!-- <input type="password" placeholder="Mot de passe" name="mdp" value="" required> -->
-                    <input type="password" class="form-control" name="mdp" <?php if(isset($mdp)){ echo $mdp; }?> 
-                        placeholder="Votre mot de passe" required>
-                    </div>
-
-                    <div class="mb-3">
-                    <input type="password" class="form-control" placeholder="Confirmer le mot de passe" name="confmdp" required>
-                    </div>
-
-                    <button type="submit" name="inscription" value="S'inscrire" class="btn btn-primary">s'inscrire</button>
-                
-                </form>
-            </div>
-            <div class="card-footer">
-                <div class="row">
-                    <div class="col-md-6">
-                    <a class="connect" href="login.php">Connectez-vous ici</a>
-                    </div>
-                    <!-- <div class="col-md-6">
-                    <a class="btn btn-primary  connect" href="mot-de-passe-oublier.php">Mot de pass oublié</a>
-                    </div> -->
-                </div>
-            </div>
+        </div>  
         </div>
+        
     </div>
     <br>
 </body>

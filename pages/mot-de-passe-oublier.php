@@ -4,7 +4,7 @@
         include('config.php');
     
     if (isset($_SESSION['id'])){
-        header('Location: index.php');
+        header('Location: accueil.php');
         exit;
     }
 

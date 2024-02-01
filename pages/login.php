@@ -105,7 +105,7 @@
                 <div class="card">
                     <div class="card-header apropos text-center">
                         <div class="col-md-12">
-                            <img src="../images/client.png" width="100px;" height="100px;">
+                            <img src="../images/client.png" style="width: 150px; height: 150px; border-radius: 50%;">
                         </div>
                     </div>
                     <div class="card-body">
@@ -139,7 +139,7 @@
                             <input type="password" class="form-control" name="mdp" 
                                 placeholder="votre mot de passe" value="<?php if(isset($mdp)){ echo $mdp; }?>" required>
                             </div>
-                            <button type="submit" class="btn btn-primary" name="connexion">login</button>
+                            <button type="submit" class="btn btn-primary login" name="connexion">login</button>
                         </form>
                     </div>
                     <div class="card-footer">

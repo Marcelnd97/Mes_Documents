@@ -123,17 +123,19 @@
               </div>
               <div class="card-body text-start">
                 <h5 class="card-title text-center">
-                  <img src="../images/code.jpg" width="100px" height="100px" style="border-radius: 100px;">
+                  <img src="../images/code.jpg" style="width:200px; height: 200px; border-radius: 50%;" 
+                      data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                 </h5>
                 <div class="col-md-12">
-                  <div class="card p-2 mt-2">
-                    <p data-aos="fade-down-left" class="card-text">Vous pouvez à tout moment commencer à apprendre vos codes de conduite. 
+                  <div class="card p-2 mt-2" data-aos="fade-down-left">
+                    <p class="card-text">Vous pouvez à tout moment commencer à apprendre vos codes de conduite. 
                       Pour ce faire soit vous cliquez sur le bouton en bas du 
                       texte soit vous passez par le menu de la barre de navigation. <b>Attention ! </b>
                         Cette dernière possibilité requière imperativement une authentification. 
                       Ce la signifie que vous ne vous êtes pas connecté vous aurais ni aux cours ni aux séries.
                     </p>
-                    <a data-aos="fade-up-right" href="theme-des-leçons" class="btn btn-primary btnindex">Commencer mes révisisons</a>
+                    <a data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-sine"
+                        href="theme-des-leçons" class="btn btn-primary btnindex">Commencer mes révisisons</a>
                     </div>
                   </div>
               </div>
@@ -152,14 +154,17 @@
               </div>
               <div class="card-body text-start">
                 <h5 class="card-title text-center">
-                  <img src="../images/quiz.jpg" width="100px" height="100px" style="border-radius: 100px;" >
+                  <img src="../images/quizz.jpg" style="width:200px; height: 200px; border-radius: 50%;"
+                      data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                 </h5>
                 <div class="col-md-12">
-                  <div class="card p-2 mt-2">
+                  <div class="card p-2 mt-2" data-aos="fade-down" data-aos-duration="2000">
                   <p class="card-text">Vous pouvez passer par ce lien en cliquant sur le bouton sous-jaçent pour effectuer les séries. 
                   Tous comme vous avez la possibilité de faire les séries au niveau de la rubrique qui concerne les thèmes. <b>NB : </b> 
                   Il est formellement recommandé de d'apprendre les leçons avant d'attaquer les séries.</p>
-                  <a href="serie-globale" class="btn btn-primary btnindex">Faire mes testes</a>
+                  <a href="serie-globale" class="btn btn-primary btnindex"
+                      data-aos="fade-right" data-aos-duration="1500" 
+                      data-aos-easing="ease-in-sine">Faire mes testes</a>
                 </div>
                 </div>
               </div>
@@ -177,7 +182,8 @@
                 <h3>Contact</h3>
               </div>
             <div class="col-md-12">
-                <div class="card p-2 mt-2">
+                <div class="card p-2 mt-2" data-aos="fade-up" data-aos-duration="1500"
+                      data-aos-easing="ease-in-sine">
                     <p class="card-text">Vous pouvez nous contactez pour plus d'information en cliquant sur le lien sous-jacent.</p>
                     <a href="contact"class="btn btn-primary btnindex">Nous contacter</a>
                     </div>
@@ -189,7 +195,7 @@
 
       <!--Modal-->
       <div class="modal fade" id="staticBackdrop" 
-      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog text-center">
           <div class="modal-content">
             <div class="modal-header">

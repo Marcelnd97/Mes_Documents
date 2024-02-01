@@ -269,6 +269,9 @@
 
     function loadQuestion() {
       const currentQuestion = quizData[currentQuestionIndex];
+      document.getElementById("quiz-questionNumber").style.display = "flex";
+      document.getElementById("restart-button").style.display = 'none';
+
 
       document.getElementById("quiz-question-content").textContent = currentQuestion.question;
 
@@ -303,9 +306,8 @@
           if (option.textContent === selectedAnswer) {
             option.parentNode.style.backgroundColor = 'green'; // Réponse correcte en vert
           }else {
-            option.parentNode.style.backgroundColor = 'red'; // Réinitialiser la couleur pour les options incorrectes
+            option.parentNode.style.backgroundColor = 'red'; // changer la couleur en rouge pour les options incorrectes
           }
-          // option.parentNode.style.backgroundColor = 'green'; // Réponse correcte en vert
         } else if (option.textContent === selectedAnswer) {
           option.parentNode.style.backgroundColor = 'red'; // Réponse incorrecte en rouge
         }
@@ -359,10 +361,10 @@
       document.getElementById("timer").style.display = 'none';
       document.getElementById("son").style.display = 'none';
       document.getElementById("score-content").textContent = `Votre score final est: ${score} sur ${quizData.length}`;
-      document.getElementById("restart-button").style.display = 'inline';
+      document.getElementById("restart-button").style.display = 'flex';
       document.getElementById("quiz-questionNumber").style.display = "none";
       document.getElementById("noteBien").style.display = "none";
-      document.getElementById("container").style.display = "none";
+      document.getElementById("infor").style.display = "none";
 
     }
 
@@ -371,19 +373,18 @@
       currentQuestionIndex = 0;
       countQuestions = 1;
       score = 0;
-      time = 280;
+      time = 600;
       loadQuestion();
       resetOptionsColor();
       
       document.getElementById("quiz-options").style.display = 'flex';
       document.getElementById("quiz-image").style.display = 'flex';
       document.getElementById("quiz-question").style.display = 'flex';
-      document.getElementById("son").style.display = 'block';
+      document.getElementById("son").style.display = 'flex';
       document.getElementById("timer").style.display = 'block';
       document.getElementById("restart-button").style.display = 'none';
       document.getElementById("container").style.display = "flex";
       document.getElementById("quiz-questionNumber").style.display = "flex";
-
 
     }
 

@@ -103,144 +103,139 @@
   <script>
     const quizData = [
       {
-        question: "Je peux circuler à 80 km/h sans risque ::",
-        image: "../images/quizconducteur/adopter1.jpg",
+        question: "Ce pictogramme : - m'indique ",
+        image: "../images/quizconducteur/psychique1.jpg",
         options: [
-          {text:"A. OUI", isCorrect: false},
-          {text:"B. NON", isCorrect: true}
+          {text:"A. de lire la notice avant de conduire", isCorrect: false},
+          {text:"B. de connaître l'avis d'un professionnel de santé avant de conduire", isCorrect: true}
           ],
-        audioQuestion: "Je peux circuler à 80 km/h sans risque :: A. OUI, B. NON",
+        audioQuestion: "Ce pictogramme : - m'indique A. de lire la notice avant de conduire, B. de connaître l'avis d'un professionnel de santé avant de conduire",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Je rencontre des zones de danger :  ",
-        image: "../images/quizconducteur/adopter2.jpg",
+        question: "Ce pictogramme : - se trouve sur les boîtes de médicaments vendus ",
+        image: "../images/quizconducteur/psychique1.jpg",
         options: [
-          {text: "A. OUI", isCorrect: true}, 
-          {text: "B. NON", isCorrect: false}
+          {text: "A. avec ordonnance uniquement", isCorrect: false}, 
+          {text: "B. avec ou sans ordonnance", isCorrect: true}
         ],
-        audioQuestion: "Je rencontre des zones de danger : A. OUI,  B. NON",
+        audioQuestion: "Ce pictogramme : - se trouve sur les boîtes de médicaments vendus. A. avec ordonnance uniquement, B. avec ou sans ordonnance",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Le feu est vert depuis un long moment. ",
-        image: "../images/quizconducteur/adopter2.jpg",
+        question: "Après avoir pris un médicament de niveau 3 :",
+        image: "../images/quizconducteur/psychique2.jpg",
         options: [
-          {text: "A. Je maintiens mon allure", isCorrect: true}, 
-          {text: "B. Je freine", isCorrect: false}
+          {text: "A. je reste prudent en conduisant", isCorrect: false}, 
+          {text: "B. je connaît l'avis de mon médecin avant de conduire", isCorrect: false},
+          {text: "C. je ne conduit pas", isCorrect: true}
         ],
-        audioQuestion: "Le feu est vert depuis un long moment.  A. Je maintiens mon allure, B. Je freine ",
+        audioQuestion: "Après avoir pris un médicament de niveau 3 :  A. je reste prudent en conduisant, B. je connaît l'avis de mon médecin avant de conduire, C. je ne conduit pas ",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "L'oubli des clignotants pour indiquer un changement de direction peut être sanctionné par une amende et un retrait de points :",
-        image: "../images/quizconducteur/adopter3.jpg",
+        question: "Les drogues consommées peuvent être détectées par : ",
+        image: "../images/quizconducteur/psychique3.jpg",
         options: [ 
-          {text: "A. OUI", isCorrect: true}, 
-          {text: "B. NON", isCorrect: false}
+          {text: "A. un test salivaire", isCorrect: true},
+          {text: "B. un éthilotest", isCorrect: false}
         ],
-        audioQuestion: "L'oubli des clignotants pour indiquer un changement de direction peut être sanctionné par une amende et un retrait de points :A. OUI, B. NON",
+        audioQuestion: "Les drogues consommées peuvent être détectées par : A. un test salivaire, B. un éthilotest",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Pour signaler mon intention d'emprunter l'emplacement à droite :",
-        image: "../images/quizconducteur/adopter4.jpg",
+        question: "En période probatoire, je suis en infraction si mon alcoolémie est de :",
+        image: "../images/quizconducteur/psychique4.jpg",
         options: [
-          {text: "A. je freine fort", isCorrect: false}, 
-          {text: "B. j'active les clignotants", isCorrect: true}
+          {text: "A. 0,10 g/l de sang", isCorrect: false}, 
+          {text: "B. 0,10 mg/l d'air expiré", isCorrect: true}
         ],
-        audioQuestion: "Pour signaler mon intention d'emprunter l'emplacement à droite : A. je freine fort, B. j'active les clignotants",
+        audioQuestion: "En période probatoire, je suis en infraction si mon alcoolémie est de : A. 0,10 g/l de sang, B. 0,10 mg/l d'air expiré",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Pour signaler ma présence à cette intersection : - je klaxonne ",
-        image: "../images/quizconducteur/adopter5.jpg",
+        question: "La quantité d'alcool pur est plus importante dans : ",
+        image: "../images/quizconducteur/psychique5.jpg",
         options: [
-          {text: "A. le jour", isCorrect: false}, 
-          {text: "B. la nuit", isCorrect: true}
+          {text: "A. 25 cl de biére", isCorrect: false}, 
+          {text: "B. 10 cl de vin rouge", isCorrect: false},
+          {text: "C. 3 cl de whisky", isCorrect: false}, 
+          {text: "D. il y a la même quantité d'alcool pur dans les 3 verres", isCorrect: true}
         ],
-        audioQuestion: "Pour signaler ma présence à cette intersection : - je klaxonne. A. le jour, B. la nuit",
+        audioQuestion: "La quantité d'alcool pur est plus importante dans : A. 25 cl de biére, B. 10 cl de vin rouge, C. 3 cl de whisky, D. il y a la même quantité d'alcool pur dans les 3 verres",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Pour signaler ma présence à cette intersection : - je fais un appel lumineux",
-        image: "../images/quizconducteur/adopter5.jpg",
-        options: [ 
-        {text: "A. le jour", isCorrect: false}, 
-        {text: "B. la nuit", isCorrect: true}
-        ],
-        audioQuestion: "Pour signaler ma présence à cette intersection : - je fais un appel lumineux. A. le jour, B. la nuit",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "La distance de sécurité avec la camionnette devant moi : ",
-        image: "../images/quizconducteur/adopter6.jpg",
+        question: "Avant de prendre le volant après une soirée et la consommation d’un verre d’alcool :",
+        image: "../images/quizconducteur/psychique6.jpg",
         options: [
-        {text: "A. est suffisante", isCorrect: true}, 
-        {text: "B. est insuffisante", isCorrect: false},
-        {text: "C. Je ralentis", isCorrect: false}
+        {text: "A. j'attend au moins 2 heures", isCorrect: true}, 
+        {text: "B. je bois un ou plusieurs cafés", isCorrect: false},
+        {text: "C. je bois 5 fois le volume d'alcool en eau", isCorrect: false}
         ],
-        audioQuestion: "La distance de sécurité avec la camionnette devant moi : A. est suffisante, B. est insuffisante, C. Je ralentis",
+        audioQuestion: "Avant de prendre le volant après une soirée et la consommation d’un verre d’alcool : A. j'attend au moins 2 heures, B. je bois un ou plusieurs cafés, C. je bois 5 fois le volume d'alcool en eau",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Je circule à 130 km/h.",
-        image: "../images/quizconducteur/adopter7.jpg",
+        question: "Je suis contrôlé avec une alcoolémie de 0,50 g/l de sang, j'encours :",
+        image: "../images/quizconducteur/psychique7.jpg",
         options: [
-        {text: "A. je maintiens l'allure", isCorrect: false}, 
-        {text: "B. je ralentis", isCorrect: true}
+        {text: "A. une perte de 3 points", isCorrect: false}, 
+        {text: "B. une perte de 7 points", isCorrect: false},
+        {text: "C. une amende", isCorrect: true}
         ],
-        audioQuestion: "Je circule à 130 km/h. A. je maintiens l'allure, B. je ralentis",
+        audioQuestion: "Je suis contrôlé avec une alcoolémie de 0,50 g/l de sang, j'encours : A. une perte de 3 points, B. une perte de 7 points, C. une amende",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "La distance de sécurité est :",
-        image: "../images/quizconducteur/adopter7.jpg",
-        options: [
-        {text: "A. suffisante", isCorrect: false}, 
-        {text: "B. insuffisante", isCorrect: true}
-        ],
-        audioQuestion: "JLa distance de sécurité est : A. suffisante, B. insuffisante",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "L'insertion s'est faite en respectant les intervalles de sécurité :",
-        image: "../images/quizconducteur/adopter8.jpg",
+        question: "Emprunter toujours le même trajet risque d'entraîner : - une impression de sécurité",
+        image: "../images/quizconducteur/psychique8.jpg",
         options: [
         {text: "A. OUI", isCorrect: true}, 
         {text: "B. NON", isCorrect: false}
         ],
-        audioQuestion: "L'insertion s'est faite en respectant les intervalles de sécurité : A. OUI, B. NON",
+        audioQuestion: "Emprunter toujours le même trajet risque d'entraîner : - une impression de sécurité. A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Pendant le temps de réaction, le véhicule continue d'avancer à la même vitesse :",
-        image: "../images/quizconducteur/adopter9.jpg",
-        options: [ 
+        question: "Emprunter toujours le même trajet risque d'entraîner : - une baisse de la concentration",
+        image: "../images/quizconducteur/psychique8.jpg",
+        options: [
         {text: "A. OUI", isCorrect: true}, 
         {text: "B. NON", isCorrect: false}
         ],
-        audioQuestion: "Pendant le temps de réaction, le véhicule continue d'avancer à la même vitesse : A. OUI, B. NON",
+        audioQuestion: "Emprunter toujours le même trajet risque d'entraîner : - une baisse de la concentration A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "La distance d'arrêt peut varier en fonction : - de la vitesse",
-        image: "../images/quizconducteur/adopter10.jpg",
+        question: "J'ai des douleurs dans la nuque et dans le dos.",
+        image: "../images/quizconducteur/psychique9.jpg",
         options: [ 
-        {text: "A. OUI", isCorrect: true}, 
-        {text: "B. NON", isCorrect: false}
+        {text: "A. j'accélère", isCorrect: false}, 
+        {text: "B. je m'arrête à la prochaine aire de repos", isCorrect: true},
+        {text: "C. j'allume les feux de détresse", isCorrect: false}
         ],
-        audioQuestion: "La distance d'arrêt peut varier en fonction : - de la vitesse A. OUI, B. NON",
+        audioQuestion: "J'ai des douleurs dans la nuque et dans le dos. A. j'accélère, B. je m'arrête à la prochaine aire de repos, C. j'allume les feux de détresse",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "La distance d'arrêt peut varier en fonction : - de mon état psychologique.",
-        image: "../images/quizconducteur/adopter9.jpg",
+        question: "Une discussion animée avec mon passager :",
+        image: "../images/quizconducteur/psychique10.jpg",
         options: [ 
-        {text: "A. OUI", isCorrect: true}, 
-        {text: "B. NON", isCorrect: false}
+        {text: "A. est sans influence sur ma conduite", isCorrect: false}, 
+        {text: "B. risque de me déconcentrer de la tâche de conduite", isCorrect: true}
         ],
-        audioQuestion: "La distance d'arrêt peut varier en fonction : - de mon état psychologique. A. OUI, B. NON",
+        audioQuestion: "Une discussion animée avec mon passager : A. est sans influence sur ma conduite, B. risque de me déconcentrer de la tâche de conduite",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Mon passager me dit : Tu peux y aller, tu as le temps de passer !",
+        image: "../images/quizconducteur/psychique10.jpg",
+        options: [ 
+        {text: "C. je lui fais confiance et traverse l'intersection", isCorrect: false}, 
+        {text: "D. je m'arrête", isCorrect: true}
+        ],
+        audioQuestion: "Mon passager me dit : Tu peux y aller, tu as le temps de passer ! C. je lui fais confiance et traverse l'intersection, D. je m'arrête",
         audioAnswer: "correct.mp3"
       },
     ];
@@ -292,7 +287,6 @@
           }else {
             option.parentNode.style.backgroundColor = 'red'; // Réinitialiser la couleur pour les options incorrectes
           }
-          // option.parentNode.style.backgroundColor = 'green'; // Réponse correcte en vert
         } else if (option.textContent === selectedAnswer) {
           option.parentNode.style.backgroundColor = 'red'; // Réponse incorrecte en rouge
         }

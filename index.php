@@ -16,16 +16,16 @@
 
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top  shadow p-2 mb-2">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top  shadow p-1 mb-3">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" 
+          <button class="navbar-toggler btnnavbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" 
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand" href="index">
-              <img class="circular-square" src="images/logo/logo driving-car-solution.png" style="width: 50px; 
-              height: 50px;">
+              <img class="circular-square" src="images/logo/logo driving-car-solution.png" 
+                    style="width: 70px; height: 65px; border-radius: 50%;">
               Driving Car Solution
             </a>
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 modelmenu">
@@ -140,7 +140,8 @@
               </div>
               <div class="card-body text-start">
                 <h5 class="card-title text-center">
-                  <img src="images/code.jpg" width="100px" height="100px" style="border-radius: 100px;">
+                  <img src="images/code.jpg" style="width:200px; height: 200px; border-radius: 50%;"
+                      data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                 </h5>
                 <div class="col-md-12">
                   <div class="card p-2 mt-2">
@@ -150,7 +151,8 @@
                         Cette dernière possibilité requière imperativement une authentification. 
                       Ce la signifie que vous ne vous êtes pas connecté vous aurais ni aux cours ni aux séries.
                     </p>
-                    <a data-aos="fade-up-right" href="pages/inscription" class="btn btn-primary btnindex">Commencer mes révisisons</a>
+                    <a data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-sine"
+                       href="pages/inscription" class="btn btn-primary btnindex">Commencer mes révisisons</a>
                     </div>
                   </div>
               </div>
@@ -169,14 +171,18 @@
               </div>
               <div class="card-body text-start">
                 <h5 class="card-title text-center">
-                  <img src="images/quiz.jpg" width="100px" height="100px" style="border-radius: 100px;" >
+                  <img src="images/quizz.jpg" style="width: 200px; height: 200px; border-radius: 50%;"
+                        data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                 </h5>
                 <div class="col-md-12">
-                  <div class="card p-2 mt-2">
+                  <div class="card p-2 mt-2" data-aos="fade-right" data-aos-duration="1500" 
+                      data-aos-easing="ease-in-sine">
                   <p class="card-text">Vous pouvez passer par ce lien en cliquant sur le bouton sous-jaçent pour effectuer les séries. 
                   Tous comme vous avez la possibilité de faire les séries au niveau de la rubrique qui concerne les thèmes. <b>NB : </b> 
                   Il est formellement recommandé de d'apprendre les leçons avant d'attaquer les séries.</p>
-                  <a href="pages/inscription" class="btn btn-primary btnindex">Faire mes testes</a>
+                  <a href="pages/inscription" class="btn btn-primary btnindex"
+                      data-aos="fade-right" data-aos-duration="1500" 
+                      data-aos-easing="ease-in-sine">Faire mes testes</a>
                 </div>
                 </div>
               </div>
@@ -194,7 +200,8 @@
                 <h3>Contact</h3>
               </div>
             <div class="col-md-12">
-                <div class="card p-2 mt-2">
+                <div class="card p-2 mt-2" data-aos="fade-up" data-aos-duration="1500"
+                      data-aos-easing="ease-in-sine">
                     <p class="card-text">Vous pouvez nous contactez pour plus d'information en cliquant sur le lien sous-jacent.</p>
                     <a href="pages/inscription"class="btn btn-primary btnindex">Nous contacter</a>
                     </div>

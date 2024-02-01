@@ -40,7 +40,7 @@ include("../pages/config.php");
                     <div class='card col-md-4 text-center m-2'>
                         <div class='col'>
                             <div class='mb-3 mt-3'>
-                                <img src='../images/client.png' class='rounded-circle' width='100px' height='100px'/>
+                                <img src='../images/client.png' class='rounded-circle' style="width: 150px; height: 150px; border-radius: 50%;">
                             </div>
                             <div class='mb-3'>
                                 <h2><?= $_SESSION['username'] ?></h2>

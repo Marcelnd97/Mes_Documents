@@ -140,7 +140,7 @@
             <div class="card">
                 <div class="card-header apropos text-center">
                     <div class="col-md-12">
-                        <img src="../images/client.png" width="100px;" height="100px;">
+                        <img src="../images/client.png" style="width: 150px; height: 150px; border-radius: 50%;">
                     </div>
                 </div>
                 <div class="card-body">
@@ -245,7 +245,7 @@
                         <input type="password" class="form-control" placeholder="Confirmer le mot de passe" name="confmdp" required>
                         </div>
 
-                        <button type="submit" name="inscription" value="S'inscrire" class="btn btn-primary">s'inscrire</button>
+                        <button type="submit" name="inscription" value="S'inscrire" class="btn btn-primary incription">s'inscrire</button>
                     
                     </form>
                 </div>

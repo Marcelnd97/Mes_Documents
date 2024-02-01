@@ -257,6 +257,9 @@
 
     function loadQuestion() {
       const currentQuestion = quizData[currentQuestionIndex];
+      document.getElementById("quiz-questionNumber").style.display = "flex";
+      document.getElementById("restart-button").style.display = 'none';
+
 
       document.getElementById("quiz-question-content").textContent = currentQuestion.question;
 
@@ -346,10 +349,10 @@
       document.getElementById("timer").style.display = 'none';
       document.getElementById("son").style.display = 'none';
       document.getElementById("score-content").textContent = `Votre score final est: ${score} sur ${quizData.length}`;
-      document.getElementById("restart-button").style.display = 'inline';
+      document.getElementById("restart-button").style.display = 'flex';
       document.getElementById("quiz-questionNumber").style.display = "none";
       document.getElementById("noteBien").style.display = "none";
-      document.getElementById("container").style.display = "none";
+      document.getElementById("infor").style.display = "none";
 
     }
 
@@ -365,12 +368,11 @@
       document.getElementById("quiz-options").style.display = 'flex';
       document.getElementById("quiz-image").style.display = 'flex';
       document.getElementById("quiz-question").style.display = 'flex';
-      document.getElementById("son").style.display = 'block';
+      document.getElementById("son").style.display = 'flex';
       document.getElementById("timer").style.display = 'block';
       document.getElementById("restart-button").style.display = 'none';
       document.getElementById("container").style.display = "flex";
       document.getElementById("quiz-questionNumber").style.display = "flex";
-
 
     }
 

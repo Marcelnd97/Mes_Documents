@@ -1266,7 +1266,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/situation-risque" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Situations à risque</b></h4>
                                 <h4>10 questions</h4>
@@ -1274,7 +1274,7 @@
                             </a>
                             </div>
                             <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/condition-exceptionel" style="color: chocolate; text-decoration: none;">
                                 <div class="card">
                                 <h4><b>Conditions exceptionnelle</b></h4>
                                 <h4>10 questions</h4>
@@ -1368,7 +1368,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/regle-autoroute" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Règles sur autoroute</b></h4>
                                 <h4>10 questions</h4>
@@ -1376,7 +1376,7 @@
                             </a>
                             </div>
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/adapter-conduite" style="color: chocolate; text-decoration: none;">
                                 <div class="card">
                                 <h4><b>Adapter sa conduite</b></h4>
                                 <h4>10 questions</h4>
@@ -1461,7 +1461,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/zone-dangereuse" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Zones dangereuses</b></h4>
                                 <h4>10 questions</h4>
@@ -1581,7 +1581,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/partage-rue" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Partage de la rue</b></h4>
                                 <h4>10 questions</h4>
@@ -1626,7 +1626,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/usage-fragile" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Usagers fragiles</b></h4>
                                 <h4>10 questions</h4>
@@ -1634,7 +1634,7 @@
                             </a>
                             </div>
                             <div class="col-md-6">
-                            <a href="#"  style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/vehicule-specifique"  style="color: chocolate; text-decoration: none;">
                                 <div class="card">
                                 <h4><b>Véhicules spécifiques</b></h4>
                                 <h4>10 questions</h4>
@@ -1824,7 +1824,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/doc-administrative" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Documents administratifs</b></h4>
                                 <h4>10 questions</h4>
@@ -1886,7 +1886,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/changer-vehicule" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Charger son véhicule</b></h4>
                                 <h4>10 questions</h4>
@@ -1955,7 +1955,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/permis-infraction" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Permis et infractions</b></h4>
                                 <h4>10 questions</h4>
@@ -2056,7 +2056,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/infraction" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Infractions aux codes</b></h4>
                                 <h4>10 questions</h4>
@@ -2183,7 +2183,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <a href="#" style="color: chocolate; text-decoration: none;">
+                                    <a href="../quiz/proteger" style="color: chocolate; text-decoration: none;">
                                         <div class="card" style="color: chocolate;">
                                         <h4><b>Protéger, alerter, secourir</b></h4>
                                         <h4>10 questions</h4>
@@ -2311,7 +2311,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/installation" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Installation sécurisée</b></h4>
                                 <h4>10 questions</h4>

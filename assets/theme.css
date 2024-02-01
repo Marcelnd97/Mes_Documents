@@ -198,7 +198,7 @@ margin-left: 19%;
 .retoure{
     text-decoration: none;
 }
-.navbar-expand-md{
+.navbar-expand-lg{
     background-color: chocolate;
 }
 .entete{
@@ -216,11 +216,17 @@ margin-left: 19%;
 .btnindex{
     background-color: chocolate; 
     color: white;
+    width: 30%;
 }
 .modale{
     text-decoration: none;
-    border: 1px solid chocolate;
-    width: 200px;
+    width: 250px;
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.modale:hover{
     background-color: blue;
     color: white;
 }
@@ -257,6 +263,7 @@ margin-left: 19%;
     height: 70vh;
     border-radius: 20px;
   }
+
   #quiz-image{
     margin-top: 20px;
     background-color: blue;
@@ -304,9 +311,13 @@ margin-left: 19%;
     cursor: pointer;
     transition: all 0.4s;
   }
+ 
   button:hover {
-    background: rgb(69, 78, 212);
+    background: blue;
     color: #f5f6f8;
+  }
+  .btnnavbar{
+      width: 60px;
   }
   .style {
     display: flex;
@@ -354,5 +365,19 @@ margin-left: 19%;
     color: black;
     width: 100%;
     justify-content: center;
+  }
+  .incription{
+    width: 100px;
+  }
+  .incription:hover{
+    background-color: green;
+    color: #ddd9d4;
+  }
+  .login{
+    width: 100px;
+  }
+  .login:hover{
+    background-color: green;
+    color: #ddd9d4;
   }
 

@@ -40,120 +40,174 @@
     <br><br><br>
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="row">
+                    <div class="col-ms-12" data-aos="fade-left">
+                        <a href="coderoute" class="retoure">
+                        <b>
+                            <i class="bi bi-arrow-left-circle-fill" ></i>&nbsp;Retour
+                        </b>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row text-center">
+                    <div class="col-md-12 ">
+                        <h1 data-aos="fade-down">Accumulation des séries par thème</h1>
+                    </div>
+                </div>
+                <hr>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="cours" data-aos="fade-left">
+                            <img src="../images/quizz.jpg" class="rounded-circle" 
+                                    style="width: 100px; height: 100px; border-radius: 50%;">&nbsp;
+                                <span>Thème n° 1</span>    
+                            <h3 class="mt-1">
+                                <b>La circulation routière</b></h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
+
+                <div class="wrapper" data-aos="zoom-in-left">
+                    <div class="row">
+                        <div class="col-md-4">
+                                <div class="card theme" style="width: 18rem;">
+                                    <div class="card-header">
+                                    <p class="badge badge-warning" style="background-color: chocolate; margin-bottom: 5px;">Les bases de la signalisation</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="mb-2 text-body" data-aos="fade-up" 
+                                                data-aos-duration="500"><a href="#" class="btn btn-primary">Règle de priorité</a></h3>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary">La siganlisation</a>
+                                    </div>
+                                </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#panneau" class="btn" style="border: none;">
+                                <div class="card theme" style="width: 18rem;">
+                                    <div class="card-header">
+                                    <p class="badge badge-warning" style="background-color: chocolate; margin-bottom: 5px;">Les panneaux</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="mb-2 text-body" data-aos="fade-up" 
+                                                data-aos-duration="500"><a href="#" class="btn btn-primary">Panneau</a></h3>
+                                    </div>
+                                    <div class="card-footer">
+                                    <a href="#" class="btn btn-primary"></a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#intersection" class="btn" style="border: none;">
+                                <div class="card theme" style="width: 18rem;">
+                                    <div class="card-header">
+                                    <p class="badge badge-warning" style="background-color: chocolate; margin-bottom: 5px;">8 Activités</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="mb-2 text-body" data-aos="fade-up" 
+                                                data-aos-duration="500">Les intersections</h3>
+                                    </div>
+                                    <div class="card-footer">
+                                    
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#circuler" class="btn" style="border: none;">
+                                <div class="card theme" style="width: 18rem;">
+                                    <div class="card-header">
+                                    <p class="badge badge-warning" style="background-color: chocolate; margin-bottom: 5px;">8 Activités</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="mb-2 text-body" data-aos="fade-up" 
+                                            data-aos-duration="500">Circuler</h3>
+                                    </div>
+                                    <div class="card-footer">
+                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar overflow-visible text-dark" style="width: 10%"></div>
+                                        </div>&nbsp;<span>0/8</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#vitesse" class="btn" style="border: none;">
+                                <div class="card theme" style="width: 18rem;">
+                                    <div class="card-header">
+                                    <p class="badge badge-warning" style="background-color: chocolate; margin-bottom: 5px;">4 Activités</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="mb-2 text-body" data-aos="fade-up" 
+                                            data-aos-duration="500">La vitesse</h3>
+                                    </div>
+                                    <div class="card-footer">
+                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar overflow-visible text-dark" style="width: 10%"></div>
+                                        </div>&nbsp;<span>0/4</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#depasser" class="btn" style="border: none;">
+                                <div class="card theme" style="width: 18rem;">
+                                    <div class="card-header">
+                                    <p class="badge badge-warning" style="background-color: chocolate; margin-bottom: 5px;">8 Activités</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="mb-2 text-body" data-aos="fade-up" 
+                                            data-aos-duration="500">Croiser et dépasser</h3>
+                                    </div>
+                                    <div class="card-footer">
+                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar overflow-visible text-dark" style="width: 10%"></div>
+                                        </div>&nbsp;<span>0/8</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#station" class="btn" style="border: none;">
+                                <div class="card theme" style="width: 18rem;">
+                                    <div class="card-header">
+                                    <p class="badge badge-warning" style="background-color: chocolate; margin-bottom: 5px;">8 Activités</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="mb-2 text-body" data-aos="fade-up" 
+                                                data-aos-duration="500">Stationner ou s'arrêter</h3>
+                                    </div>
+                                    <div class="card-footer">
+                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar overflow-visible text-dark" style="width: 10%"></div>
+                                        </div>&nbsp;<span>0/8</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 

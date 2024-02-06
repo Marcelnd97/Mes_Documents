@@ -11,7 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../assets/theme.css">
-  <title>Installations sécurisées</title>
+  <title>Entretien du véhicule</title>
   <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body class="codebody">
@@ -103,137 +103,133 @@
   <script>
     const quizData = [
       {
-        question: "Je peux conduire en toute sécurité avec les chaussures :",
-        image: "../images/quiz_theme7/installer1.jpg",
+        question: "Je dois effectuer une contre-visite du contrôle technique. L'attestation comporte la lettre :",
+        image: "../images/quiz_theme8/entretien1.jpg",
         options: [
-          {text:"A. en A", isCorrect: false},
-          {text:"B. en B", isCorrect: true},
-          {text:"C. en C", isCorrect: false}
+          {text:"A. A", isCorrect: false},
+          {text:"B. S", isCorrect: true}
           ],
-        audioQuestion: "Je peux conduire en toute sécurité avec les chaussures : A. en A, B. en B, C. en C",
+        audioQuestion: "Je dois effectuer une contre-visite du contrôle technique. L'attestation comporte la lettre : A. A, S. B",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement",
-        image: "../images/quiz_theme7/installer2.jpg",
+        question: "Le délai pour effectuer la contre-visite est de :",
+        image: "../images/quiz_theme8/entretien1.jpg",
+        options: [
+          {text:"C. 2 mois", isCorrect: true},
+          {text:"D. 6 mois", isCorrect: false}
+          ],
+        audioQuestion: "Le délai pour effectuer la contre-visite est de : C. 2 mois, D. 6 mois",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Pour connaître la date du prochain contrôle technique, je consulte ",
+        image: "../images/quiz_theme8/entretien2.jpg",
+        options: [
+          {text:"A. le certificat d'immatriculation et la vignette sur le pare-brise avant", isCorrect: true},
+          {text:"B. l'attestation", isCorrect: false}
+          ],
+        audioQuestion: "Pour connaître la date du prochain contrôle technique, je consulte . A. le certificat d'immatriculation et la vignette sur le pare-brise avant, B. l'attestation",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Je vends mon véhicule à un particulier. Le contrôle technique doit dater de moins de 6 mois :",
+        image: "../images/quiz_theme8/entretien3.jpg",
+        options: [
+            {text:"A. OUI", isCorrect: true},
+            {text:"B. NON", isCorrect: false},
+          ],
+        audioQuestion: "Je vends mon véhicule à un particulier. Le contrôle technique doit dater de moins de 6 mois : A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "J'ai choisi le bon carburant pour mon véhicule",
+        image: "../images/quiz_theme8/entretien4.jpg",
+        options: [
+          {text:"A. OUI", isCorrect: false},
+          {text:"B. NON", isCorrect: true}
+          ],
+        audioQuestion: "J'ai choisi le bon carburant pour mon véhicule. A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Je dois remplacer les balais d'essuie-glace : - si je sens des traces d'usure en passant le doigt dessus",
+        image: "../images/quiz_theme8/entretien5.jpg",
         options: [
           {text:"A. OUI", isCorrect: true},
           {text:"B. NON", isCorrect: false}
           ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement A. OUI, B. NON",
+        audioQuestion: "Je dois remplacer les balais d'essuie-glace : - si je sens des traces d'usure en passant le doigt dessus A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité",
-        image: "../images/quiz_theme7/installer2.jpg",
+        question: "Je dois remplacer les balais d'essuie-glace : - s'ils laissent des traces sur le pare-brise",
+        image: "../images/quiz_theme8/entretien5.jpg",
         options: [
           {text:"C. OUI", isCorrect: true},
           {text:"D. NON", isCorrect: false}
           ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité. C. OUI, D. NON",
+        audioQuestion: "Je dois remplacer les balais d'essuie-glace : - s'ils laissent des traces sur le pare-brise C. OUI, D. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "L'installation au poste de conduite s'effectue dans l'ordre :",
-        image: "../images/quiz_theme7/installer3.jpg",
+        question: "Le contrôle du niveau de liquide de refroidissement se fait :",
+        image: "../images/quiz_theme8/entretien6.jpg",
         options: [
-            {text:"A. siége, volant, rétroviseurs, ceinture", isCorrect: true},
-            {text:"B. ceinture, rétroviseurs, volant, siège", isCorrect: false},
-            {text:"C. rétroviseurs, volant, siège, ceinture", isCorrect: false}
+          {text:"A. moteur chaud", isCorrect: false},
+          {text:"B. moteur froid", isCorrect: true}
           ],
-        audioQuestion: "L'installation au poste de conduite s'effectue dans l'ordre : A. siège, volant, rétroviseurs, ceinture, B. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
+        audioQuestion: "Le contrôle du niveau de liquide de refroidissement se fait : A. moteur chaud, B. moteur froid",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Le manque de liquide de refroidissement entraîne un risque d'échauffement anormal du moteur :",
+        image: "../images/quiz_theme8/entretien6.jpg",
         options: [
           {text:"A. OUI", isCorrect: true},
-          {text:"B. NON", isCorrect: false}
+          {text:"B. NON", isCorrect: false},
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite. A. OUI, B. NON",
+        audioQuestion: "Le manque de liquide de refroidissement entraîne un risque d'échauffement anormal du moteur : A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Ce symbole signale ",
+        image: "../images/quiz_theme8/entretien7.jpg",
         options: [
-          {text:"C. OUI", isCorrect: true},
-          {text:"D. NON", isCorrect: false}
+          {text:"A. le haut du pneu", isCorrect: false},
+          {text:"B. le temoin d'usurne", isCorrect: true},
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant C. OUI, D. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
+        audioQuestion: "Ce symbole signale. A. le haut du pneu, B. le temoin d'usurne",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Cette position des mains est :",
-        image: "../images/quiz_theme7/installer5.jpg",
+        question: "Le remplacement d'un pneu se fait selon ",
+        image: "../images/quiz_theme8/equipe3.jpg",
         options: [
-          {text:"A. sécuritaire", isCorrect: false},
-          {text:"B. dangereuse", isCorrect: true},
-          {text:"C. permet un accès rapide aux commandes", isCorrect: false}
-          ],
-        audioQuestion: "Cette position des mains est : A. sécuritaire, B. dangereuse, C. permet un accès rapide aux commandes",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête :",
-        image: "../images/quiz_theme7/installer6.jpg",
-        options: [
-          {text:"A. à la nuque", isCorrect: false},
-          {text:"B. au sommet de ma tête", isCorrect: true},
-          ],
-        audioQuestion: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête : A. à la nuque, B. au sommet de ma tête",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "L'appuie-tête a juste un rôle de confort de conduite ",
-        image: "../images/quiz_theme7/installer6.jpg",
-        options: [
-          {text:"C. OUI", isCorrect: false},
-          {text:"D. NON", isCorrect: true},
-          ],
-        audioQuestion: "L'appuie-tête a juste un rôle de confort de conduite. C. OUI, D. NON",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Lorsque je m'installe au poste de conduite, je règle en premier :",
-        image: "../images/quiz_theme7/installer7.jpg",
-        options: [
-            {text:"A. la hauteur de l'appui-tête", isCorrect: false},
-            {text:"B. la profondeur du volant", isCorrect: false},
-            {text:"C. le siège", isCorrect: true},
+            {text:"A. ses dimensions d'origines", isCorrect: true},
+            {text:"B. ou sa couleur", isCorrect: false},
         ],
-        audioQuestion: "Lorsque je m'installe au poste de conduite, je règle en premier :. A. la hauteur de l'appui-tête, B. la profondeur du volant, C. le siège",
+        audioQuestion: "Le remplacement d'un pneu se fait selon . A. ses dimensions d'origines, B. ou sa couleur",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Dans ces conditions, j'enlève la neige :",
-        image: "../images/quiz_theme7/installer8.jpg",
+        question: "Après une crevaison, je roule avec une 'galette'. Je roule : ",
+        image: "../images/quiz_theme8/entretien9.jpg",
         options: [
-          {text: "A. sur l'ensemble du pare-brise  et sur le blocs optique", isCorrect: true}, 
-          {text: "B. sur le capot uniquement", isCorrect: false},
-        ],
-        audioQuestion: "Dans ces conditions, j'enlève la neige : A. sur l'ensemble du pare-brise et sur le blocs optique, B. sur le capot uniquement",
+          {text:"A. à l'allure habituelle", isCorrect: false},
+          {text:"B. à une allure plus lente", isCorrect: true},
+          ],
+        audioQuestion: "Après une crevaison, je roule avec une 'galette'. Je roule :. A. à l'allure habituelle, B. à une allure plus lente",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile :",
-        image: "../images/quiz_theme7/installer9.jpg",
+        question: "Je modifie la pression des pneus en fonction ",
+        image: "../images/quiz_theme8/entretien10.jpg",
         options: [
-            {text: "A. OUI", isCorrect: false},
-            {text: "B. NON", isCorrect: true},
-        ],
-        audioQuestion: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile : A. OUI, B. NON",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :",
-        image: "../images/quiz_theme7/installer10.jpg",
-        options: [
-          {text: "A. sur le ventre", isCorrect: false}, 
-          {text: "B. sur les os du bassin", isCorrect: true}
-        ],
-        audioQuestion: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :  A. sur le ventre, B. sur les os du bassin",
+          {text:"A. de la charge du véhicule ou de la longueur du trajet", isCorrect: true},
+          {text:"B. de l'usure des essuie-glace", isCorrect: false},
+          ],
+        audioQuestion: "Je modifie la pression des pneus en fonction. A. de la charge du véhicule et de la longueur du trajet, B. de l'usure des essuie-glace",
         audioAnswer: "correct.mp3"
       }
             

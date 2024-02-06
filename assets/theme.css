@@ -159,6 +159,13 @@ margin-left: 19%;
     height: 100%;
 
 }
+.quizcard{
+    width: 150%;
+
+}
+#quizstyle{
+  text-align: end;
+}
 .wrapper{
     width: 100hv;
     display: flex;

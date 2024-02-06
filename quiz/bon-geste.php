@@ -11,7 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../assets/theme.css">
-  <title>Installations sécurisées</title>
+  <title>Adopter les bons gestes</title>
   <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body class="codebody">
@@ -103,137 +103,144 @@
   <script>
     const quizData = [
       {
-        question: "Je peux conduire en toute sécurité avec les chaussures :",
-        image: "../images/quiz_theme7/installer1.jpg",
+        question: "Pour connaître le type de carburant d'un véhicule :",
+        image: "../images/quiz_theme7/geste1.jpg",
         options: [
-          {text:"A. en A", isCorrect: false},
-          {text:"B. en B", isCorrect: true},
-          {text:"C. en C", isCorrect: false}
+          {text:"A. je consulte le certificat d'immatriculation du véhicule", isCorrect: true},
+          {text:"B. je demande à la station service le meilleur carburant pour ce véhicule", isCorrect: false}
           ],
-        audioQuestion: "Je peux conduire en toute sécurité avec les chaussures : A. en A, B. en B, C. en C",
+        audioQuestion: "Pour connaître le type de carburant d'un véhicule : A. je consulte le certificat d'immatriculation du véhicule, B. je demande à la station service le meilleur carburant pour ce véhicule",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement",
-        image: "../images/quiz_theme7/installer2.jpg",
+        question: "L'éthylotest :",
+        image: "../images/quiz_theme7/geste2.jpg",
         options: [
-          {text:"A. OUI", isCorrect: true},
-          {text:"B. NON", isCorrect: false}
+          {text:"A. facultatif", isCorrect: true},
+          {text:"B. obligatoire", isCorrect: false}
           ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement A. OUI, B. NON",
+        audioQuestion: "L'éthylotest : A. facultatif, B. obligatoire",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité",
-        image: "../images/quiz_theme7/installer2.jpg",
+        question: "L'alcoolémie maximale autorisée est :",
+        image: "../images/quiz_theme7/geste2.jpg",
+        options: [
+          {text:"C. de 0,49 g/l de sang", isCorrect: true},
+          {text:"D. de 0,50 mg/l d'air expiré", isCorrect: false}
+          ],
+        audioQuestion: "L'alcoolémie maximale autorisée est :. C. de 0,49 g/l de sang, D. de 0,50 mg/l d'air expiré",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "L'anti-vol de direction : - bloque le volant",
+        image: "../images/quiz_theme7/geste3.jpg",
+        options: [
+            {text:"A. OUI", isCorrect: true},
+            {text:"B. NON", isCorrect: false}
+          ],
+        audioQuestion: "L'anti-vol de direction : - bloque le volant A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "L'anti-vol de direction : - s'enclenche si la clé n'est pas dans le contact",
+        image: "../images/quiz_theme7/geste3.jpg",
         options: [
           {text:"C. OUI", isCorrect: true},
           {text:"D. NON", isCorrect: false}
           ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité. C. OUI, D. NON",
+        audioQuestion: "L'anti-vol de direction : - s'enclenche si la clé n'est pas dans le contact. C. OUI, D. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "L'installation au poste de conduite s'effectue dans l'ordre :",
-        image: "../images/quiz_theme7/installer3.jpg",
-        options: [
-            {text:"A. siége, volant, rétroviseurs, ceinture", isCorrect: true},
-            {text:"B. ceinture, rétroviseurs, volant, siège", isCorrect: false},
-            {text:"C. rétroviseurs, volant, siège, ceinture", isCorrect: false}
-          ],
-        audioQuestion: "L'installation au poste de conduite s'effectue dans l'ordre : A. siège, volant, rétroviseurs, ceinture, B. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Un ami vient de me prêter son véhicule. Je m'assure : - qu'il y a bien un gilet haute visibilité à portée de mains",
+        image: "../images/quiz_theme7/geste4.jpg",
         options: [
           {text:"A. OUI", isCorrect: true},
           {text:"B. NON", isCorrect: false}
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite. A. OUI, B. NON",
+        audioQuestion: "Un ami vient de me prêter son véhicule. Je m'assure : - qu'il y a bien un gilet haute visibilité à portée de mains A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Un ami vient de me prêter son véhicule. Je m'assure : - que le niveau de carburant est suffisant",
+        image: "../images/quiz_theme7/geste4.jpg",
         options: [
           {text:"C. OUI", isCorrect: true},
           {text:"D. NON", isCorrect: false}
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant C. OUI, D. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
+        audioQuestion: "Un ami vient de me prêter son véhicule. Je m'assure : - que le niveau de carburant est suffisant C. OUI, D. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Cette position des mains est :",
-        image: "../images/quiz_theme7/installer5.jpg",
+        question: "Je paramètre mon GPS :",
+        image: "../images/quiz_theme7/geste5.jpg",
         options: [
-          {text:"A. sécuritaire", isCorrect: false},
-          {text:"B. dangereuse", isCorrect: true},
-          {text:"C. permet un accès rapide aux commandes", isCorrect: false}
+          {text:"A. en circulation de préférence", isCorrect: false},
+          {text:"B. avant de partir en circulation", isCorrect: true}
           ],
-        audioQuestion: "Cette position des mains est : A. sécuritaire, B. dangereuse, C. permet un accès rapide aux commandes",
+        audioQuestion: "Je paramètre mon GPS : A. en circulation de préférence, B. avant de partir en circulation",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête :",
-        image: "../images/quiz_theme7/installer6.jpg",
+        question: "Je peux partir car la buée va disparaître en roulant : ",
+        image: "../images/quiz_theme7/geste6.jpg",
         options: [
-          {text:"A. à la nuque", isCorrect: false},
-          {text:"B. au sommet de ma tête", isCorrect: true},
+          {text:"A. OUI", isCorrect: false},
+          {text:"B. NON", isCorrect: true},
           ],
-        audioQuestion: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête : A. à la nuque, B. au sommet de ma tête",
+        audioQuestion: "Je peux partir car la buée va disparaître en roulant :  A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "L'appuie-tête a juste un rôle de confort de conduite ",
-        image: "../images/quiz_theme7/installer6.jpg",
+        question: "De préférence, je fais monter les enfants dans le véhicule du côté du trottoir ",
+        image: "../images/quiz_theme7/geste7.jpg",
         options: [
-          {text:"C. OUI", isCorrect: false},
-          {text:"D. NON", isCorrect: true},
+          {text:"A. OUI", isCorrect: true},
+          {text:"B. NON", isCorrect: false},
           ],
-        audioQuestion: "L'appuie-tête a juste un rôle de confort de conduite. C. OUI, D. NON",
+        audioQuestion: "De préférence, je fais monter les enfants dans le véhicule du côté du trottoir. A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Lorsque je m'installe au poste de conduite, je règle en premier :",
-        image: "../images/quiz_theme7/installer7.jpg",
+        question: "Je viens de stationner mon véhicule. J'ouvre la portière de préférence avec la main :",
+        image: "../images/quiz_theme7/geste8.jpg",
         options: [
-            {text:"A. la hauteur de l'appui-tête", isCorrect: false},
-            {text:"B. la profondeur du volant", isCorrect: false},
-            {text:"C. le siège", isCorrect: true},
+            {text:"A. gauche", isCorrect: false},
+            {text:"B. droite", isCorrect: true},
         ],
-        audioQuestion: "Lorsque je m'installe au poste de conduite, je règle en premier :. A. la hauteur de l'appui-tête, B. la profondeur du volant, C. le siège",
+        audioQuestion: "Je viens de stationner mon véhicule. J'ouvre la portière de préférence avec la main :. A. gauche, B. droite",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Dans ces conditions, j'enlève la neige :",
-        image: "../images/quiz_theme7/installer8.jpg",
+        question: "Avant de quitter mon véhicule stationné en pente, en plus de serrer mon frein à main : - je peux enclencher la 1ère vitesse",
+        image: "../images/quiz_theme7/geste3.jpg",
         options: [
-          {text: "A. sur l'ensemble du pare-brise  et sur le blocs optique", isCorrect: true}, 
-          {text: "B. sur le capot uniquement", isCorrect: false},
+          {text: "A. OUI", isCorrect: true}, 
+          {text: "B. NON", isCorrect: false},
         ],
-        audioQuestion: "Dans ces conditions, j'enlève la neige : A. sur l'ensemble du pare-brise et sur le blocs optique, B. sur le capot uniquement",
+        audioQuestion: "Avant de quitter mon véhicule stationné en pente, en plus de serrer mon frein à main : - je peux enclencher la 1ère vitesse A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile :",
-        image: "../images/quiz_theme7/installer9.jpg",
+        question: "Avant de quitter mon véhicule stationné en pente, en plus de serrer mon frein à main : - braquer les roues",
+        image: "../images/quiz_theme7/geste3.jpg",
         options: [
-            {text: "A. OUI", isCorrect: false},
-            {text: "B. NON", isCorrect: true},
+            {text: "C. vers la route", isCorrect: false},
+            {text: "D. vers le trottoir", isCorrect: true},
         ],
-        audioQuestion: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile : A. OUI, B. NON",
+        audioQuestion: "Avant de quitter mon véhicule stationné en pente, en plus de serrer mon frein à main : - braquer les roues C. vers la route, D. vers le trottoir",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :",
-        image: "../images/quiz_theme7/installer10.jpg",
+        question: "Pour stationner dans ce parking :",
+        image: "../images/quiz_theme7/geste10.jpg",
         options: [
-          {text: "A. sur le ventre", isCorrect: false}, 
-          {text: "B. sur les os du bassin", isCorrect: true}
+          {text: "A. je braque les routes à gauche", isCorrect: false}, 
+          {text: "B. j'enclance le frein de parcage", isCorrect: true},
+          {text: "C. je replie obligatoirement les rétroviseurs", isCorrect: false}
         ],
-        audioQuestion: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :  A. sur le ventre, B. sur les os du bassin",
+        audioQuestion: "Pour stationner dans ce parking :  A. je braque les routes à gauche, B. j'enclance le frein de parcage, C. je replie obligatoirement les rétroviseurs",
         audioAnswer: "correct.mp3"
       }
             

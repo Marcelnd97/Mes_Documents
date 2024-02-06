@@ -11,7 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../assets/theme.css">
-  <title>Installations sécurisées</title>
+  <title>Sécurité des enfants</title>
   <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body class="codebody">
@@ -103,139 +103,137 @@
   <script>
     const quizData = [
       {
-        question: "Je peux conduire en toute sécurité avec les chaussures :",
-        image: "../images/quiz_theme7/installer1.jpg",
-        options: [
-          {text:"A. en A", isCorrect: false},
-          {text:"B. en B", isCorrect: true},
-          {text:"C. en C", isCorrect: false}
-          ],
-        audioQuestion: "Je peux conduire en toute sécurité avec les chaussures : A. en A, B. en B, C. en C",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement",
-        image: "../images/quiz_theme7/installer2.jpg",
+        question: "Mon enfant est bien attaché à son siège. J'attache tout de même son siège au siège de la voiture : ",
+        image: "../images/quiz_theme9/enfant1.jpg",
         options: [
           {text:"A. OUI", isCorrect: true},
           {text:"B. NON", isCorrect: false}
           ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement A. OUI, B. NON",
+        audioQuestion: "Mon enfant est bien attaché à son siège. J'attache tout de même son siège au siège de la voiture :  OUI. A, NON. B",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité",
-        image: "../images/quiz_theme7/installer2.jpg",
-        options: [
-          {text:"C. OUI", isCorrect: true},
-          {text:"D. NON", isCorrect: false}
-          ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité. C. OUI, D. NON",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "L'installation au poste de conduite s'effectue dans l'ordre :",
-        image: "../images/quiz_theme7/installer3.jpg",
-        options: [
-            {text:"A. siége, volant, rétroviseurs, ceinture", isCorrect: true},
-            {text:"B. ceinture, rétroviseurs, volant, siège", isCorrect: false},
-            {text:"C. rétroviseurs, volant, siège, ceinture", isCorrect: false}
-          ],
-        audioQuestion: "L'installation au poste de conduite s'effectue dans l'ordre : A. siège, volant, rétroviseurs, ceinture, B. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Un bébé peut être installé dans un siège adapté dos à la route : - sur le siège avant",
+        image: "../images/quiz_theme9/enfant7.jpg",
         options: [
           {text:"A. OUI", isCorrect: true},
           {text:"B. NON", isCorrect: false}
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite. A. OUI, B. NON",
+        audioQuestion: "Un bébé peut être installé dans un siège adapté dos à la route : - sur le siège avant A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Un bébé peut être installé dans un siège adapté dos à la route : - sur le siège arrière",
+        image: "../images/quiz_theme9/enfant7.jpg",
         options: [
           {text:"C. OUI", isCorrect: true},
           {text:"D. NON", isCorrect: false}
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant C. OUI, D. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
+        audioQuestion: "Un bébé peut être installé dans un siège adapté dos à la route : - sur le siège arrière C. OUI, D. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Cette position des mains est :",
-        image: "../images/quiz_theme7/installer5.jpg",
+        question: "La situation présente des risques :",
+        image: "../images/quiz_theme9/enfant3.jpg",
         options: [
-          {text:"A. sécuritaire", isCorrect: false},
-          {text:"B. dangereuse", isCorrect: true},
-          {text:"C. permet un accès rapide aux commandes", isCorrect: false}
+          {text:"A. OUI", isCorrect: true},
+          {text:"B. NON", isCorrect: false}
           ],
-        audioQuestion: "Cette position des mains est : A. sécuritaire, B. dangereuse, C. permet un accès rapide aux commandes",
+        audioQuestion: "La situation présente des risques : A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête :",
-        image: "../images/quiz_theme7/installer6.jpg",
+        question: "En conditions normales, cet enfant de 5 ans peut être installé avec un siège adapté. - à l'avant",
+        image: "../images/quiz_theme9/enfant4.jpg",
         options: [
-          {text:"A. à la nuque", isCorrect: false},
-          {text:"B. au sommet de ma tête", isCorrect: true},
+          {text:"A. OUI", isCorrect: false},
+          {text:"B. NON", isCorrect: true}
           ],
-        audioQuestion: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête : A. à la nuque, B. au sommet de ma tête",
+        audioQuestion: "En conditions normales, cet enfant de 5 ans peut être installé avec un siège adapté. - à l'avant A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "L'appuie-tête a juste un rôle de confort de conduite ",
-        image: "../images/quiz_theme7/installer6.jpg",
+        question: "En conditions normales, cet enfant de 5 ans peut être installé avec un siège adapté. - à l'arrière",
+        image: "../images/quiz_theme9/enfant4.jpg",
+        options: [
+          {text:"A. OUI", isCorrect: true},
+          {text:"B. NON", isCorrect: false}
+          ],
+        audioQuestion: "En conditions normales, cet enfant de 5 ans peut être installé avec un siège adapté. - à l'arrière. A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Je transporte mon enfant à l'avant dans un siège dos à la route.",
+        image: "../images/quiz_theme9/enfant5.jpg",
+        options: [
+            {text:"A. je désactive l'airbag passager", isCorrect: true},
+            {text:"B. ou j'active l'airbag passager", isCorrect: false},
+          ],
+        audioQuestion: "Je transporte mon enfant à l'avant dans un siège dos à la route. A. je désactive l'airbag passager, B. ou j'active l'airbag passager",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Le dispositif de sécurité pour enfant est sélectionné en fonction :",
+        image: "../images/quiz_theme9/enfant6.jpg",
+        options: [
+          {text:"A. de la taille de l'enfant et de l'âge de l'enfant", isCorrect: true},
+          {text:"B. du niveau scolaire de l'enfant", isCorrect: false}
+          ],
+        audioQuestion: "Le dispositif de sécurité pour enfant est sélectionné en fonction :. A. de la taille de l'enfant et de l'âge de l'enfant, B. du niveau scolaire de l'enfant",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "En tant que passager, je peux prendre un bébé dans les bras pour les courts trajets : ",
+        image: "../images/quiz_theme9/enfant7.jpg",
+        options: [
+          {text:"A. OUI", isCorrect: false},
+          {text:"B. NON", isCorrect: true}
+          ],
+        audioQuestion: "En tant que passager, je peux prendre un bébé dans les bras pour les courts trajets :  A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "J'encours une amende si le siège enfant : - est mal attaché",
+        image: "../images/quiz_theme9/enfant8.jpg",
+        options: [
+          {text:"A. OUI", isCorrect: true},
+          {text:"B. NON", isCorrect: false}
+          ],
+        audioQuestion: "J'encours une amende si le siège enfant : - est mal attaché. A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "J'encours une amende si le siège enfant : - si la sécurité enfant n'est pas activée",
+        image: "../images/quiz_theme9/enfant8.jpg",
         options: [
           {text:"C. OUI", isCorrect: false},
-          {text:"D. NON", isCorrect: true},
+          {text:"D. NON", isCorrect: true}
           ],
-        audioQuestion: "L'appuie-tête a juste un rôle de confort de conduite. C. OUI, D. NON",
+        audioQuestion: "J'encours une amende si le siège enfant : - si la sécurité enfant n'est pas activée. C. OUI, D. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Lorsque je m'installe au poste de conduite, je règle en premier :",
-        image: "../images/quiz_theme7/installer7.jpg",
+        question: "Un enfant peut s'asseoir à l'avant à partir de :",
+        image: "../images/quiz_theme9/enfant9.jpg",
         options: [
-            {text:"A. la hauteur de l'appui-tête", isCorrect: false},
-            {text:"B. la profondeur du volant", isCorrect: false},
-            {text:"C. le siège", isCorrect: true},
-        ],
-        audioQuestion: "Lorsque je m'installe au poste de conduite, je règle en premier :. A. la hauteur de l'appui-tête, B. la profondeur du volant, C. le siège",
+          {text:"A. 8 ans", isCorrect: false},
+          {text:"B. 10 ans", isCorrect: true},
+          {text:"C. 12 ans", isCorrect: false}
+          ],
+        audioQuestion: "Un enfant peut s'asseoir à l'avant à partir de : A. 8 ans, B. 10 ans, C. 12 ans",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Dans ces conditions, j'enlève la neige :",
-        image: "../images/quiz_theme7/installer8.jpg",
+        question: "Pour éviter que mon enfant ouvre lui-même les portières de l'intérieur, j'actionne :",
+        image: "../images/quiz_theme9/passage5.jpg",
         options: [
-          {text: "A. sur l'ensemble du pare-brise  et sur le blocs optique", isCorrect: true}, 
-          {text: "B. sur le capot uniquement", isCorrect: false},
-        ],
-        audioQuestion: "Dans ces conditions, j'enlève la neige : A. sur l'ensemble du pare-brise et sur le blocs optique, B. sur le capot uniquement",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile :",
-        image: "../images/quiz_theme7/installer9.jpg",
-        options: [
-            {text: "A. OUI", isCorrect: false},
-            {text: "B. NON", isCorrect: true},
-        ],
-        audioQuestion: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile : A. OUI, B. NON",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :",
-        image: "../images/quiz_theme7/installer10.jpg",
-        options: [
-          {text: "A. sur le ventre", isCorrect: false}, 
-          {text: "B. sur les os du bassin", isCorrect: true}
-        ],
-        audioQuestion: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :  A. sur le ventre, B. sur les os du bassin",
+          {text:"A. la fermeture centralisée du véhicule", isCorrect: false},
+          {text:"B. la sécurité enfants", isCorrect: true},
+          ],
+        audioQuestion: "Pour éviter que mon enfant ouvre lui-même les portières de l'intérieur, j'actionne : A. la fermeture centralisée du véhicule, B. la sécurité enfants",
         audioAnswer: "correct.mp3"
       }
+      
             
     ];
 

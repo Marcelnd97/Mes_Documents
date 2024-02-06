@@ -11,7 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../assets/theme.css">
-  <title>Installations sécurisées</title>
+  <title>Équippements du véhicule</title>
   <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body class="codebody">
@@ -103,137 +103,116 @@
   <script>
     const quizData = [
       {
-        question: "Je peux conduire en toute sécurité avec les chaussures :",
-        image: "../images/quiz_theme7/installer1.jpg",
+        question: "Pour changer la position du levier de vitesses, sur une boîte automatique, j'appuie sur :",
+        image: "../images/quiz_theme8/equipe1.jpg",
         options: [
-          {text:"A. en A", isCorrect: false},
-          {text:"B. en B", isCorrect: true},
-          {text:"C. en C", isCorrect: false}
+          {text:"A. l'accélérateur", isCorrect: false},
+          {text:"B. l'embrayage", isCorrect: false},
+          {text:"C. le frein", isCorrect: true}
           ],
-        audioQuestion: "Je peux conduire en toute sécurité avec les chaussures : A. en A, B. en B, C. en C",
+        audioQuestion: "Pour changer la position du levier de vitesses, sur une boîte automatique, j'appuie sur : A. l'accélérateur, B. l'embrayage, C. le frein",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement",
-        image: "../images/quiz_theme7/installer2.jpg",
+        question: "Les 4 roues sont toujours motrices :",
+        image: "../images/quiz_theme8/equipe2.jpg",
+        options: [
+          {text:"A. OUI", isCorrect: false},
+          {text:"B. NON", isCorrect: true}
+          ],
+        audioQuestion: "Les 4 roues sont toujours motrices : A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Une augmentation de la fréquence de clignotement des clignotants indique une ampoule grillée : ",
+        image: "../images/quiz_theme8/equipe3.jpg",
         options: [
           {text:"A. OUI", isCorrect: true},
           {text:"B. NON", isCorrect: false}
           ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement A. OUI, B. NON",
+        audioQuestion: "Une augmentation de la fréquence de clignotement des clignotants indique une ampoule grillée : . A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité",
-        image: "../images/quiz_theme7/installer2.jpg",
+        question: "Ce voyant signale le fonctionnement des feux :",
+        image: "../images/quiz_theme8/equipe4.jpg",
         options: [
-          {text:"C. OUI", isCorrect: true},
-          {text:"D. NON", isCorrect: false}
+            {text:"A. de croisement", isCorrect: false},
+            {text:"B. de route", isCorrect: true},
+            {text:"C. de brouillard avant", isCorrect: false}
           ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité. C. OUI, D. NON",
+        audioQuestion: "Ce voyant signale le fonctionnement des feux : A. de croisement, B. de route, C. de brouillard avant",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "L'installation au poste de conduite s'effectue dans l'ordre :",
-        image: "../images/quiz_theme7/installer3.jpg",
+        question: "Lorsqu'un voyant de couleur orange s'allume sur le tableau de bord",
+        image: "../images/quiz_theme8/equipe5.jpg",
         options: [
-            {text:"A. siége, volant, rétroviseurs, ceinture", isCorrect: true},
-            {text:"B. ceinture, rétroviseurs, volant, siège", isCorrect: false},
-            {text:"C. rétroviseurs, volant, siège, ceinture", isCorrect: false}
+          {text:"A. je m'arrête immédiatement", isCorrect: false},
+          {text:"B. je rejoins un garage rapidement", isCorrect: true}
           ],
-        audioQuestion: "L'installation au poste de conduite s'effectue dans l'ordre : A. siège, volant, rétroviseurs, ceinture, B. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
+        audioQuestion: "Lorsqu'un voyant de couleur orange s'allume sur le tableau de bord. A. je m'arrête immédiatement, B. je rejoin un garage rapidement",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Les feux d'angle améliorent la visibilité :",
+        image: "../images/quiz_theme8/equipe6.jpg",
         options: [
-          {text:"A. OUI", isCorrect: true},
-          {text:"B. NON", isCorrect: false}
+          {text:"A. dans les virages", isCorrect: true},
+          {text:"B. dans les angles morts", isCorrect: false}
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite. A. OUI, B. NON",
+        audioQuestion: "Les feux d'angle améliorent la visibilité : A. dans les virages, B. dans les angles morts",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Les feux de brouillard avant sont placés :",
+        image: "../images/quiz_theme8/equipe7.jpg",
         options: [
-          {text:"C. OUI", isCorrect: true},
-          {text:"D. NON", isCorrect: false}
+          {text:"A. en 1", isCorrect: false},
+          {text:"B. en 2", isCorrect: false},
+          {text:"C. en 3", isCorrect: true}
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant C. OUI, D. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
+        audioQuestion: "Les feux de brouillard avant sont placés : A. en 1, B. en 2, C. en 3",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Cette position des mains est :",
-        image: "../images/quiz_theme7/installer5.jpg",
+        question: "Un véhicule doit être équipé de 2 feux de recul :",
+        image: "../images/quiz_theme8/equipe3.jpg",
         options: [
-          {text:"A. sécuritaire", isCorrect: false},
-          {text:"B. dangereuse", isCorrect: true},
-          {text:"C. permet un accès rapide aux commandes", isCorrect: false}
+          {text:"A. OUI", isCorrect: false},
+          {text:"B. NON", isCorrect: true}
           ],
-        audioQuestion: "Cette position des mains est : A. sécuritaire, B. dangereuse, C. permet un accès rapide aux commandes",
+        audioQuestion: "Un véhicule doit être équipé de 2 feux de recul : A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête :",
-        image: "../images/quiz_theme7/installer6.jpg",
+        question: "Je peux partir car la buée va disparaître en roulant : ",
+        image: "../images/quiz_theme8/equipe9.jpg",
         options: [
-          {text:"A. à la nuque", isCorrect: false},
-          {text:"B. au sommet de ma tête", isCorrect: true},
+          {text:"A. la pédale de frein", isCorrect: true},
+          {text:"B. le frein à main (frein à parcage)", isCorrect: false},
           ],
-        audioQuestion: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête : A. à la nuque, B. au sommet de ma tête",
+        audioQuestion: "Je peux partir car la buée va disparaître en roulant :  A. la pédale de frein, B. le frein à main (frein à parcage)",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "L'appuie-tête a juste un rôle de confort de conduite ",
-        image: "../images/quiz_theme7/installer6.jpg",
+        question: "Les voyants correspondants aux feux de brouillard sont ",
+        image: "../images/quiz_theme8/equipe10.jpg",
         options: [
-          {text:"C. OUI", isCorrect: false},
-          {text:"D. NON", isCorrect: true},
+          {text:"A. orange", isCorrect: false},
+          {text:"B. vert", isCorrect: true},
           ],
-        audioQuestion: "L'appuie-tête a juste un rôle de confort de conduite. C. OUI, D. NON",
+        audioQuestion: "Les voyants correspondants aux feux de brouillard sont. A. orange, B. vert",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Lorsque je m'installe au poste de conduite, je règle en premier :",
-        image: "../images/quiz_theme7/installer7.jpg",
+        question: "Mon véhicule doit obligatoirement être équipé d'un feu de brouillard ",
+        image: "../images/quiz_theme8/equipe10.jpg",
         options: [
-            {text:"A. la hauteur de l'appui-tête", isCorrect: false},
-            {text:"B. la profondeur du volant", isCorrect: false},
-            {text:"C. le siège", isCorrect: true},
+            {text:"C. à l'avant", isCorrect: false},
+            {text:"D. à l'arrière", isCorrect: true},
         ],
-        audioQuestion: "Lorsque je m'installe au poste de conduite, je règle en premier :. A. la hauteur de l'appui-tête, B. la profondeur du volant, C. le siège",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Dans ces conditions, j'enlève la neige :",
-        image: "../images/quiz_theme7/installer8.jpg",
-        options: [
-          {text: "A. sur l'ensemble du pare-brise  et sur le blocs optique", isCorrect: true}, 
-          {text: "B. sur le capot uniquement", isCorrect: false},
-        ],
-        audioQuestion: "Dans ces conditions, j'enlève la neige : A. sur l'ensemble du pare-brise et sur le blocs optique, B. sur le capot uniquement",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile :",
-        image: "../images/quiz_theme7/installer9.jpg",
-        options: [
-            {text: "A. OUI", isCorrect: false},
-            {text: "B. NON", isCorrect: true},
-        ],
-        audioQuestion: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile : A. OUI, B. NON",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :",
-        image: "../images/quiz_theme7/installer10.jpg",
-        options: [
-          {text: "A. sur le ventre", isCorrect: false}, 
-          {text: "B. sur les os du bassin", isCorrect: true}
-        ],
-        audioQuestion: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :  A. sur le ventre, B. sur les os du bassin",
+        audioQuestion: "Mon véhicule doit obligatoirement être équipé d'un feu de brouillard . C. à l'avant, D. à l'arrière",
         audioAnswer: "correct.mp3"
       }
             

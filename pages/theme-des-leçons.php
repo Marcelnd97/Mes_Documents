@@ -2380,7 +2380,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/bon-geste" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Adopter les bons gestes</b></h4>
                                 <h4>10 questions</h4>
@@ -2484,7 +2484,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/equipement" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Équippements du véhicule</b></h4>
                                 <h4>10 questions</h4>
@@ -2545,7 +2545,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/entretien-vehicule" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Entretien du véhicule</b></h4>
                                 <h4>10 questions</h4>
@@ -2674,7 +2674,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/securite-passager" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Sécurité des passagers</b></h4>
                                 <h4>10 questions</h4>
@@ -2727,7 +2727,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/securite-enfant" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Sécurité des enfants</b></h4>
                                 <h4>10 questions</h4>
@@ -2772,7 +2772,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/typologie" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Typologie d'aide</b></h4>
                                 <h4>10 questions</h4>
@@ -2814,7 +2814,6 @@
                 </div>
 
                 <!-- L'environnement -->
-
                 <hr>
                 <div class="row carteCode">
                     <div class="col-md-12">
@@ -2879,6 +2878,7 @@
                             </div>
                         </a>
                 </div>
+
                 <!-- Modal écomobilité -->
                 <div class="modal fade" id="écomobilité" data-bs-backdrop="écomobilité" data-bs-keyboard="false" 
                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -2900,7 +2900,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/mobilite" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Une mobilité durale</b></h4>
                                 <h4>10 questions</h4>
@@ -2945,7 +2945,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/eco-responsable" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Véhicule éco-responsable</b></h4>
                                 <h4>10 questions</h4>
@@ -2969,9 +2969,7 @@
                     </div>
                     </div>
                 </div>
-
                 <!-- Modal eco-conducteur -->
-
                 <div class="modal fade" id="conducteur"  
                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog text-center">
@@ -2992,7 +2990,7 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                            <a href="#" style="color: chocolate; text-decoration: none;">
+                            <a href="../quiz/eco-conduite" style="color: chocolate; text-decoration: none;">
                                 <div class="card" style="color: chocolate;">
                                 <h4><b>Éco-conduite</b></h4>
                                 <h4>10 questions</h4>

@@ -11,7 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../assets/theme.css">
-  <title>Installations sécurisées</title>
+  <title>Sécurité des passagers</title>
   <link rel="shortcut icon" href="../images/logo/logo driving-car-solution.png" type="images/png">
 </head>
 <body class="codebody">
@@ -103,139 +103,128 @@
   <script>
     const quizData = [
       {
-        question: "Je peux conduire en toute sécurité avec les chaussures :",
-        image: "../images/quiz_theme7/installer1.jpg",
-        options: [
-          {text:"A. en A", isCorrect: false},
-          {text:"B. en B", isCorrect: true},
-          {text:"C. en C", isCorrect: false}
-          ],
-        audioQuestion: "Je peux conduire en toute sécurité avec les chaussures : A. en A, B. en B, C. en C",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement",
-        image: "../images/quiz_theme7/installer2.jpg",
+        question: "En cas d'accident, le port de la ceinture réduit le risque corporel : ",
+        image: "../images/quiz_theme9/passage1.jpg",
         options: [
           {text:"A. OUI", isCorrect: true},
           {text:"B. NON", isCorrect: false}
           ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - plus confortablement A. OUI, B. NON",
+        audioQuestion: "En cas d'accident, le port de la ceinture réduit le risque corporel :  OUI. A, NON. B",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité",
-        image: "../images/quiz_theme7/installer2.jpg",
-        options: [
-          {text:"C. OUI", isCorrect: true},
-          {text:"D. NON", isCorrect: false}
-          ],
-        audioQuestion: "Faire mes réglages avant de partir me permet de conduire : - dans de meilleures conditions de sécurité. C. OUI, D. NON",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "L'installation au poste de conduite s'effectue dans l'ordre :",
-        image: "../images/quiz_theme7/installer3.jpg",
-        options: [
-            {text:"A. siége, volant, rétroviseurs, ceinture", isCorrect: true},
-            {text:"B. ceinture, rétroviseurs, volant, siège", isCorrect: false},
-            {text:"C. rétroviseurs, volant, siège, ceinture", isCorrect: false}
-          ],
-        audioQuestion: "L'installation au poste de conduite s'effectue dans l'ordre : A. siège, volant, rétroviseurs, ceinture, B. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
-        audioAnswer: "correct.mp3"
-      },
-      {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Des passagers non attachés à l'arrière : - peuvent se blesser gravement",
+        image: "../images/quiz_theme9/passage2.jpg",
         options: [
           {text:"A. OUI", isCorrect: true},
           {text:"B. NON", isCorrect: false}
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - un meilleur confort de conduite. A. OUI, B. NON",
+        audioQuestion: "Des passagers non attachés à l'arrière : - peuvent se blesser gravement A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant",
-        image: "../images/quiz_theme7/installer4.jpg",
+        question: "Des passagers non attachés à l'arrière : - peuvent blesser gravement les passagers à l'avant",
+        image: "../images/quiz_theme9/passage2.jpg",
         options: [
           {text:"C. OUI", isCorrect: true},
           {text:"D. NON", isCorrect: false}
           ],
-        audioQuestion: "Placer mes mains sur la moitié supérieure du volant, à l'extérieur de la couronne permet : - une meilleure manipulation du volant C. OUI, D. ceinture, rétroviseurs, volant, siège, C. rétroviseurs, volant, siège, ceinture",
+        audioQuestion: "Des passagers non attachés à l'arrière : - peuvent blesser gravement les passagers à l'avant C. OUI, D. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Cette position des mains est :",
-        image: "../images/quiz_theme7/installer5.jpg",
+        question: "Si tous les passagers respectaient le port de la ceinture, chaque année le nombre de vies sauvées s'élèverait à",
+        image: "../images/quiz_theme9/passage3.jpg",
         options: [
-          {text:"A. sécuritaire", isCorrect: false},
-          {text:"B. dangereuse", isCorrect: true},
-          {text:"C. permet un accès rapide aux commandes", isCorrect: false}
+          {text:"A. 50", isCorrect: false},
+          {text:"B. 100", isCorrect: false},
+          {text:"C. 300", isCorrect: true}
           ],
-        audioQuestion: "Cette position des mains est : A. sécuritaire, B. dangereuse, C. permet un accès rapide aux commandes",
+        audioQuestion: "Si tous les passagers respectaient le port de la ceinture, chaque année le nombre de vies sauvées s'élèverait à. A. 50, B. 100, C. 300",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête :",
-        image: "../images/quiz_theme7/installer6.jpg",
+        question: "Un passager sans ceinture risque des blessures graves à 25 km/h :",
+        image: "../images/quiz_theme9/passage4.jpg",
         options: [
-          {text:"A. à la nuque", isCorrect: false},
-          {text:"B. au sommet de ma tête", isCorrect: true},
+            {text:"A. OUI", isCorrect: true},
+            {text:"B. NON", isCorrect: false},
           ],
-        audioQuestion: "Régler correctement mon appuie-tête, c'est aligner le haut de l'appuie-tête : A. à la nuque, B. au sommet de ma tête",
+        audioQuestion: "Un passager sans ceinture risque des blessures graves à 25 km/h : A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "L'appuie-tête a juste un rôle de confort de conduite ",
-        image: "../images/quiz_theme7/installer6.jpg",
+        question: "Il risque des blessures mortelles à :",
+        image: "../images/quiz_theme9/passage4.jpg",
         options: [
-          {text:"C. OUI", isCorrect: false},
-          {text:"D. NON", isCorrect: true},
+          {text:"C. 50 km/h", isCorrect: true},
+          {text:"D. 80 km/h", isCorrect: false}
           ],
-        audioQuestion: "L'appuie-tête a juste un rôle de confort de conduite. C. OUI, D. NON",
+        audioQuestion: "Il risque des blessures mortelles à :. C. 50 km/h, D. 80 km/h",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Lorsque je m'installe au poste de conduite, je règle en premier :",
-        image: "../images/quiz_theme7/installer7.jpg",
+        question: "Mon véhicule est équipé d'un airbag conducteur. Suis-je obligé de mettre ma ceinture de sécurité ?",
+        image: "../images/quiz_theme9/passage5.jpg",
         options: [
-            {text:"A. la hauteur de l'appui-tête", isCorrect: false},
-            {text:"B. la profondeur du volant", isCorrect: false},
-            {text:"C. le siège", isCorrect: true},
-        ],
-        audioQuestion: "Lorsque je m'installe au poste de conduite, je règle en premier :. A. la hauteur de l'appui-tête, B. la profondeur du volant, C. le siège",
+          {text:"A. OUI", isCorrect: true},
+          {text:"B. NON", isCorrect: false}
+          ],
+        audioQuestion: "Mon véhicule est équipé d'un airbag conducteur. Suis-je obligé de mettre ma ceinture de sécurité ? A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Dans ces conditions, j'enlève la neige :",
-        image: "../images/quiz_theme7/installer8.jpg",
+        question: "La ceinture est toujours obligatoire pour une femme enceinte :",
+        image: "../images/quiz_theme9/passage6.jpg",
         options: [
-          {text: "A. sur l'ensemble du pare-brise  et sur le blocs optique", isCorrect: true}, 
-          {text: "B. sur le capot uniquement", isCorrect: false},
-        ],
-        audioQuestion: "Dans ces conditions, j'enlève la neige : A. sur l'ensemble du pare-brise et sur le blocs optique, B. sur le capot uniquement",
+          {text:"A. OUI", isCorrect: false},
+          {text:"B. NON", isCorrect: true}
+          ],
+        audioQuestion: "La ceinture est toujours obligatoire pour une femme enceinte : A. OUI, B. NON",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile :",
-        image: "../images/quiz_theme7/installer9.jpg",
+        question: "Sur la banquette arrière, je n'installe pas le passager le plus grand au milieu :",
+        image: "../images/quiz_theme9/passage5.jpg",
         options: [
-            {text: "A. OUI", isCorrect: false},
-            {text: "B. NON", isCorrect: true},
-        ],
-        audioQuestion: "Grâce à un bon réglage du rétroviseur, le contrôle de l'angle mort est inutile : A. OUI, B. NON",
+          {text:"A. pour qu'il ai plus de place", isCorrect: false},
+          {text:"B. pour ne pas masquer ma visibilité", isCorrect: true},
+          {text:"C. pour qu'il soit bien installé", isCorrect: false}
+          ],
+        audioQuestion: "Sur la banquette arrière, je n'installe pas le passager le plus grand au milieu : A. pour qu'il ai plus de place, B. pour ne pas masquer ma visibilité, C. pour qu'il soit bien installé",
         audioAnswer: "correct.mp3"
       },
       {
-        question: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :",
-        image: "../images/quiz_theme7/installer10.jpg",
+        question: "La ceinture de sécurité arrière est :",
+        image: "../images/quiz_theme9/passage8.jpg",
         options: [
-          {text: "A. sur le ventre", isCorrect: false}, 
-          {text: "B. sur les os du bassin", isCorrect: true}
-        ],
-        audioQuestion: "En m'installant au poste de conduite, je m'assure que la sangle abdominale soit :  A. sur le ventre, B. sur les os du bassin",
+          {text:"A. obligatoire", isCorrect: true},
+          {text:"B. facultatif", isCorrect: false},
+          ],
+        audioQuestion: "La ceinture de sécurité arrière est : A. obligatoire, B. facultatif",
         audioAnswer: "correct.mp3"
-      }
+      },
+      {
+        question: "Le port de la ceinture de sécurité est le meilleur moyen pour éviter l'éjection hors du véhicule : ",
+        image: "../images/quiz_theme9/passage9.jpg",
+        options: [
+          {text:"A. OUI", isCorrect: true},
+          {text:"B. NON", isCorrect: false},
+          ],
+        audioQuestion: "Le port de la ceinture de sécurité est le meilleur moyen pour éviter l'éjection hors du véhicule :. A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      {
+        question: "Il est dangereux pour le passager avant de mettre les pieds sur le tableau de bord :  ",
+        image: "../images/quiz_theme9/passage10.jpg",
+        options: [
+            {text:"A. OUI", isCorrect: true},
+            {text:"B. NON", isCorrect: false},
+        ],
+        audioQuestion: "Il est dangereux pour le passager avant de mettre les pieds sur le tableau de bord :  . A. OUI, B. NON",
+        audioAnswer: "correct.mp3"
+      },
+      
             
     ];
 
